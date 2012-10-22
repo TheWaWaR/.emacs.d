@@ -106,7 +106,6 @@
 (require 'undo-tree)
 (require 'jinja2-mode)
 (require 'highlight-indentation)
-(require 'my-face-settings)
 
 (setq eshell-directory-name (concat dotfiles-dir ".eshell"))
 (setq py-indent-offset 4)
@@ -179,6 +178,7 @@
 
 (if (eq (window-system) 'x) ;; 仅在X环境下启用
     (progn
+      (require 'my-face-settings)
       (custom-gui-key-bindings)
       (alpha-transparency)
       (my-fullscreen)
