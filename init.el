@@ -19,7 +19,7 @@
 
 (setq dotfiles-dir (file-name-directory
                     (or (buffer-file-name) load-file-name)))
-(setq starter-kit-dir (concat dotfiles-dir "emacs-starter-kit"))
+(setq starter-kit-dir (concat dotfiles-dir "emacs-starter-kit/"))
 ;; Load up ELPA, the package manager
 
 (add-to-list 'load-path dotfiles-dir)

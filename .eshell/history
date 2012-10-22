@@ -1,4 +1,3 @@
-ls -a
 cd .oh-my-zsh/
 ls
 grep -nr "find-grep" .
@@ -995,6 +994,7 @@ ls
 grep -nr "\"places\""
 grep -nr "\"places\"" .
 mv places emacs-starter-kit/
+ls
 ls
 ls
 ls
