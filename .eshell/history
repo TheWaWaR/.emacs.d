@@ -1,0 +1,1000 @@
+ls -a
+cd .oh-my-zsh/
+ls
+grep -nr "find-grep" .
+grep -nr "grep-find" .
+find-grep
+find-grep ("*.zsh", "grep-find")
+fgrep
+man fgrep
+ls
+ls
+ls
+ls
+ll
+ls
+cd Z
+cd Zi
+pwd
+cd Videos
+ls
+pwd
+ls -Shl
+ls
+cd ZimNotes/
+l
+ls
+cd ..
+cat pgadmin.log >> #<buffer *scratch*>
+cd ~/.oh-my-zsh/
+htop
+htop
+ls
+dweb
+ls
+ls
+cd ZimNotes/
+ls
+cd ..
+dweb
+ls
+ls
+ls
+dweb
+ls
+ls
+ls
+ls
+ll
+ls
+(last (split-string "/" (eshell/pwd))) 
+(last (split-string (eshell/pwd) "/")) 
+ls
+ls
+ls
+(eshell/pwd)
+(last (split-string (eshell/pwd) "/")) 
+ls
+ack
+pwd
+echo $HOME
+ls
+cd
+ls
+pwd
+dweb
+ls
+ls
+ls
+ls
+ls
+ls
+clear
+ls
+cls
+la
+ls
+ls
+ls
+ls
+dweb
+ls
+sudo 
+sudo -i
+sudo emacs
+sudo emacs
+sudo ls
+su root
+who
+who
+pwd
+pwd
+pwd
+cd
+pwd
+dweb
+ls
+git_rm_unstaged.py 
+gst
+~/Dropbox/Code/Python/git_rm_unstaged.py
+git_rm_unstaged.py 
+git_rm_unstaged.py 
+em ~/Dropbox/Code/Python/git_rm_unstaged.py 
+git_rm_unstaged.py 
+git_rm_unstaged.py 
+ls
+cd ~/GitHub/
+svn checkout http://advanced-langconv.googlecode.com/svn/trunk/ advanced-langconv-read-only
+cd advanced-langconv-read-only/
+ls
+em README 
+ls
+python setup.py build
+ls
+em README 
+em setup.py 
+python setup.py install
+sudo python setup.py install
+pwd
+(getenv "PATH")
+em ~/Dropbox/Code/Python/translate_file.py 
+langcov
+langconv
+cd /media/Wait/Boston.Legal.S02
+ls
+em translate_file.py 
+cd ~/Dropbox/Code/Python/
+ls
+sudo chmod u+x gbk_unzip.py 
+ls
+sudo chmod u+x hosts_setup_OnL.py 
+ls
+cd util/
+ls
+cd ..
+ls
+em translate_file.py
+python translate_file.py 
+python translate_file.py 
+ls
+cls
+ls
+python translate_file.py 
+python translate_file.py -p asdf
+python translate_file.py -p asdf
+python translate_file.py -p asdf a b
+python translate_file.py -p asdf a b
+python translate_file.py -p asdf a b
+python translate_file.py -p asdf a b
+python translate_file.py -s a b c
+python translate_file.py bc d -s a
+python translate_file.py -h
+python
+python translate_file.py 
+python translate_file.py -h
+python translate_file.py  -h
+cd GitHub/
+ls
+cd liquidluck/
+grep -nr "log" .
+grep -nr "logbook" .
+find . -name "cli*" 
+em liquidluck/cli.py 
+dweb
+ls
+em system/views.py 
+cd system/
+history 
+egrep -nr "[^s]_(edit|delete|new)" .
+cd ../templates/system/
+ls
+cd ../templates/system/
+egrep -nr "[^s]_(edit|delete|new)" .
+ls
+tree
+cd dict_codes/
+ls
+mv dict_codes.html index.html
+mv dict_code_new_edit.html new_edit.html
+ls
+cd ..
+ls
+mv hosts/
+ls
+cd hosts/
+ls
+mv hosts.html index.html
+mv host_edit.html edit.html
+ls
+cd ..
+ls
+cd timeperiods/
+ls
+cd ..
+cd -
+mv timeperiods.html index.html
+mv timeperiods_new.html new.html
+ls
+cd ..
+tree
+cd settings/
+ls
+mv settings.html  index.html
+mv setting_edit.html edit.html
+ls
+cd ..
+gst
+git_rm_unstaged.py 
+gst
+ls
+em ~/Dropbox/Code/Python/git_rm_unstaged.py 
+git_rm_unstaged.py 
+git status --help
+git status -uno
+git status --help >> #<buffer *scratch*>
+git status --help >> #<buffer *scratch*>
+git status --help >> #<buffer *scratch*>
+git status --help | less
+q
+man git
+man git-status
+gst
+ls
+cd timeperiods/
+ls
+cat index.html 
+mv index.html ~
+gst
+mv ~/index.html .
+ls
+cd ..
+cd ../
+ls
+cd ../system/
+ls
+em views.py 
+cd ../
+ls
+cd templates/system/
+ls
+pwd
+cd ../../templates/
+pwd
+cd ../system/
+egrep -nr "[^s]_(edit|delete|new)" .
+ls
+rm \#views.py\# 
+sl
+gst
+pwd
+em views.py
+cd ../static/
+ls
+cd js/highcharts/
+ls
+grep -nr "highcharts.com" .
+grep -nr "ighcharts.com" .
+gst
+cd ..
+ls
+cd ..
+ls
+tree
+ls
+cd img/
+ls
+cd ..
+ls
+mv networkmap_twopi.gv ~
+gst
+mv ~/networkmap_twopi.gv .
+git status -uno
+git status -u no
+git status -u 
+ls
+cd ..
+ls
+gst
+git_rm_unstaged.py 
+gst
+git_rm_unstaged.py 
+git_rm_unstaged.py 
+gst
+ls
+pwd
+cd static/
+mv networkmap_twopi.gv ~/
+git_rm_unstaged.py 
+gst
+mv ~/networkmap_twopi.gv .
+ls
+gst
+git_rm_unstaged.py 
+git_rm_unstaged.py 
+gst
+git add .
+git commit -m "Change the name style (Example: user_edit -> users_edit)"
+git pull;git push
+grep -nr ">>>>" .
+gst
+cd ..
+em users/views.py
+git pull
+git add .
+gst
+git commit -m "Change the name style (Example: user_edit -> users_edit)"
+git pull
+grep -nr ">>>>" .
+git push
+ls
+cd topo/
+egrep -nr "[^s]_(edit|delete|new)" .
+cd ../nodes/
+egrep -nr "[^s]_(edit|delete|new)" .
+cd ../
+ls
+ls
+cd templates/
+egrep -nr "[^s]_(edit|delete|new)" .
+gst
+cd nodes/
+ls
+cd ..
+cd ..
+grep -nr "id=id" .
+ls
+grep -nr "id = id" .
+egrep -nr "id.*=.*id" .
+egrep -nr "id *= *id" .
+git add .
+gst
+git commit -m "Get form.action approach in templates "
+git pull;git push
+ls
+jobs
+ls
+gst
+ls
+grep -nr "action=\"" .
+gst
+gst
+git checkout -- .
+gst
+ls
+gst
+ls
+egrep -nr "action=\".*action" .
+egrep -nr "action=.*url_for" .
+gst
+em templates/system/dict_codes/new_edit.html 
+ls
+gst
+gst
+rm templates/system/dict_codes/\#new_edit.html\# 
+git add .
+git commit -m "Change the action get approach in form."
+git pull
+git push
+egrep -nr "\/dict_codes" .
+egrep -nr "\/dict_code" .
+cd templates/
+tree
+tree grep _
+tree | grep _
+tree | grep _.*[^.]
+tree | grep _[^.]*
+tree | grep _[^.]*$
+cd system/
+mv dict_codes/ dict-codes
+ls
+ls
+cd ..
+ls
+em _*.html
+ls
+em dashboard.html 
+em _*_h.html
+ls
+em just_test.html 
+rm just_test.html 
+ls
+gst
+git_rm_unstaged.py 
+git_rm_unstaged.py 
+gst
+ls
+ls
+em system/dict-codes/index.html 
+cd ../,,
+cd ,,
+cd ..
+grep -nr "filter_by" .
+ls
+egrep -nr "\/.*s['\"]"
+egrep -nr "\/.*s['\"]" .
+gst
+git add .
+gst
+gst
+gst
+rm nodes/\#views.py\# 
+git add .
+git commit -m "TableConfig approach --> make_table approach"
+git pull;git push
+grep -nr "class SettingTable" .
+grep -nr "class Setting" .
+gitk
+git add .
+git commit -m "Little fix."
+git pull;git push
+grep -nr "NodeHostTable" .
+clear
+ls
+jobs
+kill ispell
+pwd
+cd 
+ls
+mv jinja2-mode.el ~/.emacs.d/my-plugins/
+cd ~/.emacs.d/my-plugins/
+ls
+pwd
+ls
+em jinja2-mode.el 
+cd ..
+ls
+cd
+ls
+cd .emacs.d
+ls
+pwd
+dweb
+em templates/users/index.html 
+dmw
+ls
+em templates/layout
+em templates/layout.html 
+cd ~/.emacs.d
+ls
+grep -nr "flyspell-mode" .
+ls
+jobs
+kill ispell
+ls
+jobs
+dmw
+ls
+jobs
+jobs
+ls
+cd ~/Dropbox/Code/Python/
+ls
+sudo chmod u+x  translate_file.py 
+ls
+em translate_file.py 
+cls
+python translate_file.py 
+python translate_file.py  -h
+python translate_file.py  -h
+python translate_file.py  -h
+python translate_file.py  -h
+python translate_file.py  -h
+ls
+ls
+man ls
+python translate_file.py *.srt
+python translate_file.py -f *.srt
+python translate_file.py -f *.srt
+ls *.srt
+python translate_file.py -f *.srt
+python translate_file.py -f *.srt
+python translate_file.py -f *.srt
+python translate_file.py -f *.srt
+python translate_file.py -f *.srt
+python translate_file.py -f *.srt
+python translate_file.py -f *.py
+python translate_file.py -f *.py
+python translate_file.py -f *.py
+cd /media/Wait/
+cd Boston.Legal.S03
+ls
+mkdir English
+mv *English.srt English/
+ls
+translate_file.py *Chinese.srt
+apt-cache search language-
+apt-cache search language-pack-
+dweb
+grep -nr "class SettingTable" .
+cd .
+translate_file.py *Chinese.srt
+translate_file.py -f *Chinese.srt
+translate_file.py -f *Chinese.srt
+translate_file.py -f *Chinese.srt
+cd -
+cd .
+cd -
+cd /media/Wait/Boston.Legal.S03
+ls
+rm zh-hans-Boston\ Legal\ -\ \[3x01\]\ -\ Can\'t\ We\ All\ Get\ a\ Lung.XviD-LOL.Chinese.srt 
+ls
+translate_file.py *Chinese.srt
+translate_file.py *Chinese.srt
+ls
+translate_file.py *Chinese.srt
+rm gbk-zh-hans-*
+ls
+translate_file.py *Chines.srt
+translate_file.py *Chinese.srt
+translate_file.py *Chinese.srt
+translate_file.py *Chinese.srt
+ls
+translate_file.py *Chinese.srt
+translate_file.py *Chinese.srt
+translate_file.py *Chinese.srt
+ls
+em Boston\ Legal\ -\ \[3x01\]\ -\ Can\'t\ We\ All\ Get\ a\ Lung.XviD-LOL.Chinese.srt 
+translate_file.py *Chinese.srt
+translate_file.py *Chinese.srt
+rm gbk-zh-hans-Boston\ Legal\ -\ \[3x*
+translate_file.py *Chinese.srt
+em gbk-zh-hans-Boston\ Legal\ -\ \[3x01\]\ -\ Can\'t\ We\ All\ Get\ a\ Lung.XviD-LOL.Chinese.srt 
+ls
+cd ../Boston.Legal.S04
+ls
+mkdir English
+mv *English.srt English/
+ls
+translate_file.py *.srt
+translate_file.py *.srt
+translate_file.py *.srt
+translate_file.py *.srt
+translate_file.py *.srt
+translate_file.py *.srt
+translate_file.py *.srt
+translate_file.py *.srt
+translate_file.py *.srt
+translate_file.py *.srt
+translate_file.py *.srt
+translate_file.py *.srt
+translate_file.py *.srt
+translate_file.py *.srt
+translate_file.py *.srt
+translate_file.py *.srt
+cd ~/Dropbox/Code/Python/
+mkdir bin
+ls
+mv util/* bin/
+find . -name "*.py" -executeable
+find . -name "*.py" -executable
+find . -name "*.py" -executable -type -f
+find . -name "*.py" -executable -type f
+man find
+find . -name "*.py" -executable -depth 1
+find . -depth 1 -name "*.py" -executable 
+find . -prune -name "*.py" -executable 
+ls
+find . -prune -name "*.py" -executable 
+find .  -iname "*.py" -executable 
+find ./  -iname "*.py" -executable 
+ipython
+ls
+ls util/
+ls bin/
+ls -al
+cd bin/
+ls
+ls -a
+ls -l
+cd tmp/
+ls
+cd ..
+mv tmp/ dl-pics
+mv dl-pics/ ..
+ls
+em cp-books.py 
+ls ..
+ls ../dl-pics/
+ls
+ll
+ls
+ls
+em translate_file.py 
+cd /media/Wait/Boston.Legal.S04/
+ls
+cd cache/
+ls
+ls -Shl
+cd ..
+ls
+cd ..
+ls
+cd Boston.Legal.S05
+ls
+mkdir English
+mv *English.srt English/
+ls
+translate_file.py *.srt
+ls
+cd ..
+ls
+ls
+ls
+ls
+mv ~/highlight-indentation.el ~/.emacs.d/my-plugins/
+cd ~/.emacs.d/my-plugins/
+ls
+em highlight-indentation.el 
+em ../init.el 
+dmw
+ls
+ls
+cd
+cd /
+pwd
+(and (not (string< "" (car last-2-folder)))                            (not (string< "" (car (last last-2-folder)))))
+(let ((last-2-folder (last (split-string eshell-pwd "/") 2)))                  (concat                   (if (and (not (string< "" (car last-2-folder)))                            (not (string< "" (car (last last-2-folder))))) "/"                       )                   (car last-2-folder) "/"                   (car (last last-2-folder)))                  )
+(concat "(" (format-time-string "%H:%M") ") " "➜ "            (let ((eshell-pwd (eshell/pwd)) (home-dir (getenv "HOME")))              (if (string= eshell-pwd home-dir) "~"                (let ((last-2-folder (last (split-string eshell-pwd "/") 2)))                  (concat                   (if (and (not (string< "" (car last-2-folder)))                            (not (string< "" (car (last last-2-folder))))) "/"                       )                   (car last-2-folder) "/"                   (car (last last-2-folder)))                  )))            (if (= (user-uid) 0) " # " " $ "))
+cd /
+ls
+cd ..
+cd ..
+cd /etc
+cd ~/
+pwd
+ls
+cd /
+(eshell/pwd)
+ls
+pwd
+ls
+cd /
+cd etc
+ls
+cd ..
+cd ~
+ls
+dmw
+cd 
+ls
+cd Games/
+ls
+ls
+pwd
+(split-string (eshell/pwd) "/")
+(cdr (split-string (eshell/pwd) "/"))
+(car (last (cdr (split-string (eshell/pwd) "/")) 1))
+(car (last (cdr (split-string (eshell/pwd) "/")) 1))
+pwd
+pwd
+cd /
+cd /etc
+cd mysql/
+dweb
+ls
+pwd
+cd /
+cd ~/Games/
+ls
+ls
+dweb
+ls
+dmw
+cd mldonkey/
+pwd
+ls
+cd ..
+ls
+cd ..
+ls
+cd ~/GitHub/
+ls
+cd hunt/
+ls
+cd hunt/
+ls
+ls
+ll
+cd views/
+ls
+tree
+ls
+pwd
+ls
+clear
+jbos
+jobs
+cd ~/Mail
+ls
+ls
+dweb
+ls
+git pull
+git add . 
+git commit -m "Change the location of NodeHostTable"
+git pull
+gitk
+gitk
+ls
+ls
+ls
+jobs
+ls
+em ~/Dropbox/Code/Python/bin/git_rm_unstaged.py 
+ls
+dpy
+ls
+em cnew 
+(/ 45 50)
+(/ 45.0 50)
+cd ~/.emacs.d/
+ls
+cd elpa-to-submit/
+cd ..
+find . -name "*magit*" 
+cd elpa/magit-0.8.1/
+ls
+em magit.el
+dweb
+cd ~/.emacs.d/
+ls
+cd my-plugins/
+mv ~/wpdl-mode.el .
+ls
+em wpdl-mode.el 
+cd ..
+find . -name "simple.el" 
+cd ~/Downloads/emacs-24.2/
+find . -name "simple.el" 
+em ~/Downloads/emacs-24.2/lisp/simple.el
+cd -
+grep -nr "add-to-list" .
+dweb
+ls
+cd topo/
+ls
+em models.py 
+em views.py
+cd ~/.emacs.d/
+du --maxdepth=2 -h
+du --max-depth=2 -h
+sudo apt-get insatll sbcl
+sudo apt-get install sbcl
+sudo apt-get install clisp
+sudo apt-get install clisp
+lisp
+clisp
+jobs
+which sbcl
+cls
+ls
+locate slime.el
+sudo apt-get install slime
+slime
+ls
+pwd
+pwd
+cd ..
+cd weet/
+ls
+locate swank-loader
+ls
+cd
+ls
+jobs
+kill slime
+kill clisp
+kill emacs
+sudo kill clisp
+sudo kill -PKILL clisp
+cd ~/Downloads/emacs-24.2/
+cd site-lisp/
+ls
+ls
+cd .
+cd ..
+ls
+cd lisp/
+ls
+cd language/
+ls
+ls -l
+cd /usr/share/emacs23/site-lisp/slime/
+ls
+ls -al
+cd /usr/share/emacs/site-lisp/
+ls
+ls slime/
+em slime/
+cd -
+ls
+ls contrib/
+cd ..
+ls
+pwd
+cd slime/
+ls
+pwd
+cp /usr/share/common-lisp/source/slime/
+cd /usr/share/common-lisp/source/slime/
+ls
+ls contrib/
+cd -
+pwd
+cp -r /usr/share/common-lisp/source/slime/* .
+sudo cp -r /usr/share/common-lisp/source/slime/* .
+ls
+exit
+term
+exit
+(save-buffers-kill-terminal)
+ls
+cd .emacs.d/
+cd ..
+ls
+cd .emacs.d/
+ls
+grep -nr "post-command-hook"
+grep -nr "post-command-hook" 
+grep -nr "post-command-hook"  .
+egrep -nr "post-command-hook.*autopair"  .
+egrep -nr "define-minor-mode"  .
+egrep -nr "post-command-hook.*autopair"  .
+egrep -nr "define-minor-mode.*autopair"  .
+grep -nr "autopair-mode" .
+pwd
+ls
+clisp
+ls
+pwd
+ls
+cd .emacs.d/
+ls
+pwd
+cls
+ls
+ls
+ls
+ls
+cls
+ls
+ls
+em tramp 
+dmw
+ls
+em templates/layout.html 
+cd ~/GitHub/tualatrix-tools/examples/qt-demo/
+em *.cpp
+ls
+jos
+jobs
+ls
+cd Do
+cd Downloads/
+ls
+ls
+cd ~/Dropbox/Books/pdf/
+ls
+cd /opt
+ls
+sudo mkdir emacs24xft
+ls
+cd ~/Downloads/
+ls
+cd emacs-24.2/
+ls
+./configure --help
+jobs
+em *.el
+mv xwl-emms.el ~/.emacs.d/my-plugins/
+ls
+kill emms
+jobs
+kill emms-player-simple
+ps
+ps aux | grep emms
+ls
+cd .emacs.d/
+cd my-plugins/
+mv xwl-emms.el xwl-emms-old.el
+mv ~/xwl-emms.el .
+cd .emacs.d/my-plugins/
+em xwl-emms.el 
+sudo apt-get install mp3info
+ls
+ll
+mv init-emms.el .emacs.d/my-plugins/
+cd .emacs.d/my-plugins/
+em init-emms.el 
+ps aux | grep  e$
+ps aux | grep " e$" 
+kill 13138
+sudo kill 13138
+ls
+mkdir Emms
+ls
+cd Emms/
+ls
+cd ..
+cd ..
+find . -name "emms" .
+find . -name "emms" 
+find . -name "emms*" 
+telnet localhost 8087
+telnet localhost 8087
+dweb
+ls
+cd users/
+ls
+cd ..
+cd users/
+ls
+cd ../templates/users/
+ks
+ls
+em index.html 
+cd ~/.emacs.d
+ls
+ll
+cd emms/
+ls
+cd ..
+em my-plugins/init-emms.el 
+rm -r emms/
+ls
+dweb
+ls
+dtest
+ls
+mkdir test_modal
+cd test_
+cd test_modal/
+ls
+em index.html
+ls
+em index.html 
+ls
+rm index.html 
+cd ..
+rm test_modal/
+rm -r test_modal/
+dweb
+ls
+cd users/
+ls
+cd ../templates/users/
+ls
+em test-modal.html
+cd ../..
+ls
+em static/js/bootstrap-modal.js 
+ls ~
+mv ~/bootstrap-modal.js static/js/bootstrap-modal-2.1.1.js 
+ls
+grep -nr "attrs=Attrs" .
+gst
+cd templates/users/
+rm test-modal*
+ls
+gst
+rm ../../static/js/bootstrap-modal-2.1.1.js 
+gst
+cd ../..
+git add .
+git commit -m "Add class to Action(delete, edit, ...)" 
+git pull;git push
+ls
+grep -nr Keyword
+grep -nr Keyword .
+grep -nr "Key word" .
+grep -nr "Key Word" .
+git status
+ls
+git add .
+git commit -m "some fix"
+git pull
+grep -nr ">>>>" .
+gst
+git add .
+git commit -m "merge"
+git push
+ls
+ls
+ls
+cd .emacs.d
+ls
+cd my-plugins/Emms/
+ls
+em cache 
+em history 
+ls
+pwd
+cd .emacs
+cd .emacs.d/
+ls
+grep -nr "\"places\""
+grep -nr "\"places\"" .
+mv places emacs-starter-kit/
+ls
+ls
+ls

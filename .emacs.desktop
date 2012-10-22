@@ -1,0 +1,18 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Sat Sep  1 23:03:00 2012
+;; Desktop file format version 206
+;; Emacs version 23.2.1
+
+;; Global section:
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring nil)
+(setq register-alist '((114 file . "/home/weet/.emacs.d/starter-kit-registers.el") (98 file . "/home/weet/.emacs.d/starter-kit-bindings.el") (105 file . "/home/weet/.emacs.d/init.el")))
+(setq file-name-history '("~/.emacs.d" "~/.ido.last" "~/.emacs.desktop" "~/Dropbox/Emacs/english/ShuChong/1-Prev/Love_or_Money/words.org" "~/Dropbox/Emacs/reading/CSAPP.org" "~/Dropbox/Emacs/.emacs" "~/.emacs.d/emacs-for-python/epy-bindings.el" "~/GitHub/environments/FlaskLearn/wordpress-dashboard/test_tables2.py" "~/.emacs.d/emacs-for-python/epy-completion.el" "~/.emacs.d/init.el" "~/Dropbox/Emacs/english/ShuChong/rules.org" "~/Downloads/emacs-24.2/etc/THE-GNU-PROJECT" "~/.recentf"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:

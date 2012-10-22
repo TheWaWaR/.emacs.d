@@ -1,0 +1,11 @@
+backups
+thumbs
+games
+url
+tramp
+session.*
+*.elc
+*.py[co]
+*~
+*.dat
+\#*
