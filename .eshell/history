@@ -1,677 +1,4 @@
 ls
-grep -nr "find-grep" .
-grep -nr "grep-find" .
-find-grep
-find-grep ("*.zsh", "grep-find")
-fgrep
-man fgrep
-ls
-ls
-ls
-ls
-ll
-ls
-cd Z
-cd Zi
-pwd
-cd Videos
-ls
-pwd
-ls -Shl
-ls
-cd ZimNotes/
-l
-ls
-cd ..
-cat pgadmin.log >> #<buffer *scratch*>
-cd ~/.oh-my-zsh/
-htop
-htop
-ls
-dweb
-ls
-ls
-cd ZimNotes/
-ls
-cd ..
-dweb
-ls
-ls
-ls
-dweb
-ls
-ls
-ls
-ls
-ll
-ls
-(last (split-string "/" (eshell/pwd))) 
-(last (split-string (eshell/pwd) "/")) 
-ls
-ls
-ls
-(eshell/pwd)
-(last (split-string (eshell/pwd) "/")) 
-ls
-ack
-pwd
-echo $HOME
-ls
-cd
-ls
-pwd
-dweb
-ls
-ls
-ls
-ls
-ls
-ls
-clear
-ls
-cls
-la
-ls
-ls
-ls
-ls
-dweb
-ls
-sudo 
-sudo -i
-sudo emacs
-sudo emacs
-sudo ls
-su root
-who
-who
-pwd
-pwd
-pwd
-cd
-pwd
-dweb
-ls
-git_rm_unstaged.py 
-gst
-~/Dropbox/Code/Python/git_rm_unstaged.py
-git_rm_unstaged.py 
-git_rm_unstaged.py 
-em ~/Dropbox/Code/Python/git_rm_unstaged.py 
-git_rm_unstaged.py 
-git_rm_unstaged.py 
-ls
-cd ~/GitHub/
-svn checkout http://advanced-langconv.googlecode.com/svn/trunk/ advanced-langconv-read-only
-cd advanced-langconv-read-only/
-ls
-em README 
-ls
-python setup.py build
-ls
-em README 
-em setup.py 
-python setup.py install
-sudo python setup.py install
-pwd
-(getenv "PATH")
-em ~/Dropbox/Code/Python/translate_file.py 
-langcov
-langconv
-cd /media/Wait/Boston.Legal.S02
-ls
-em translate_file.py 
-cd ~/Dropbox/Code/Python/
-ls
-sudo chmod u+x gbk_unzip.py 
-ls
-sudo chmod u+x hosts_setup_OnL.py 
-ls
-cd util/
-ls
-cd ..
-ls
-em translate_file.py
-python translate_file.py 
-python translate_file.py 
-ls
-cls
-ls
-python translate_file.py 
-python translate_file.py -p asdf
-python translate_file.py -p asdf
-python translate_file.py -p asdf a b
-python translate_file.py -p asdf a b
-python translate_file.py -p asdf a b
-python translate_file.py -p asdf a b
-python translate_file.py -s a b c
-python translate_file.py bc d -s a
-python translate_file.py -h
-python
-python translate_file.py 
-python translate_file.py -h
-python translate_file.py  -h
-cd GitHub/
-ls
-cd liquidluck/
-grep -nr "log" .
-grep -nr "logbook" .
-find . -name "cli*" 
-em liquidluck/cli.py 
-dweb
-ls
-em system/views.py 
-cd system/
-history 
-egrep -nr "[^s]_(edit|delete|new)" .
-cd ../templates/system/
-ls
-cd ../templates/system/
-egrep -nr "[^s]_(edit|delete|new)" .
-ls
-tree
-cd dict_codes/
-ls
-mv dict_codes.html index.html
-mv dict_code_new_edit.html new_edit.html
-ls
-cd ..
-ls
-mv hosts/
-ls
-cd hosts/
-ls
-mv hosts.html index.html
-mv host_edit.html edit.html
-ls
-cd ..
-ls
-cd timeperiods/
-ls
-cd ..
-cd -
-mv timeperiods.html index.html
-mv timeperiods_new.html new.html
-ls
-cd ..
-tree
-cd settings/
-ls
-mv settings.html  index.html
-mv setting_edit.html edit.html
-ls
-cd ..
-gst
-git_rm_unstaged.py 
-gst
-ls
-em ~/Dropbox/Code/Python/git_rm_unstaged.py 
-git_rm_unstaged.py 
-git status --help
-git status -uno
-git status --help >> #<buffer *scratch*>
-git status --help >> #<buffer *scratch*>
-git status --help >> #<buffer *scratch*>
-git status --help | less
-q
-man git
-man git-status
-gst
-ls
-cd timeperiods/
-ls
-cat index.html 
-mv index.html ~
-gst
-mv ~/index.html .
-ls
-cd ..
-cd ../
-ls
-cd ../system/
-ls
-em views.py 
-cd ../
-ls
-cd templates/system/
-ls
-pwd
-cd ../../templates/
-pwd
-cd ../system/
-egrep -nr "[^s]_(edit|delete|new)" .
-ls
-rm \#views.py\# 
-sl
-gst
-pwd
-em views.py
-cd ../static/
-ls
-cd js/highcharts/
-ls
-grep -nr "highcharts.com" .
-grep -nr "ighcharts.com" .
-gst
-cd ..
-ls
-cd ..
-ls
-tree
-ls
-cd img/
-ls
-cd ..
-ls
-mv networkmap_twopi.gv ~
-gst
-mv ~/networkmap_twopi.gv .
-git status -uno
-git status -u no
-git status -u 
-ls
-cd ..
-ls
-gst
-git_rm_unstaged.py 
-gst
-git_rm_unstaged.py 
-git_rm_unstaged.py 
-gst
-ls
-pwd
-cd static/
-mv networkmap_twopi.gv ~/
-git_rm_unstaged.py 
-gst
-mv ~/networkmap_twopi.gv .
-ls
-gst
-git_rm_unstaged.py 
-git_rm_unstaged.py 
-gst
-git add .
-git commit -m "Change the name style (Example: user_edit -> users_edit)"
-git pull;git push
-grep -nr ">>>>" .
-gst
-cd ..
-em users/views.py
-git pull
-git add .
-gst
-git commit -m "Change the name style (Example: user_edit -> users_edit)"
-git pull
-grep -nr ">>>>" .
-git push
-ls
-cd topo/
-egrep -nr "[^s]_(edit|delete|new)" .
-cd ../nodes/
-egrep -nr "[^s]_(edit|delete|new)" .
-cd ../
-ls
-ls
-cd templates/
-egrep -nr "[^s]_(edit|delete|new)" .
-gst
-cd nodes/
-ls
-cd ..
-cd ..
-grep -nr "id=id" .
-ls
-grep -nr "id = id" .
-egrep -nr "id.*=.*id" .
-egrep -nr "id *= *id" .
-git add .
-gst
-git commit -m "Get form.action approach in templates "
-git pull;git push
-ls
-jobs
-ls
-gst
-ls
-grep -nr "action=\"" .
-gst
-gst
-git checkout -- .
-gst
-ls
-gst
-ls
-egrep -nr "action=\".*action" .
-egrep -nr "action=.*url_for" .
-gst
-em templates/system/dict_codes/new_edit.html 
-ls
-gst
-gst
-rm templates/system/dict_codes/\#new_edit.html\# 
-git add .
-git commit -m "Change the action get approach in form."
-git pull
-git push
-egrep -nr "\/dict_codes" .
-egrep -nr "\/dict_code" .
-cd templates/
-tree
-tree grep _
-tree | grep _
-tree | grep _.*[^.]
-tree | grep _[^.]*
-tree | grep _[^.]*$
-cd system/
-mv dict_codes/ dict-codes
-ls
-ls
-cd ..
-ls
-em _*.html
-ls
-em dashboard.html 
-em _*_h.html
-ls
-em just_test.html 
-rm just_test.html 
-ls
-gst
-git_rm_unstaged.py 
-git_rm_unstaged.py 
-gst
-ls
-ls
-em system/dict-codes/index.html 
-cd ../,,
-cd ,,
-cd ..
-grep -nr "filter_by" .
-ls
-egrep -nr "\/.*s['\"]"
-egrep -nr "\/.*s['\"]" .
-gst
-git add .
-gst
-gst
-gst
-rm nodes/\#views.py\# 
-git add .
-git commit -m "TableConfig approach --> make_table approach"
-git pull;git push
-grep -nr "class SettingTable" .
-grep -nr "class Setting" .
-gitk
-git add .
-git commit -m "Little fix."
-git pull;git push
-grep -nr "NodeHostTable" .
-clear
-ls
-jobs
-kill ispell
-pwd
-cd 
-ls
-mv jinja2-mode.el ~/.emacs.d/my-plugins/
-cd ~/.emacs.d/my-plugins/
-ls
-pwd
-ls
-em jinja2-mode.el 
-cd ..
-ls
-cd
-ls
-cd .emacs.d
-ls
-pwd
-dweb
-em templates/users/index.html 
-dmw
-ls
-em templates/layout
-em templates/layout.html 
-cd ~/.emacs.d
-ls
-grep -nr "flyspell-mode" .
-ls
-jobs
-kill ispell
-ls
-jobs
-dmw
-ls
-jobs
-jobs
-ls
-cd ~/Dropbox/Code/Python/
-ls
-sudo chmod u+x  translate_file.py 
-ls
-em translate_file.py 
-cls
-python translate_file.py 
-python translate_file.py  -h
-python translate_file.py  -h
-python translate_file.py  -h
-python translate_file.py  -h
-python translate_file.py  -h
-ls
-ls
-man ls
-python translate_file.py *.srt
-python translate_file.py -f *.srt
-python translate_file.py -f *.srt
-ls *.srt
-python translate_file.py -f *.srt
-python translate_file.py -f *.srt
-python translate_file.py -f *.srt
-python translate_file.py -f *.srt
-python translate_file.py -f *.srt
-python translate_file.py -f *.srt
-python translate_file.py -f *.py
-python translate_file.py -f *.py
-python translate_file.py -f *.py
-cd /media/Wait/
-cd Boston.Legal.S03
-ls
-mkdir English
-mv *English.srt English/
-ls
-translate_file.py *Chinese.srt
-apt-cache search language-
-apt-cache search language-pack-
-dweb
-grep -nr "class SettingTable" .
-cd .
-translate_file.py *Chinese.srt
-translate_file.py -f *Chinese.srt
-translate_file.py -f *Chinese.srt
-translate_file.py -f *Chinese.srt
-cd -
-cd .
-cd -
-cd /media/Wait/Boston.Legal.S03
-ls
-rm zh-hans-Boston\ Legal\ -\ \[3x01\]\ -\ Can\'t\ We\ All\ Get\ a\ Lung.XviD-LOL.Chinese.srt 
-ls
-translate_file.py *Chinese.srt
-translate_file.py *Chinese.srt
-ls
-translate_file.py *Chinese.srt
-rm gbk-zh-hans-*
-ls
-translate_file.py *Chines.srt
-translate_file.py *Chinese.srt
-translate_file.py *Chinese.srt
-translate_file.py *Chinese.srt
-ls
-translate_file.py *Chinese.srt
-translate_file.py *Chinese.srt
-translate_file.py *Chinese.srt
-ls
-em Boston\ Legal\ -\ \[3x01\]\ -\ Can\'t\ We\ All\ Get\ a\ Lung.XviD-LOL.Chinese.srt 
-translate_file.py *Chinese.srt
-translate_file.py *Chinese.srt
-rm gbk-zh-hans-Boston\ Legal\ -\ \[3x*
-translate_file.py *Chinese.srt
-em gbk-zh-hans-Boston\ Legal\ -\ \[3x01\]\ -\ Can\'t\ We\ All\ Get\ a\ Lung.XviD-LOL.Chinese.srt 
-ls
-cd ../Boston.Legal.S04
-ls
-mkdir English
-mv *English.srt English/
-ls
-translate_file.py *.srt
-translate_file.py *.srt
-translate_file.py *.srt
-translate_file.py *.srt
-translate_file.py *.srt
-translate_file.py *.srt
-translate_file.py *.srt
-translate_file.py *.srt
-translate_file.py *.srt
-translate_file.py *.srt
-translate_file.py *.srt
-translate_file.py *.srt
-translate_file.py *.srt
-translate_file.py *.srt
-translate_file.py *.srt
-translate_file.py *.srt
-cd ~/Dropbox/Code/Python/
-mkdir bin
-ls
-mv util/* bin/
-find . -name "*.py" -executeable
-find . -name "*.py" -executable
-find . -name "*.py" -executable -type -f
-find . -name "*.py" -executable -type f
-man find
-find . -name "*.py" -executable -depth 1
-find . -depth 1 -name "*.py" -executable 
-find . -prune -name "*.py" -executable 
-ls
-find . -prune -name "*.py" -executable 
-find .  -iname "*.py" -executable 
-find ./  -iname "*.py" -executable 
-ipython
-ls
-ls util/
-ls bin/
-ls -al
-cd bin/
-ls
-ls -a
-ls -l
-cd tmp/
-ls
-cd ..
-mv tmp/ dl-pics
-mv dl-pics/ ..
-ls
-em cp-books.py 
-ls ..
-ls ../dl-pics/
-ls
-ll
-ls
-ls
-em translate_file.py 
-cd /media/Wait/Boston.Legal.S04/
-ls
-cd cache/
-ls
-ls -Shl
-cd ..
-ls
-cd ..
-ls
-cd Boston.Legal.S05
-ls
-mkdir English
-mv *English.srt English/
-ls
-translate_file.py *.srt
-ls
-cd ..
-ls
-ls
-ls
-ls
-mv ~/highlight-indentation.el ~/.emacs.d/my-plugins/
-cd ~/.emacs.d/my-plugins/
-ls
-em highlight-indentation.el 
-em ../init.el 
-dmw
-ls
-ls
-cd
-cd /
-pwd
-(and (not (string< "" (car last-2-folder)))                            (not (string< "" (car (last last-2-folder)))))
-(let ((last-2-folder (last (split-string eshell-pwd "/") 2)))                  (concat                   (if (and (not (string< "" (car last-2-folder)))                            (not (string< "" (car (last last-2-folder))))) "/"                       )                   (car last-2-folder) "/"                   (car (last last-2-folder)))                  )
-(concat "(" (format-time-string "%H:%M") ") " "➜ "            (let ((eshell-pwd (eshell/pwd)) (home-dir (getenv "HOME")))              (if (string= eshell-pwd home-dir) "~"                (let ((last-2-folder (last (split-string eshell-pwd "/") 2)))                  (concat                   (if (and (not (string< "" (car last-2-folder)))                            (not (string< "" (car (last last-2-folder))))) "/"                       )                   (car last-2-folder) "/"                   (car (last last-2-folder)))                  )))            (if (= (user-uid) 0) " # " " $ "))
-cd /
-ls
-cd ..
-cd ..
-cd /etc
-cd ~/
-pwd
-ls
-cd /
-(eshell/pwd)
-ls
-pwd
-ls
-cd /
-cd etc
-ls
-cd ..
-cd ~
-ls
-dmw
-cd 
-ls
-cd Games/
-ls
-ls
-pwd
-(split-string (eshell/pwd) "/")
-(cdr (split-string (eshell/pwd) "/"))
-(car (last (cdr (split-string (eshell/pwd) "/")) 1))
-(car (last (cdr (split-string (eshell/pwd) "/")) 1))
-pwd
-pwd
-cd /
-cd /etc
-cd mysql/
-dweb
-ls
-pwd
-cd /
-cd ~/Games/
-ls
-ls
-dweb
-ls
-dmw
-cd mldonkey/
-pwd
-ls
-cd ..
-ls
-cd ..
-ls
-cd ~/GitHub/
-ls
-cd hunt/
-ls
-cd hunt/
-ls
-ls
 ll
 cd views/
 ls
@@ -986,15 +313,688 @@ ls
 em cache 
 em history 
 ls
-pwd
-cd .emacs
-cd .emacs.d/
 ls
-grep -nr "\"places\""
-grep -nr "\"places\"" .
-mv places emacs-starter-kit/
+ln -s ~/.eshell/ .eshell
+ls -al
+ls -l
+ls -al |grep eshell
+rm .eshell
+ln ~/.eshell .eshell
+ln -s ~/.eshell .eshell
+cd .eshell
+ls
+em ali*
+rm alias~
+ls
+em lastdir 
+ls
+ls
+cd ..
+ls
+ls -al
+git init
+ls
+gst
+git add .
+gst
+gst | grep eshell
+gir rm .eshell 
+git rm .eshell 
+gst | grep eshell
+git rm .eshell
+rm .eshell
+gst
+git rm .eshell
+ls
+em .gitignore
+git add .
+rm -r .git
+git init
+git status
+ls
+em .gitignore 
+gst
+cd url/
+ls
+cd ..
+grep -nr "scorates"  .
+grep -nr "yawen" .
+gst
+em tramp 
+gst
+cd url/
+ls
+em cookies 
+ls
+gst
+ls
+cd ..
+ls
+gst
+cd scripts/
+ls
+cd ..
+ls
+em README.markdown 
+find . -name "*.dat"
+cd games/
+ls
+em bubbles-default-2-10-10-scores 
+jobs
+ls
+cd ..
+ls
+jobs
+git add .
+gst
+em .gitignore 
+git status
+rm -r .git
+git init 
+git add .
+gst
+git add .
+gst
+git commit -m "Init"
+du --max-depth  2 -h
+ls
+find . -name "*.txt"
+cd my-plugins/viogus-eim/
+ls
+diff py\ \(weet-DT\'s\ conflicted\ copy\ 2012-01-17\).txt py.txt
+diff py\ \(weet-DT\'s\ conflicted\ copy\ 2012-01-17\).txt py.txt | grep "^\+"
+diff py\ \(weet-DT\'s\ conflicted\ copy\ 2012-01-17\).txt py.txt | grep "^+"
+diff py\ \(weet-DT\'s\ conflicted\ copy\ 2012-01-17\).txt py.txt | grep "^[+]"
+diff py\ \(weet-DT\'s\ conflicted\ copy\ 2012-01-17\).txt py.txt | egrep "^[+]"
+diff py\ \(weet-DT\'s\ conflicted\ copy\ 2012-01-17\).txt py.txt | egrep "^[+]"
+ls
+diff py\ \(weet-DT\'s\ conflicted\ copy\ 2012-01-17\).txt py.txt 
+diff py\ \(weet-DT\'s\ conflicted\ copy\ 2012-01-17\).txt py.txt > diff.txt
+em diff.txt 
+diff py\ \(weet-DT\'s\ conflicted\ copy\ 2012-01-17\).txt py.txt | egrep "^>"
+diff py\ \(weet-DT\'s\ conflicted\ copy\ 2012-01-17\).txt py.txt | egrep "^>" | wc -l
+ls
+rm diff.txt 
+ls
+ediff py\ \(weet-DT\'s\ conflicted\ copy\ 2012-01-17\).txt py\ \(weet-DT\'s\ conflicted\ copy\ 2012-04-29\).txt 
+diff py\ \(weet-DT\'s\ conflicted\ copy\ 2012-01-17\).txt py\ \(weet-DT\'s\ conflicted\ copy\ 2012-04-29\).txt  | grep "^>" 
+diff py\ \(weet-DT\'s\ conflicted\ copy\ 2012-01-17\).txt py\ \(weet-DT\'s\ conflicted\ copy\ 2012-04-29\).txt  | grep "^>" |wc -l
+ls
+ls -al
+ls ~/Dropbox/Emacs/.emacs.d/plugin/viogus-eim/
+ls
+ls py\ \(*
+ls -l py\ \(*
+em ~/Downloads/sunpinyin-userdict-small.7z 
+ls
+cd ~/
+cd -
+ls
+./mergepy.pl py\ \(weet-DT\'s\ conflicted\ copy\ 2012-01-17\).txt py\ \(weet-DT\'s\ conflicted\ copy\ 2012-04-29\).txt py-new.txt
+ls
+ls -al
+cls
+ls -al
+./mergepy.pl 
+./mergepy.pl  --help
+./mergepy.pl py\ \(weet-DT\'s\ conflicted\ copy\ 2012-01-17\).txt py\ \(weet-DT\'s\ conflicted\ copy\ 2012-04-29\).txt -o py-new.txt
+ls
+em py-new.txt 
+ls -hl
+rm py\ \(weet-DT\'s\ conflicted\ copy\ 2012-0*
+ls
+ls
+./mergepy.pl py-new.txt py\ \(ubuntu-meyoung\'s\ conflicted\ copy\ 2012-07-30\).txt -o py-nn.txt
+ls
+rm py\ \(ubuntu-meyoung\'s\ conflicted\ copy\ 2012-07-30\).txt 
+rm py-new.txt 
+ls
+em mergepy.pl 
+ls
+./mergepy.pl py-nn.txt py.txt -o py-new.txt
+rm py-nn.txt 
+ediff py-new.txt py.txt 
+diff py-new.txt py.txt | grep "^>" | wc -l
+rm py.txt 
+mv py-new.txt py.txt
+ls
+gst
+git_rm_unstaged.py 
+cd ../..
+git_rm_unstaged.py 
+em ~/Dropbox/Code/Python/bin/git_rm_unstaged.py 
+ls
+gst
+git_rm_unstaged.py 
+git status
+em places 
+ls
+gst
+em emacs-for-python/
+gst
+ls
+gst
 ls
 ls
 ls
 ls
 ls
+ls
+git_rm_unstaged.py 
+git_rm_unstaged.py 
+gst
+gst
+ipython
+ls
+ls
+git_rm_unstaged.py 
+ipython
+gst
+git_rm_unstaged.py 
+git status
+git statusls
+ls
+gst
+git add .
+git commit -m "merge my-plugins/viogus-eim/py*.txt"
+ls
+git remote add origin git@github.com:TheWaWaR/.emacs.d.git
+gst
+git push -u orgin master
+git push -u origin master
+cd emacs-for-python/
+gst
+ls
+cd ..
+ls
+mv ~/.eshell/ .
+cd ..
+ln -s .emacs.d/.eshell/ .eshell
+ls
+ls -al
+ls -al | grel eshell
+ls -al | grep eshell
+cd .eshell
+ls
+cd ..
+cd .emacs.d
+ls
+git status
+git add .
+cd emacs-starter-kit/
+gst
+ls
+cd ..
+cd emacs-starter-kit/
+ls
+ls -al
+em .gitignore 
+ls
+ls -al
+cd ..
+rm -r emacs-starter-kit/
+ls
+gst
+em TODO 
+mkdir emacs-starter-kit
+gst
+ls
+mv TODO README.markdown emacs-starter-kit/
+mv COPYING emacs-starter-kit/
+ls
+em dominating-file.el
+cd thumbs/
+ls
+ls -al
+cd ..
+em emacs-for-python/.gitignore 
+em .gitignore 
+gst
+ls
+em init.el 
+v+ 10
+v +10
+v +10
+v +10
+v +10
+v +10
+v
+ls
+v 5+
+v 5+
+v 5+
+v 10+
+v 30-
+v 20-
+v 50+
+ls elpa/
+cd elpa
+ls
+ls -al
+cd ..
+ls
+ls
+mv starter-kit-* emacs-starter-kit/
+cd emacs-starter-kit/
+ls
+cd ..
+ls
+mv elpa elpa-to-submit/ emacs-starter-kit/
+mv python-libs/ emacs-starter-kit/
+mv scripts/ emacs-starter-kit/
+ls
+mv package.el* emacs-starter-kit/
+ls
+ls
+gst
+ls
+mv dominating-file.el* emacs-starter-kit/
+ls
+em custom.el 
+ls
+ls
+em abbrev_defs 
+lsls
+ls
+cd emacs-for-python/
+ls
+ls -al
+em .gitignore 
+rm .git
+rm -r .git
+ls
+cd ..
+ls
+gst
+ls
+grep -nr "dotfiles-dir" .
+ls
+rm -r .git
+git init
+git add .
+gst
+git commit -m "Init (Work well so far)"
+du --max-depth  2 -h
+git remote add origin git@github.com:TheWaWaR/.emacs.d.git
+git push -u origin master
+git push -u origin master
+find . -name ".git"
+find . -name "*.git"
+find . -name "*.git*"
+gst
+ls
+ll
+em .eshell/alias 
+open
+$*
+ls
+em session.1028ccf321a408e413134651405346136700000021540189 
+em session.10*
+ls -Shl
+rm session.10*
+ls
+ll
+em tramp 
+ls -R | grep " 0 "
+ls -R | grep " 735 "
+ls -R | grep "\t735 "
+ls -R | grep "\t735\t"
+ls -R | egrep "\t735\t"
+ls -Rl | egrep " 735 "
+ls -Rl | egrep " 0 "
+ce backups/
+cd backups/
+ls -Shl
+cls
+ls
+ll
+cd ..
+ls
+ls
+em init.el 
+v 10-
+em my-hooks.el
+git status
+git add .
+gst
+git commit -m "删掉一些打印函数, 增加单独配置 hook 的文件"
+git push
+git add .
+gst
+cd emacs-starter-kit
+ls
+em package.el
+cd elpa-to-submit/
+cd ..
+ls
+cd ..
+ls
+rm -r emacs-starter-kitelpa/
+rm -r emacs-starter-kitbackups/
+jobs
+gst
+git_rm_unstaged.py 
+ls
+gst
+rm emacs-starter-kitplaces 
+git_rm_unstaged.py 
+dpy
+ls
+mylib.py
+em mylib.py
+git init
+ls
+gst
+git_rm_unstaged.py 
+ls
+git add .
+git commit -m "Init (Add mylib.py)"
+ls
+cd -
+ls
+gst
+git add .
+git commit -m "fix starter-kit-dir path"
+git push
+ls
+cd my-plugins/
+ls
+em .gitignore
+ls
+gst
+git add .
+ls
+gst
+cd ..
+gst
+cd my-plugins/
+ls
+mv Emms/ ~
+gst
+git_rm_unstaged.py 
+mv ~/Emms/ .
+gst
+ls
+cd Emms/
+ls
+cd ../..
+ls
+gst
+git add .
+git commit -m "Ignore my/plugins/Emms"
+git push
+git add .
+git commit -m "fix"
+git push
+dweb
+ls
+jobs
+v 10-
+sdcv darwin
+ls
+cd ~/.emacs.d/
+jobs
+ls
+ls
+jobs
+cpuinfo
+cat /dev/cpu
+cd /dev/cpu
+ls
+cat microcode 
+sudo cat microcode 
+ls -al
+cd ..
+ls
+cd
+cd de
+cd /etc
+cd /dev
+ls
+cat cpu_dma_latency 
+sudo 
+sudo cat cpu_dma_latency 
+cd ~/.emacs.d/
+(message-box "Yes")
+(message-box "Do it right now")
+ls
+dpy
+ls
+em git_rm_unstaged.py 
+git_rm_unstaged.py 
+cd ~/.emacs.d
+ls
+git_rm_unstaged.py 
+ls
+gst
+ls -l
+rm places 
+ls
+gst
+em abbrev_defs 
+ls
+mv custom.el ..
+gst
+mv ../custom.el .
+dmw
+ls
+gst
+ls
+cd static/
+ls
+cd images/
+ls
+cd thumbs/
+ls
+cd ..
+ls
+cd ..
+ls
+cd uploads/
+ls
+cd ..
+cd images/
+rm -r thumbs/
+gst
+cd ..
+gst
+ls
+cd css
+ls
+cd ../js/
+ls
+em manager.py 
+em manager.py 
+em jquery.min.js 
+cat jquery.min.js 
+rm jquery.min.js 
+ls
+gst
+git_rm_unstaged.py 
+mv manager.py jquery.min.js
+gst
+git_rm_unstaged.py 
+git add .
+gst
+gi add .
+gst
+cd ../..
+git add .
+gst
+cd ..
+em manager.py 
+git add .
+gst
+git commit -m "fix"
+git push
+ls
+(fild-file "*scratch*")
+(find-file "*scratch*")
+(find-file "*aaaa*")
+dweb
+gst
+git pull
+em templates/perf/metrics/
+ls
+gst
+cd perf/
+ls
+touch tables.py
+touch forms.py
+ls ../users/
+em views.py
+ls
+cd ..
+cd ~/GitHub/django-tables2/
+ls
+dwb
+ls
+deweb
+dweb
+em ../../xiaoli.org
+ls
+cd tango/ui/tables/
+ls
+em *.py
+ls
+dweb
+ls
+em users/t
+em users/tables.py
+cd tango/ui/
+cd
+em index.html
+google-chrome index.html 
+ls
+ls
+dtest
+ls
+em test_sqlalchemy_join_order.py
+v 5-
+ls
+jobs
+dweb
+ls
+cd perf/
+ls
+em *.py
+ls
+cd ../templates/perf/
+ls
+em test-collapse.html
+dweb
+gitk
+qgit 
+qgit 
+l
+ls
+cd ~/.emacs.d/my-plugins/
+ls
+cd Emms/
+ls
+em cache 
+ls -Shl
+jobs
+cd /media/Apps/Archive/Music/
+ls
+ls
+dweb
+ls
+em perf/*.py
+alias ls 'ls -l $*'
+ls
+alias ems 'em $*'
+ems perf/*.py
+alias ems 'em $1'
+ems perf/*.py
+ls
+ls
+ls
+em ~/.emacs.d/.eshell/alias 
+ls
+jobs
+jobs
+cd ~/.emacs.d/
+du --max-depth 1 -h
+ls
+ls
+ls -l
+ls
+ls -Shl
+du --max-depth 1 -h
+gst
+em a
+em *
+em *
+em *
+ls
+em
+em *
+em a
+em init.el 
+em *
+em *
+em *
+em init.el 
+em init.el 
+em init.el 
+em init.el 
+One file:init.el
+em init.el 
+em init.el 
+em init.el 
+em init.el 
+em init.el 
+em init.el 
+em init.el 
+em *
+abbrev_defsac-comphist.datauto-save-list/backups/custom.elemacs-for-python/emacs-starter-kit/games/init.elloaddefs.elmy-defuns.elmy-face-settings.elmy-hooks.elmy-key-bindings.elmy-plugins/thumbs/trampurl/
+abbrev_defsac-comphist.datauto-save-list/backups/custom.elemacs-for-python/emacs-starter-kit/games/init.elloaddefs.elmy-defuns.elmy-face-settings.elmy-hooks.elmy-key-bindings.elmy-plugins/thumbs/trampurl/
+em *
+em *
+em *
+ls
+ls url/
+ls thumbs/
+ls games/
+ls .eshell/
+em .eshell/
+em .eshell/*
+em .eshell/*
+em .eshell/*
+em .eshell/*
+em .eshell/*
+ls
+em .eshell/*
+em .eshell/*
+em .eshell/*
+dweb
+ls
+gst
+git add .
+git commit -m "Collapse support (beginning)"
+gst
+git pull
+git push
+(print '("A" "b" "c"))
+jobs
+em
+ls
+em index.html 
+em index.html 
+ls
+jobs
+dweb
+ls
+em perf/views.py
+jobs
+hosts_setup_OnL.py 
+hosts_setup_OnL.py  --help
+em ~/Dropbox/Code/Python/bin/hosts_setup_OnL.py 
+proxychains  hosts_setup_OnL.py 
+ls
+dtest
+s
+ls
+em test_sqlalchemy_jon
+em test_sqlalchemy_join_order.py 

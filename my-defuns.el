@@ -133,6 +133,15 @@
   )
 
 
+(defun create-scratch-buffer nil
+       "create a scratch buffer"
+       (interactive)
+       (kill-buffer "*scratch*")
+       (switch-to-buffer (get-buffer-create "*scratch*"))
+       (insert ";; Good day sir!")
+       (lisp-interaction-mode))
+
+
 (defun set-frame-size-according-to-resolution ()
   (interactive)
   (if window-system
@@ -162,10 +171,11 @@
   (emms-default-players)
   (emms-mode-line 1)
   (emms-playing-time 1)
+
   (setq emms-playlist-buffer-name "*Music*")
-  (setq emms-info-functions '(emms-info-libtag))
   (emms-add-directory-tree "/media/Apps/Archive/Music/")
-  (add-hook 'emms-player-finished-hook 'emms-random)          ;当播放完当前的歌曲时随机选择下一首歌曲
+  (setq emms-info-functions '(emms-info-libtag))
+  (setq emms-use-scoring t)
   ;; (require 'init-emms)
   (require 'xwl-emms)
   )
@@ -217,15 +227,9 @@
   ;; Emacs buffer are those starting with “*”."
   (list
    (cond
-    ((string-equal "*" (substring (buffer-name) 0 1))
-     '("Emacs Buffer")
-     )
-    ((eq major-mode 'dired-mode)
-     '("Dired")
-     )
-    (t
-     '("User Buffer")
-     )
+    ((string-equal "*" (substring (buffer-name) 0 1)) '("Emacs Buffer"))
+    ((eq major-mode 'dired-mode) '("Dired"))
+    (t '("User Buffer"))
     )))
 
 (defun use-the-tabbar ()
@@ -275,10 +279,25 @@
 ;; 打开文件
 (defun eshell/em (files)
   (if (listp files)
-      (mapcar 'find-file files)
+      (progn
+        (eshell-printn "Many Files:")
+        (eshell-printn files)
+       (mapcar '(lambda (file &res args)
+                  (progn
+                    (eshell-printn args)
+                    (eshell-printn file)
+                    ;;(setq tv (read-string "Open it? "))
+                    (find-file file)
+                    )) files)
+       )
+    (eshell-printn "One file:")
+    (eshell-printn files)
     (find-file files)
     )
   )
+
+(setq alist '("A" "B"))
+(elt ["A" "B" "C"] 1)
 
 
 ;; 调节音量

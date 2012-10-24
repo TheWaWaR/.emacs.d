@@ -180,7 +180,7 @@
     (progn
       (require 'my-face-settings)
       (custom-gui-key-bindings)
-      (alpha-transparency)
+      (full-transparency)
       (my-fullscreen)
       )
   (custom-terminal-key-bindings)

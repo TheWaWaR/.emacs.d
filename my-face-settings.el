@@ -56,10 +56,9 @@
  ;; If there is more than one, they won't work right.
  
  '(emms-playlist-track-face ((t (:foreground "DarkSeaGreen" :height 109 :family "Monospace"))))
- '(org-date ((t (:foreground "Cyan" :underline t :height 109 :family "Yahei Mono"))))
  '(org-formula ((t (:foreground "chocolate1" :height 109 :family "Yahei Mono"))))
  '(org-table ((t (:foreground "LightSkyBlue" :height 109 :family "Yahei Mono"))))
- '(org-tag ((t (:weight bold :height 109 :family "Yahei Mono"))))
+ ;;'(org-tag ((t (:weight bold :height 109 :family "Yahei Mono"))))
  '(tooltip ((t (:background "gray20" :foreground "wheat" :slant normal :family "文泉驿微米黑"))))
  )
 
