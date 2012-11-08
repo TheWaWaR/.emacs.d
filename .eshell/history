@@ -1,1000 +1,1000 @@
+cd ../..
 ls
-ll
-cd views/
+gst
+cd -
 ls
-tree
+cd perf/
 ls
-pwd
+cd perf/
 ls
-clear
-jbos
-jobs
-cd ~/Mail
+cd perf/
 ls
-ls
-dweb
-ls
-git pull
-git add . 
-git commit -m "Change the location of NodeHostTable"
-git pull
-gitk
-gitk
-ls
-ls
-ls
-jobs
-ls
-em ~/Dropbox/Code/Python/bin/git_rm_unstaged.py 
-ls
-dpy
-ls
-em cnew 
-(/ 45 50)
-(/ 45.0 50)
-cd ~/.emacs.d/
-ls
-cd elpa-to-submit/
+cd 
+cd -
+cd ../../..
+ls -R
 cd ..
-find . -name "*magit*" 
-cd elpa/magit-0.8.1/
+ls -R
+rm -r perf/
+ls
+cd ..
+ls
+cd templates/perf/
+ls
+cd thresholds/
+ls
+cp edit.html new.html
+em edit.html new.html 
+em edit.html 
+em new.html 
+cd ..
+ls
+mv miboids/ ../admin/
+cd ../admin/
+ls
+gst
+cd miboids/
+em index.html 
+git add .
+git commit
+cd ~/.emacs.d/emacs-starter-kit/elpa/magit-0.8.1/
 ls
 em magit.el
 dweb
-cd ~/.emacs.d/
+git add .
+gst
+git_rm_unstaged.py 
+git commit -m "1. 阀值: [添加, 搜索], 2. MIB移到admin中"
+git pull
+grep -nr ">>>>" .
+gst
+grep -nr ">>>>" .
+git add .
+gst
+git commit -m "merge by <Qian LinFeng>"
+git push
+gst
 ls
-cd my-plugins/
-mv ~/wpdl-mode.el .
 ls
-em wpdl-mode.el 
-cd ..
-find . -name "simple.el" 
-cd ~/Downloads/emacs-24.2/
-find . -name "simple.el" 
-em ~/Downloads/emacs-24.2/lisp/simple.el
-cd -
-grep -nr "add-to-list" .
-dweb
+cd system/
 ls
-cd topo/
+jobs
+gst
 ls
-em models.py 
 em views.py
-cd ~/.emacs.d/
-du --maxdepth=2 -h
-du --max-depth=2 -h
-sudo apt-get insatll sbcl
-sudo apt-get install sbcl
-sudo apt-get install clisp
-sudo apt-get install clisp
-lisp
-clisp
-jobs
-which sbcl
-cls
-ls
-locate slime.el
-sudo apt-get install slime
-slime
-ls
-pwd
-pwd
+google-chrome ~/Dropbox/Documents/Opengoss/Requirements/性能管理设计说明书-2.pdf 
+mail
+mail
+mail
+mail
 cd ..
-cd weet/
+gst
+rm tango/ui/tables/\#tables.py\# 
 ls
-locate swank-loader
-ls
-cd
-ls
-jobs
-kill slime
-kill clisp
-kill emacs
-sudo kill clisp
-sudo kill -PKILL clisp
-cd ~/Downloads/emacs-24.2/
-cd site-lisp/
-ls
-ls
-cd .
-cd ..
-ls
-cd lisp/
-ls
-cd language/
-ls
-ls -l
-cd /usr/share/emacs23/site-lisp/slime/
-ls
-ls -al
-cd /usr/share/emacs/site-lisp/
-ls
-ls slime/
-em slime/
-cd -
-ls
-ls contrib/
-cd ..
-ls
-pwd
-cd slime/
-ls
-pwd
-cp /usr/share/common-lisp/source/slime/
-cd /usr/share/common-lisp/source/slime/
-ls
-ls contrib/
-cd -
-pwd
-cp -r /usr/share/common-lisp/source/slime/* .
-sudo cp -r /usr/share/common-lisp/source/slime/* .
-ls
-exit
-term
-exit
-(save-buffers-kill-terminal)
-ls
-cd .emacs.d/
-cd ..
-ls
-cd .emacs.d/
-ls
-grep -nr "post-command-hook"
-grep -nr "post-command-hook" 
-grep -nr "post-command-hook"  .
-egrep -nr "post-command-hook.*autopair"  .
-egrep -nr "define-minor-mode"  .
-egrep -nr "post-command-hook.*autopair"  .
-egrep -nr "define-minor-mode.*autopair"  .
-grep -nr "autopair-mode" .
-pwd
-ls
-clisp
-ls
-pwd
-ls
-cd .emacs.d/
-ls
-pwd
-cls
+gst
+git add .
+git commit -m "初步完成采集规则"
+git pull
+grep -nr "<<<<" .
+grep -nr ">>>>" .
+gst
+git add .
+gst
+git_rm_unstaged.py 
+git add .
+git commit -m "修改采集规则样式"
+git pull
+(setq emms-show-format "NP: %s")
+(setq emms-show-format "%s")
+git push
 ls
 ls
 ls
+cd tango/
 ls
-cls
+cd ui/tables/
 ls
-ls
-em tramp 
-dmw
-ls
-em templates/layout.html 
-cd ~/GitHub/tualatrix-tools/examples/qt-demo/
-em *.cpp
-ls
-jos
-jobs
-ls
-cd Do
-cd Downloads/
-ls
-ls
-cd ~/Dropbox/Books/pdf/
-ls
-cd /opt
-ls
-sudo mkdir emacs24xft
-ls
-cd ~/Downloads/
-ls
-cd emacs-24.2/
-ls
-./configure --help
-jobs
-em *.el
-mv xwl-emms.el ~/.emacs.d/my-plugins/
-ls
-kill emms
-jobs
-kill emms-player-simple
-ps
-ps aux | grep emms
-ls
-cd .emacs.d/
-cd my-plugins/
-mv xwl-emms.el xwl-emms-old.el
-mv ~/xwl-emms.el .
-cd .emacs.d/my-plugins/
-em xwl-emms.el 
-sudo apt-get install mp3info
-ls
-ll
-mv init-emms.el .emacs.d/my-plugins/
-cd .emacs.d/my-plugins/
-em init-emms.el 
-ps aux | grep  e$
-ps aux | grep " e$" 
-kill 13138
-sudo kill 13138
-ls
-mkdir Emms
-ls
-cd Emms/
-ls
-cd ..
-cd ..
-find . -name "emms" .
-find . -name "emms" 
-find . -name "emms*" 
-telnet localhost 8087
-telnet localhost 8087
-dweb
-ls
-cd users/
-ls
-cd ..
-cd users/
-ls
-cd ../templates/users/
-ks
-ls
-em index.html 
-cd ~/.emacs.d
-ls
-ll
-cd emms/
-ls
-cd ..
-em my-plugins/init-emms.el 
-rm -r emms/
-ls
-dweb
-ls
+em tables.py
 dtest
 ls
-mkdir test_modal
-cd test_
-cd test_modal/
-ls
-em index.html
-ls
-em index.html 
-ls
-rm index.html 
-cd ..
-rm test_modal/
-rm -r test_modal/
+em test_sqlalchemy_join_order.py 
 dweb
+grep -nr "class Miboids" .
+grep -nr "class Miboid" .
+dweb
+cd nodes/
+em models.py
+cd ..
+grep -nr "db[.]relation" .
+ls
+mail
+mail
+mail
+grep -nr " *= *db[.]relation" .
+cd ~/.emacs.d/
+ll
+em my-key-bindings.el 
+mail
+mail
+dweb
+ls
+em tango/ui/tables/
+dweb
+ls
+gst
+git add .
+git commit -m "增加 table 中对外键(Example: UserTable > role_name)排序的支持"
+git pull
+grep -nr ">>>>" .
+git push
+cls
+qgit 
+cd templates/users/
+find . \( -name "*new*.html"  -name "*edit*.html" \)
+ls
+find . -name "*new*.html"
+find . \( -name "*new*.html" -o  -name "*edit*.html" \)
+em new.html 
+ls
+cd permissions/
+ls
+git rm edit.html new.html 
+gst
+gst
+cd ../..
+ls
+dweb
+ls
+gst
+cd
+find . -name "*jinja*.pdf"
+dweb
+ls
+cd perf/
+ls
+ls
+ls
+cd ../templates/perf/metrics/
+ls
+cp ../thresholds/edit.html .
+cp ../thresholds/new.html .
+ls
+gst
+dweb
+gst
+git add .
+git commit -m "1. 表格斑马线, 2. somefix"
+git pul
+git pull
+git push
+ipython
+ls
+cl
+cls
+ls
+cd templates/perf/
+ls
+cd metrics/
+ls
+rm new.html 
+mv edit.html new-edit.html
+em new-edit.html 
+pwd
+grep -nr "form-actions" .
+cd ..
+grep -nr "form-actions" .
+cd ..
+grep -nr "form-actions" .
+dweb
+git add .
+gst
+git_rm_unstaged.py 
+dpy
+ls
+em git_rm_unstaged.py 
+em git_rm_unstaged.py 
+cd -
+git_rm_unstaged.py 
+ls
+em TODO 
+ls
+pwd
+ls
+ls
+gst
+git commit -m "指标管理"
+git pull
+git push
+ls
+pwd
+em system/views.py
+ls
+cd nodes/
+ls
+em views
+em views.py
+ls
+cd ..
+ls
+gst
+git add .
+git commit -m "表单样式重构"
+git pull
+grep -nr ">>>>" .
+git push
+em server.py 
+gst
+ls
+cd templates/
 ls
 cd users/
 ls
-cd ../templates/users/
-ls
-em test-modal.html
-cd ../..
-ls
-em static/js/bootstrap-modal.js 
-ls ~
-mv ~/bootstrap-modal.js static/js/bootstrap-modal-2.1.1.js 
-ls
-grep -nr "attrs=Attrs" .
+em new.html 
+cd ..
+touch perf/test-fieldset.html
 gst
-cd templates/users/
-rm test-modal*
-ls
-gst
-rm ../../static/js/bootstrap-modal-2.1.1.js 
-gst
-cd ../..
+cd ..
 git add .
-git commit -m "Add class to Action(delete, edit, ...)" 
-git pull;git push
-ls
-grep -nr Keyword
-grep -nr Keyword .
-grep -nr "Key word" .
-grep -nr "Key Word" .
-git status
-ls
+git commit -m "表单样式修改"
+git pull
+git push
+cd tn
+cd tango/
+em base.py
+cd ..
+git add .
+git commit -m "1. make_table 的移动, 2. 修改一些表单样式."
+git pull
+git push
+em ../../xiaoli.org 
 git add .
 git commit -m "some fix"
+git pull
+git push
+em local_settings.py
+ls
+cd tango/
+ls
+cd ~/GitHub/django-tables2/
+ls
+cd django_tables2/
+ls
+cd ..
+ls
+dweb
+ls
+cd - 
+ls
+cd tests/
+ls
+cd ..
+ls
+dweb
+cls
+ls
+jobs
+ls
+ls /var/www
+cd /var/www/wordpress/
+ls
+vim license.txt 
+em license.txt 
+dweb
+ls
+mv docs/ ../..
+cd ../..
+ls
+mv docs/ backups/
+cd b
+cd backups/
+ls
+mv docs/ xiaoli-docs-backup 
+mv xiaoli-docs-backup/ ~/Dropbox/Documents/Opengoss/
+ls
+dweb
+ls
+cd ..
+ls
+pwd
+cd -
+ls
+cls
+ls
+gst
+cp ~/Dropbox/Documents/Opengoss/xiaoli-docs-backup/ docs
+cp -r ~/Dropbox/Documents/Opengoss/xiaoli-docs-backup/ docs
+ls
+gst
+mail
+mail
+mail
+ls
+gst
+git add .
+git commit -m "删除所有项"
+git pull
+grep -nr ">>>>" .
+grep -nr "<<<<" .
+git push
+w3m 
+cd ~/GitHub/
+git clone https://github.com/emacsmirror/w3m.git emacs-w3m
+du --max-depth=1 -h
+df -h
+ls
+jobs
+ls
+w3m --version
+w3m -v
+ls
+q
+ls
+cls
+ls
+ls
+cd GitHub/emacs-w3m/
+ls
+./install-sh 
+dmw
+ls
+cd blog/
+ls
+ls
+em models.py
+touch __init__.py views.py
+em views.py 
+ls
+cd ..
+ls
+mv doc/ ..
+cd ..
+ls
+cd myway/
+ls
+gst
+mv ../doc/ .
+git mv doc/ ..
+ls
+gst
+ls
+em utils.py
+mkdir common
+cd common/
+ls
+touch __init__.py
+touch views.py models.py
+em models.py 
+cd ../blog/
+touch constant.py
+em constant.py 
+ls
+cd ..
+ls
+cd project/
+ls
+touch __init__.py views.py models.py constants.py forms.py
+ls
+cd ..
+ls
+cd mldonkey/
+touch __init__.py views.py models.py constants.py forms.py
+cd ../vps/
+touch __init__.py views.py models.py constants.py forms.py
+ls
+cd ..
+ls
+cd chat/
+ls
+touch __init__.py views.py models.py constants.py forms.py
+cd ../common/
+ls
+touch __init__.py views.py models.py constants.py forms.py
+ls
+em models.py 
+ls
+em models.py 
+ls
+ls
+cd ..
+tree
+ls
+cd ..
+ls
+cd myway/
+ls
+ls
+cd blog/
+touch forms.py
+ls
+gst
+cd ..
+rm gallery/\#views.py\# 
+ls
+cd static/uploads/
+ls
+ls
+tree
+cd images/
+ls
+rm *
+mkdir thumbs
+ls
+ls
+cd ..
+ls
+cd images/
+ls
+cd thumbs/
+ls
+cd ..
+ls
+cd ..
+tree
+cd ..
+ls
+cd ../templates/
+grep -nr "style" .
+cd ..
+cd static/cs
+cd static/css/
+ls
+em extra.css 
+cd ../../templates/
+grep -nr "block row" .
+ls
+grep -nr "block main"
+grep -nr "block main" .
+grep -nr "block content" .
+ls
+cp layout.html old-layout-2.html 
+git mv layout-old.html old-layout-1.html 
+gst
+gst
+cd ..
+em ../.gitignore 
+ls
+ls
+cd static/
+grep -nr "bg-gray-noise.jpg". 
+grep -nr "bg-gray-". 
+grep -nr "bg-gray-" . 
+cp ~/Pictures/LOGO.png .
+ls
+cd images/
+ls
+cd kube/
+ls
+cd ..
+ls
+ls
+cd ..
+mv LOGO.png images/kube/
+ls
+cd images/kube/
+ls
+cp ~/Dropbox/emacs.png .
+dmw
+ls
+cd templates/
+egrep -nr "class.*content" .
+ls
+ll
+cd ../static/
+ls
+mkdir markdown
+cd markdown/
+ls
+cp ~/Dropbox/octopress/source/_posts/* .
+ls
+rm output.html 
+ls
+em ~/Dropbox/octopress/source/_posts/output.html 
+ls
+rm *
+ls
+em test-1.md
+cd ../..
+cd ..
+mkdir tests
+ls
+cd tests/
+cd ~/GitHub/li
+cd ~/GitHub/liquidluck/
+ls
+cd tests/
+ls
+em test_readers.py 
+ls
+dmw
+ls
+cd ..
+ls
+cd tests/
+ls
+ls
+touch __init__.py
+em __init__.py 
+touch utils.py
+em utils.py 
+ls
+python utils.py 
+ls
+em common.py
+ls
+mv utils.py myway.py
+mv myway.py utils.py
+em utils.py 
+ls
+rm *
+ls
+cd ..
+rm -r tests/
+em tests.py
+cd ~/GitHub/liquidluck/
+grep -nr "startwith.*----"
+grep -nr "startwith.*----" .
+egrep -nr "startwith.*---" .
+egrep -nr "startwith" .
+ls
+egrep -nr "----" .
+grep -nr "----" .
+grep -nr "----" .
+egrep -nr "[-]{4}" .
+egrep -nr "\"[-]{4}" .
+egrep -nr "[-]{4}" .
+egrep -nr "[+]=" .
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+ls
+python manager.py 
+ls
+python manager.py 
+ls
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+cls
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+ls
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+./manager.py  
+./manager.py  
+./manager.py  
+./manager.py  
+./manager.py  
+./manager.py  
+./manager.py  
+./manager.py  
+./manager.py 
+ls
+./manager.py 
+./manager.py 
+cd ..
+cd ..
+./server.py 
+em server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python man
+ls
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+ll
+clear
+clear
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+gst
+git add .
+git commit -m "fix import in perf/views.py"
+git pull
+git push
+ls
+ls
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+pytho
+cls
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+dmw
+gst
+git add .
+git commit -m "tiny fix"
+git pull origin master
+grep -nr ">>>>" .
+ls
+em static/css/extra.css 
+dmw
+ls
+cd ..
+ls
+./manager.py 
+ls
+em manager.py 
+ls
+mkdir log
+ls
+ls
+ls
+python manager.py 
+python manager.py  &
+ls
+cd log/
+tail -f tornado.log 
+gst
+cd ../.
+dweb
+gst
+git add .
+git commit -m "perf 中的搜索"
 git pull
 grep -nr ">>>>" .
 gst
 git add .
 git commit -m "merge"
+gst
+git pull
 git push
+gst
 ls
 ls
 ls
-cd .emacs.d
 ls
-cd my-plugins/Emms/
+cd templates/perf/
 ls
-em cache 
-em history 
+find . -name "*.index.html"
+find . -name "index.html"
+em node/index.html 
 ls
-ls
-ln -s ~/.eshell/ .eshell
-ls -al
-ls -l
-ls -al |grep eshell
-rm .eshell
-ln ~/.eshell .eshell
-ln -s ~/.eshell .eshell
-cd .eshell
-ls
-em ali*
-rm alias~
-ls
-em lastdir 
-ls
-ls
+em lan/index.html 
+em olt/index.html 
+em onu/index.html 
+em eoc/index.html 
 cd ..
 ls
-ls -al
-git init
+cd users/
 ls
+em index.html 
+cd ../system/
+ls
+em dict-codes/index.html 
+em index.html 
 gst
-git add .
-gst
-gst | grep eshell
-gir rm .eshell 
-git rm .eshell 
-gst | grep eshell
-git rm .eshell
-rm .eshell
-gst
-git rm .eshell
-ls
-em .gitignore
-git add .
-rm -r .git
-git init
-git status
-ls
-em .gitignore 
-gst
-cd url/
-ls
-cd ..
-grep -nr "scorates"  .
-grep -nr "yawen" .
-gst
-em tramp 
-gst
-cd url/
-ls
-em cookies 
-ls
-gst
-ls
-cd ..
-ls
-gst
-cd scripts/
-ls
-cd ..
-ls
-em README.markdown 
-find . -name "*.dat"
-cd games/
-ls
-em bubbles-default-2-10-10-scores 
-jobs
-ls
-cd ..
-ls
-jobs
-git add .
-gst
-em .gitignore 
-git status
-rm -r .git
-git init 
-git add .
-gst
-git add .
-gst
-git commit -m "Init"
-du --max-depth  2 -h
-ls
-find . -name "*.txt"
-cd my-plugins/viogus-eim/
-ls
-diff py\ \(weet-DT\'s\ conflicted\ copy\ 2012-01-17\).txt py.txt
-diff py\ \(weet-DT\'s\ conflicted\ copy\ 2012-01-17\).txt py.txt | grep "^\+"
-diff py\ \(weet-DT\'s\ conflicted\ copy\ 2012-01-17\).txt py.txt | grep "^+"
-diff py\ \(weet-DT\'s\ conflicted\ copy\ 2012-01-17\).txt py.txt | grep "^[+]"
-diff py\ \(weet-DT\'s\ conflicted\ copy\ 2012-01-17\).txt py.txt | egrep "^[+]"
-diff py\ \(weet-DT\'s\ conflicted\ copy\ 2012-01-17\).txt py.txt | egrep "^[+]"
-ls
-diff py\ \(weet-DT\'s\ conflicted\ copy\ 2012-01-17\).txt py.txt 
-diff py\ \(weet-DT\'s\ conflicted\ copy\ 2012-01-17\).txt py.txt > diff.txt
-em diff.txt 
-diff py\ \(weet-DT\'s\ conflicted\ copy\ 2012-01-17\).txt py.txt | egrep "^>"
-diff py\ \(weet-DT\'s\ conflicted\ copy\ 2012-01-17\).txt py.txt | egrep "^>" | wc -l
-ls
-rm diff.txt 
-ls
-ediff py\ \(weet-DT\'s\ conflicted\ copy\ 2012-01-17\).txt py\ \(weet-DT\'s\ conflicted\ copy\ 2012-04-29\).txt 
-diff py\ \(weet-DT\'s\ conflicted\ copy\ 2012-01-17\).txt py\ \(weet-DT\'s\ conflicted\ copy\ 2012-04-29\).txt  | grep "^>" 
-diff py\ \(weet-DT\'s\ conflicted\ copy\ 2012-01-17\).txt py\ \(weet-DT\'s\ conflicted\ copy\ 2012-04-29\).txt  | grep "^>" |wc -l
-ls
-ls -al
-ls ~/Dropbox/Emacs/.emacs.d/plugin/viogus-eim/
-ls
-ls py\ \(*
-ls -l py\ \(*
-em ~/Downloads/sunpinyin-userdict-small.7z 
-ls
-cd ~/
-cd -
-ls
-./mergepy.pl py\ \(weet-DT\'s\ conflicted\ copy\ 2012-01-17\).txt py\ \(weet-DT\'s\ conflicted\ copy\ 2012-04-29\).txt py-new.txt
-ls
-ls -al
-cls
-ls -al
-./mergepy.pl 
-./mergepy.pl  --help
-./mergepy.pl py\ \(weet-DT\'s\ conflicted\ copy\ 2012-01-17\).txt py\ \(weet-DT\'s\ conflicted\ copy\ 2012-04-29\).txt -o py-new.txt
-ls
-em py-new.txt 
-ls -hl
-rm py\ \(weet-DT\'s\ conflicted\ copy\ 2012-0*
-ls
-ls
-./mergepy.pl py-new.txt py\ \(ubuntu-meyoung\'s\ conflicted\ copy\ 2012-07-30\).txt -o py-nn.txt
-ls
-rm py\ \(ubuntu-meyoung\'s\ conflicted\ copy\ 2012-07-30\).txt 
-rm py-new.txt 
-ls
-em mergepy.pl 
-ls
-./mergepy.pl py-nn.txt py.txt -o py-new.txt
-rm py-nn.txt 
-ediff py-new.txt py.txt 
-diff py-new.txt py.txt | grep "^>" | wc -l
-rm py.txt 
-mv py-new.txt py.txt
-ls
-gst
-git_rm_unstaged.py 
-cd ../..
-git_rm_unstaged.py 
-em ~/Dropbox/Code/Python/bin/git_rm_unstaged.py 
-ls
-gst
-git_rm_unstaged.py 
-git status
-em places 
-ls
-gst
-em emacs-for-python/
-gst
-ls
-gst
-ls
-ls
-ls
-ls
-ls
-ls
-git_rm_unstaged.py 
-git_rm_unstaged.py 
-gst
-gst
-ipython
-ls
-ls
-git_rm_unstaged.py 
-ipython
-gst
-git_rm_unstaged.py 
-git status
-git statusls
-ls
-gst
-git add .
-git commit -m "merge my-plugins/viogus-eim/py*.txt"
-ls
-git remote add origin git@github.com:TheWaWaR/.emacs.d.git
-gst
-git push -u orgin master
-git push -u origin master
-cd emacs-for-python/
-gst
-ls
-cd ..
-ls
-mv ~/.eshell/ .
-cd ..
-ln -s .emacs.d/.eshell/ .eshell
-ls
-ls -al
-ls -al | grel eshell
-ls -al | grep eshell
-cd .eshell
-ls
-cd ..
-cd .emacs.d
-ls
-git status
-git add .
-cd emacs-starter-kit/
-gst
-ls
-cd ..
-cd emacs-starter-kit/
-ls
-ls -al
-em .gitignore 
-ls
-ls -al
-cd ..
-rm -r emacs-starter-kit/
-ls
-gst
-em TODO 
-mkdir emacs-starter-kit
-gst
-ls
-mv TODO README.markdown emacs-starter-kit/
-mv COPYING emacs-starter-kit/
-ls
-em dominating-file.el
-cd thumbs/
-ls
-ls -al
-cd ..
-em emacs-for-python/.gitignore 
-em .gitignore 
-gst
-ls
-em init.el 
-v+ 10
-v +10
-v +10
-v +10
-v +10
-v +10
-v
-ls
-v 5+
-v 5+
-v 5+
-v 10+
-v 30-
-v 20-
-v 50+
-ls elpa/
-cd elpa
-ls
-ls -al
-cd ..
-ls
-ls
-mv starter-kit-* emacs-starter-kit/
-cd emacs-starter-kit/
-ls
-cd ..
-ls
-mv elpa elpa-to-submit/ emacs-starter-kit/
-mv python-libs/ emacs-starter-kit/
-mv scripts/ emacs-starter-kit/
-ls
-mv package.el* emacs-starter-kit/
-ls
-ls
-gst
-ls
-mv dominating-file.el* emacs-starter-kit/
-ls
-em custom.el 
-ls
-ls
-em abbrev_defs 
-lsls
-ls
-cd emacs-for-python/
-ls
-ls -al
-em .gitignore 
-rm .git
-rm -r .git
-ls
-cd ..
-ls
-gst
-ls
-grep -nr "dotfiles-dir" .
-ls
-rm -r .git
-git init
-git add .
-gst
-git commit -m "Init (Work well so far)"
-du --max-depth  2 -h
-git remote add origin git@github.com:TheWaWaR/.emacs.d.git
-git push -u origin master
-git push -u origin master
-find . -name ".git"
-find . -name "*.git"
-find . -name "*.git*"
-gst
-ls
-ll
-em .eshell/alias 
-open
-$*
-ls
-em session.1028ccf321a408e413134651405346136700000021540189 
-em session.10*
-ls -Shl
-rm session.10*
-ls
-ll
-em tramp 
-ls -R | grep " 0 "
-ls -R | grep " 735 "
-ls -R | grep "\t735 "
-ls -R | grep "\t735\t"
-ls -R | egrep "\t735\t"
-ls -Rl | egrep " 735 "
-ls -Rl | egrep " 0 "
-ce backups/
-cd backups/
-ls -Shl
-cls
-ls
-ll
-cd ..
-ls
-ls
-em init.el 
-v 10-
-em my-hooks.el
-git status
-git add .
-gst
-git commit -m "删掉一些打印函数, 增加单独配置 hook 的文件"
-git push
-git add .
-gst
-cd emacs-starter-kit
-ls
-em package.el
-cd elpa-to-submit/
-cd ..
-ls
-cd ..
-ls
-rm -r emacs-starter-kitelpa/
-rm -r emacs-starter-kitbackups/
-jobs
-gst
-git_rm_unstaged.py 
-ls
-gst
-rm emacs-starter-kitplaces 
-git_rm_unstaged.py 
-dpy
-ls
-mylib.py
-em mylib.py
-git init
-ls
-gst
-git_rm_unstaged.py 
-ls
-git add .
-git commit -m "Init (Add mylib.py)"
-ls
-cd -
-ls
-gst
-git add .
-git commit -m "fix starter-kit-dir path"
-git push
-ls
-cd my-plugins/
-ls
-em .gitignore
-ls
-gst
-git add .
-ls
-gst
-cd ..
-gst
-cd my-plugins/
-ls
-mv Emms/ ~
-gst
-git_rm_unstaged.py 
-mv ~/Emms/ .
-gst
-ls
-cd Emms/
-ls
-cd ../..
-ls
-gst
-git add .
-git commit -m "Ignore my/plugins/Emms"
-git push
-git add .
-git commit -m "fix"
-git push
 dweb
-ls
-jobs
-v 10-
-sdcv darwin
-ls
-cd ~/.emacs.d/
-jobs
-ls
-ls
-jobs
-cpuinfo
-cat /dev/cpu
-cd /dev/cpu
-ls
-cat microcode 
-sudo cat microcode 
-ls -al
-cd ..
-ls
-cd
-cd de
-cd /etc
-cd /dev
-ls
-cat cpu_dma_latency 
-sudo 
-sudo cat cpu_dma_latency 
-cd ~/.emacs.d/
-(message-box "Yes")
-(message-box "Do it right now")
-ls
-dpy
-ls
-em git_rm_unstaged.py 
-git_rm_unstaged.py 
-cd ~/.emacs.d
-ls
-git_rm_unstaged.py 
-ls
+git add .
+git commit -m "重构页面(搜索表单)"
 gst
-ls -l
-rm places 
-ls
+git pull
+git push
 gst
-em abbrev_defs 
 ls
-mv custom.el ..
-gst
-mv ../custom.el .
+cls
+ls
 dmw
 ls
+cd templates/
+ls
+cd gallery/
+ls
+em index.html 
+cd ~/GitHub/misaka/
+ls
+grep -nr "class HtmlRenderer" .
+grep -nr "block_code" .
+dmw
 gst
-ls
-cd static/
-ls
-cd images/
-ls
-cd thumbs/
-ls
-cd ..
-ls
-cd ..
-ls
-cd uploads/
-ls
-cd ..
-cd images/
-rm -r thumbs/
+git add .
+git commit -m "Image as <figure>"
 gst
 cd ..
-gst
-ls
-cd css
-ls
-cd ../js/
-ls
-em manager.py 
-em manager.py 
-em jquery.min.js 
-cat jquery.min.js 
-rm jquery.min.js 
-ls
-gst
-git_rm_unstaged.py 
-mv manager.py jquery.min.js
-gst
-git_rm_unstaged.py 
 git add .
 gst
-gi add .
-gst
-cd ../..
-git add .
-gst
-cd ..
-em manager.py 
-git add .
-gst
-git commit -m "fix"
+git commit -m "custom LOG_PATH"
+git pull 
+git pull origin master
 git push
 ls
-(fild-file "*scratch*")
-(find-file "*scratch*")
-(find-file "*aaaa*")
-dweb
-gst
-git pull
-em templates/perf/metrics/
-ls
-gst
-cd perf/
-ls
-touch tables.py
-touch forms.py
-ls ../users/
-em views.py
+em manager.py 
+python manager.py 
+jobs
+jobs
+fg
 ls
 cd ..
-cd ~/GitHub/django-tables2/
+python manager.py 
 ls
-dwb
+em manager.py 
+em manager.py 
+python manager.py 
 ls
-deweb
-dweb
-em ../../xiaoli.org
+./manager.py product
+./manager.py product
 ls
-cd tango/ui/tables/
+em log/tornado.log 
+./manager.py product
 ls
-em *.py
+gst
+git add .
+git commit -m "Update manager.py"
+git push
+python manager.py debug
+git add .
+git commit -m "fix manager.py"
+python manager.py debug
+git add .
+git commit -m "fix manager.py"
+git push
 ls
-dweb
+./manager.py product
 ls
-em users/t
-em users/tables.py
-cd tango/ui/
-cd
-em index.html
-google-chrome index.html 
+./manager.py product
 ls
+cd ..
 ls
-dtest
-ls
-em test_sqlalchemy_join_order.py
-v 5-
-ls
+./manager.py 
+python manager.py &
 jobs
-dweb
+fg
+gst
+cd .emacs.d/
 ls
-cd perf/
+em ini
+em init.el 
+cd ~/Dropbox/Books/pdf/
 ls
-em *.py
+ll
+cls
 ls
-cd ../templates/perf/
-ls
-em test-collapse.html
-dweb
-gitk
-qgit 
-qgit 
-l
-ls
-cd ~/.emacs.d/my-plugins/
-ls
-cd Emms/
-ls
-em cache 
-ls -Shl
-jobs
-cd /media/Apps/Archive/Music/
-ls
-ls
-dweb
-ls
-em perf/*.py
-alias ls 'ls -l $*'
-ls
-alias ems 'em $*'
-ems perf/*.py
-alias ems 'em $1'
-ems perf/*.py
-ls
-ls
-ls
-em ~/.emacs.d/.eshell/alias 
-ls
-jobs
-jobs
+ll
+ll
+sdcv hose
 cd ~/.emacs.d/
-du --max-depth 1 -h
 ls
+find . -name "snapi*" 
+find . -name "*sna*" 
+find . -name "*yas*" 
+cd emacs-starter-kit/elpa-to-submit/
 ls
-ls -l
+cd yasnippet/
 ls
-ls -Shl
-du --max-depth 1 -h
+cd snippets/
+ls
+ls html-mode/
+mkdir jinja2-mode
+rm -r jinja2-mode/
+cp -r html-mode/ jinja2-mode
+ls
+dmw
+ls
+grep -nr "db.Text" .
 gst
-em a
-em *
-em *
-em *
+ll
+em ../manager.py 
+dmw
 ls
-em
-em *
-em a
-em init.el 
-em *
-em *
-em *
-em init.el 
-em init.el 
-em init.el 
-em init.el 
-One file:init.el
-em init.el 
-em init.el 
-em init.el 
-em init.el 
-em init.el 
-em init.el 
-em init.el 
-em *
-abbrev_defsac-comphist.datauto-save-list/backups/custom.elemacs-for-python/emacs-starter-kit/games/init.elloaddefs.elmy-defuns.elmy-face-settings.elmy-hooks.elmy-key-bindings.elmy-plugins/thumbs/trampurl/
-abbrev_defsac-comphist.datauto-save-list/backups/custom.elemacs-for-python/emacs-starter-kit/games/init.elloaddefs.elmy-defuns.elmy-face-settings.elmy-hooks.elmy-key-bindings.elmy-plugins/thumbs/trampurl/
-em *
-em *
-em *
+em uwsgi.js
 ls
-ls url/
-ls thumbs/
-ls games/
-ls .eshell/
-em .eshell/
-em .eshell/*
-em .eshell/*
-em .eshell/*
-em .eshell/*
-em .eshell/*
+mv uwsgi.js ..
+cd ..
 ls
-em .eshell/*
-em .eshell/*
-em .eshell/*
-dweb
+em uwsgi.js 
 ls
+mv uwsgi.js uwsgi.yaml
+em us
+em uwsgi.yaml 
+fg
 gst
 git add .
-git commit -m "Collapse support (beginning)"
-gst
+git commit -m "uwsgi + nginx deploy"
+git ll
 git pull
+git pull origin master
 git push
-(print '("A" "b" "c"))
-jobs
-em
 ls
-em index.html 
-em index.html 
+cp uwsgi.yaml uwsgi-vps.yaml
+em uwsgi-vps.yaml 
+git add .
+git commit -m "add uwsgi-vps.yaml"
+git push
 ls
-jobs
+grep -nr defer .
+git add .
+git commit -m "remove defer"
+git push
+fg
+em uwsgi.yaml 
+dmw
+ls
+cd vps/
+ls
+em views.py
+cd ../..
+ls
+em manager.py
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+fg
+python manager.py 
+python manager.py 
+gst
+git add .
+git commit -m "基本的Linux命令操作"
+git add .
+python manager.py 
+gst
+git add .
+git commit -m "little fix"
+git push
 dweb
-ls
-em perf/views.py
-jobs
-hosts_setup_OnL.py 
-hosts_setup_OnL.py  --help
-em ~/Dropbox/Code/Python/bin/hosts_setup_OnL.py 
-proxychains  hosts_setup_OnL.py 
-ls
-dtest
-s
-ls
-em test_sqlalchemy_jon
-em test_sqlalchemy_join_order.py 
+./server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 

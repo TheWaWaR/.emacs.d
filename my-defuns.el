@@ -118,8 +118,23 @@
 
 (defun datetime ()
   (interactive)
-  (insert (format-time-string "<%Y-%m-%d %H:%M:%S>"))
+  (insert (format-time-string "[%Y-%m-%d %H:%M]"))
   )
+
+(defun open-org-file (loc)
+  (setq daily-dir (concat "/home/weet/Dropbox/Emacs/" loc "/"))
+  (setq daily-file-name (concat (format-time-string "%Y-%m-%d") ".org"))
+  (concat daily-dir daily-file-name)
+  )
+
+(defun do-daily-task ()
+  (interactive)
+  (find-file (open-org-file "daily-task")))
+
+(defun do-diary ()
+  (interactive)
+  (find-file (open-org-file "diary")))
+
 
 
 (defun alpha-transparency ()

@@ -109,6 +109,7 @@
 
 (setq eshell-directory-name (concat dotfiles-dir ".eshell"))
 (setq py-indent-offset 4)
+(setq org-log-done 'time)
 (setq-default indent-tabs-mode nil)     ; 用空格替换 tab
 (setq eshell-history-size 1000)
 (setq display-time-24hr-format t)
@@ -120,6 +121,7 @@
 (global-undo-tree-mode)
 (setq line-number-mode t)
 (setq column-number-mode t)
+(set-default 'truncate-lines t)
 
 
 (use-the-sdcv)
@@ -167,6 +169,15 @@
 
 
 (epy-setup-checker "pyflakes %f")
+
+
+(setq edit-server-default-major-mode 'markdown-mode)
+(when (require 'edit-server nil t)
+  (setq edit-server-new-frame nil)
+  (edit-server-start))
+;; (when (and (require 'edit-server nil t) (daemonp))
+;;   (edit-server-start))
+
 
 (if (and (fboundp 'server-running-p)
          (not (server-running-p)))

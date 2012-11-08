@@ -3,6 +3,7 @@ thumbs
 games
 url
 tramp
+.eshell/*
 session.*
 *.elc
 *.py[co]

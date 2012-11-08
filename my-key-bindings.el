@@ -21,7 +21,7 @@
   (global-set-key (kbd "C-<") 'tabbar-backward)
   (global-set-key (kbd "C-c g") 'my-find-grep)
   (global-set-key (kbd "C-c t") 'datetime)
-  (global-set-key (kbd "C-c j") 'jinja2-mode)
+  (global-set-key (kbd "C-c k") 'do-daily-task)
   (global-set-key [f6] 'emms-random)
   )
 
