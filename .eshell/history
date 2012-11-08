@@ -1,52 +1,3 @@
-cd ../..
-ls
-gst
-cd -
-ls
-cd perf/
-ls
-cd perf/
-ls
-cd perf/
-ls
-cd 
-cd -
-cd ../../..
-ls -R
-cd ..
-ls -R
-rm -r perf/
-ls
-cd ..
-ls
-cd templates/perf/
-ls
-cd thresholds/
-ls
-cp edit.html new.html
-em edit.html new.html 
-em edit.html 
-em new.html 
-cd ..
-ls
-mv miboids/ ../admin/
-cd ../admin/
-ls
-gst
-cd miboids/
-em index.html 
-git add .
-git commit
-cd ~/.emacs.d/emacs-starter-kit/elpa/magit-0.8.1/
-ls
-em magit.el
-dweb
-git add .
-gst
-git_rm_unstaged.py 
-git commit -m "1. 阀值: [添加, 搜索], 2. MIB移到admin中"
-git pull
-grep -nr ">>>>" .
 gst
 grep -nr ">>>>" .
 git add .
@@ -998,3 +949,52 @@ python server.py
 python server.py 
 python server.py 
 python server.py 
+dmw
+ls
+gst
+git check -- .
+git checkout -- .
+gst
+cd ..
+git checkout -- .
+gst
+git commit -m "..."
+git pull
+git pull origin master
+ls
+cd deploy/
+ls
+git rm uwsgi-arch.yaml uwsgi-vps.yaml 
+gst
+grep -nr "<<<<" .
+cd ..
+ls
+git rm nginx.conf
+gst
+git add .
+git commit -m "merge"
+gst
+git pull origin master
+git push
+gst
+git push origin master
+ls
+git pull
+git pull origin master
+ls
+cd ..
+ls
+dweb
+dmw
+ls
+cd ..
+python manager.py 
+gst
+git add .
+git commit -m "vps change"
+git pull origin master
+git push origin master
+git push origin master
+python manager.py 
+python manager.py 
+python manager.py 

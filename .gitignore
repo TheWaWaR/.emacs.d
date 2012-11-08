@@ -3,7 +3,8 @@ thumbs
 games
 url
 tramp
-.eshell/*
+.eshell/history
+.eshell/lastdir
 session.*
 *.elc
 *.py[co]
