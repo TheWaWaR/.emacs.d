@@ -5,6 +5,8 @@ alias ll ls -l
 alias dluck cd ~/Dropbox/liquidluck/
 alias dweb cd ~/GitHub/environments/FlaskLearn/xiaoli/web/
 alias dmw cd ~/GitHub/environments/FlaskLearn/vps-BluePrint/myway/
+alias dnb cd ~/GitHub/nodehub/web/
 alias dnav cd ~/GitHub/nav-default/
+alias dd3 cd ~/GitHub/d3js/
 alias dpy cd ~/Dropbox/Code/Python/bin
 alias dtest cd ~/GitHub/environments/FlaskLearn/test_stuff/

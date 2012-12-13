@@ -1,2 +1,4 @@
 ;;; -*- coding: utf-8 -*-
-(("/home/weet/.emacs.d/my-plugins/markdown-mode.el" . 49495))
+(("/home/weet/.emacs.d/emacs-for-python/epy-python.el" . 65)
+ ("/home/weet/.emacs.d/emacs-for-python/extensions/python.el" . 103579)
+ ("/home/weet/GitHub/nodehub/web/static/css/foundation/javascripts/app.js" . 2472))

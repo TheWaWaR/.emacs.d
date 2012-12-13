@@ -74,7 +74,8 @@
                                         (car cur-path-list)))
                       ;; Neither ( / ) nor ( /bar )
                       (concat
-                       (if (= (- cur-path-len (length home-path-list)) 1) "~"
+                       (if (and (= (- cur-path-len (length home-path-list)) 1)
+                                (equal  (reverse  (cdr (reverse  cur-path-list))) home-path-list)) "~"
                          (nth (- cur-path-len 2) cur-path-list))
                        "/" (car (last cur-path-list))))))))
             (if (= (user-uid) 0) " # " " $ ")))
@@ -139,7 +140,7 @@
 
 (defun alpha-transparency ()
   (interactive)
-  (set-frame-parameter (selected-frame) 'alpha '(80 75))
+  (set-frame-parameter (selected-frame) 'alpha '(85 80))
   )
 
 (defun full-transparency ()
@@ -297,20 +298,22 @@
       (progn
         (eshell-printn "Many Files:")
         (eshell-printn files)
-       (mapcar '(lambda (file &res args)
-                  (progn
-                    (eshell-printn args)
-                    (eshell-printn file)
-                    ;;(setq tv (read-string "Open it? "))
-                    (find-file file)
-                    )) files)
-       )
+        (mapcar '(lambda (file)
+                   (progn
+                     (eshell-printn "START:")
+                     (eshell-printn file)
+                     (find-file file)
+                     (eshell-printn "DONE")
+                     )) files)
+        )
     (eshell-printn "One file:")
     (eshell-printn files)
     (find-file files)
     )
   )
 
+
+(mapcar '(lambda  (item) (message (concat "-" item "-")))  '("AA" "BB" "CC"))
 (setq alist '("A" "B"))
 (elt ["A" "B" "C"] 1)
 

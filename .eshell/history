@@ -1,1000 +1,1000 @@
-gst
-grep -nr ">>>>" .
-git add .
-gst
-git commit -m "merge by <Qian LinFeng>"
-git push
-gst
+cd templates/networkexplorer/
+ls
+em base.html 
+git pull --help
 ls
 ls
-cd system/
+dweb
 ls
-jobs
+em nodes/views
+em nodes/views.py
+qgit
+em users/views.py
+cd 
+dweb
+ls
+./server.py 
+python server.py 
+ls
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+ls
+python server.py 
+ls
+em settings.py 
+em settings.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+ls
+dweb
+ls
 gst
+ls
+cd admin/
 ls
 em views.py
-google-chrome ~/Dropbox/Documents/Opengoss/Requirements/性能管理设计说明书-2.pdf 
-mail
-mail
-mail
-mail
-cd ..
-gst
-rm tango/ui/tables/\#tables.py\# 
-ls
-gst
-git add .
-git commit -m "初步完成采集规则"
-git pull
-grep -nr "<<<<" .
-grep -nr ">>>>" .
-gst
-git add .
-gst
-git_rm_unstaged.py 
-git add .
-git commit -m "修改采集规则样式"
-git pull
-(setq emms-show-format "NP: %s")
-(setq emms-show-format "%s")
-git push
-ls
-ls
-ls
-cd tango/
-ls
-cd ui/tables/
-ls
-em tables.py
-dtest
-ls
-em test_sqlalchemy_join_order.py 
 dweb
-grep -nr "class Miboids" .
-grep -nr "class Miboid" .
-dweb
-cd nodes/
-em models.py
-cd ..
-grep -nr "db[.]relation" .
 ls
-mail
-mail
-mail
-grep -nr " *= *db[.]relation" .
-cd ~/.emacs.d/
+cd ..
+ls
+cdd web/
+ls
+cd web/
+ls
+em test.py 
+python test.py 
+python test.py 
+python test.py 
+python test.py 
+python test.py 
+python test.py 
+ls
+ls
+v 5-
+v 5-ls
+ls
+v 5+
+em we
+em webapp.py
+v 5+
+v 5+
+df -h
+free m
+free -m
+ps aux 
+df -h
+ls
+df -h
+cd /media/Apps
+ls
+ls
+python server.py 
+ls
 ll
-em my-key-bindings.el 
-mail
-mail
+ll
+ll
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
 dweb
 ls
-em tango/ui/tables/
-dweb
 ls
-gst
-git add .
-git commit -m "增加 table 中对外键(Example: UserTable > role_name)排序的支持"
-git pull
-grep -nr ">>>>" .
-git push
+python server.py 
+ls
+ls
+ls
+cd python/
+ls
+ls
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+l
+ll
+cd /media/
+ls
+cd weet/Depot/Media/Music/
+ls
+unrar Joe.Hisaishi
+unrar Joe.Hisaishi.-.\[Piano.Stories\].专辑.\(APE\).rar 
+man unrar
+unrar  dJoe.Hisaishi.-.\[Piano.Stories\].专辑.\(APE\).rar 
+unrar e Joe.Hisaishi.-.\[Piano.Stories\].专辑.\(APE\).rar 
+ls
+cd Joe.Hisaishi-Freedom-Piano.Stories.4-By.Leffe-HQshare.net/
+ls
+nautilus .
+vlc Hisaishi-PStories4.ape
+mplayer Hisaishi-PStories4.ape
 cls
-qgit 
-cd templates/users/
-find . \( -name "*new*.html"  -name "*edit*.html" \)
+mplayer Hisaishi-PStories4.ape
+cd ..
 ls
-find . -name "*new*.html"
-find . \( -name "*new*.html" -o  -name "*edit*.html" \)
-em new.html 
+mplayer Joe.Hisaishi*.ape
+mplayer Joe.Hisaishi*.ape
+mplayer Joe.Hisaishi*.ape
 ls
-cd permissions/
+cd Mozart/
 ls
-git rm edit.html new.html 
-gst
-gst
+cd Mozart.-.\[Die.Zauberflote.\(Karajan,BPO,Hornik,Perry\)\].\(Flac\)/
+ls
+cd CD1
+ls
+mplayer 01.\ O乿erture.flac 
+mplayer 09
+mplayer 07.\ Nr.\ 6.\ Tercett\ -\ \'Du\ feines\ T剈bchen,\ nur\ herein\!\'.flac 
+mplayer 07.\ Nr.\ 6.\ Tercett\ -\ \'Du\ feines\ T剈bchen,\ nur\ herein\!\'.flac 
+mplayer 06.\ Nr.\ 5.\ Quintett\ -\ \'Hm,\ hm,\ hm\'.flac 
+mplayer 05.\ Nr.\ 4.\ Recitativ\ und\ Arie\ -\ \'O\ zittre\ nicht,\ mein\ lieber\ Sohn\!\'.flac 
+ls
+cd /media/weet/Wait/
+ls
+cd Boston.Legal.S03/
+ls
+cd English/
+ls
 cd ../..
 ls
-dweb
+cd ~/
 ls
-gst
+dnav
+ls
+cd /media/weet/
+cd Wait/
+pwd
+pwd
+(getenv "HOME")
+(eshell/pwd)
+cd /media/weet/
+ls
+cd Wait/
+ls
+ll
+cd /media/weet/Wait/
+ls
+cd /media/weet/Wait/
+ls
+ll
+cd 
+cd .emacs.d/
+ls
+cd ../Pictures/
+ls
 cd
-find . -name "*jinja*.pdf"
-dweb
 ls
-cd perf/
+cd /media/weet/
+cd Wait/
 ls
+pwd
 ls
-ls
-cd ../templates/perf/metrics/
-ls
-cp ../thresholds/edit.html .
-cp ../thresholds/new.html .
-ls
-gst
-dweb
-gst
-git add .
-git commit -m "1. 表格斑马线, 2. somefix"
-git pul
-git pull
-git push
-ipython
-ls
-cl
 cls
-ls
-cd templates/perf/
-ls
-cd metrics/
-ls
-rm new.html 
-mv edit.html new-edit.html
-em new-edit.html 
 pwd
-grep -nr "form-actions" .
-cd ..
-grep -nr "form-actions" .
-cd ..
-grep -nr "form-actions" .
+ls
+ls
+cd ~/GitHub/d3js/
+ls
+cd examples/tr
+cd examples/tree
+ls
+mkdir ~/GitHub/environments/FlaskLearn/xiaoli/web/static/js/topo
+cd ~/GitHub/environments/FlaskLearn/xiaoli/web/static/js/topo
+ls
+cp ~/GitHub/d3js/d3.v2.js .
+ls
+cp ~/GitHub/d3js/examples/tree/tree-radial.js .
+cp ~/GitHub/d3js/examples/tree/tree.css .
+ls
+em tree-radial.js 
 dweb
-git add .
+ls
+python server.py 
+python server.py 
+python server.py 
+(* 14 (* 15 16))
+python server.py 
+ls
+ls
+ll
+em topo/views.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+ls
+dweb
+ls
+ll
+em local_settings.py
+em topo/test.
+em topo/views.py
 gst
-git_rm_unstaged.py 
-dpy
-ls
-em git_rm_unstaged.py 
-em git_rm_unstaged.py 
-cd -
-git_rm_unstaged.py 
-ls
-em TODO 
-ls
-pwd
-ls
-ls
-gst
-git commit -m "指标管理"
-git pull
-git push
-ls
-pwd
-em system/views.py
-ls
-cd nodes/
-ls
-em views
-em views.py
-ls
-cd ..
-ls
-gst
-git add .
-git commit -m "表单样式重构"
+git add . 
+git commit -m "topo update"
 git pull
 grep -nr ">>>>" .
-git push
-em server.py 
+grep -nr "<<<<" .
 gst
+git add .
+git commit -m "merge"
+git pull;git push
 ls
-cd templates/
+gst
+git add .
+git commit -m "topo update"
+git pull;git push
+gst
+git add .
+git commit -m "topo update"
+git pull;git push
+dd3
+find . -name "*mooth*" 
+find . -name "*zoom*" 
+cd examples/zoom-pan/
+ls
+em zoom-smooth.html
+dweb
+gst
+git add .
+git commit -m "topo update"
+git pull;git push
+gst
+git checkout -- static/js/topo/test.js 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+cls
+python server.py 
+cls
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+cls
+python server.py 
+cls
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+cls
+python server.py 
+python server.py 
+ls
+ll
+dpy
+ls
+cd ..
+ls
+em codes_sh.txt 
+em watch-stocks.py 
+python watch-stocks.py 
+em watch-stocks.py 
+python watch-stocks.py 
+python watch-stocks.py 
+python watch-stocks.py 
+python watch-stocks.py 
+python watch-stocks.py 
+python watch-stocks.py 
+python watch-stocks.py 
+python watch-stocks.py 
+python watch-stocks.py 
+python watch-stocks.py 
+python watch-stocks.py 
+python watch-stocks.py 
+python watch-stocks.py 
+python watch-stocks.py 
+python watch-stocks.py 
+python watch-stocks.py 
+python watch-stocks.py 
+python watch-stocks.py 
+python watch-stocks.py 
+cls
+ls
+python watch-stocks.py 
+cls
+dpy
+cd ..
+python watch-stocks.py 
+ls
+dweb
+ls
+em topo/views.py
+em templates/topo/test.html 
+ls
+cd static/js/topo/
+em test.js 
+em test.css 
+em tree-circle.js 
+em tree-interactive.js 
+(1.0 - (/ 58 494))
+(- 1.0 (/ 58 494))
+(- 1.0 (/ 58.0 494))
+dweb
+dweb
+gst
+git add .
+git commit -m "topo 多layout 支持"
+git pull
+grep -nr "<<<<" .
+git add .
+git commit -m "merge"
+git pull;git push
+gst
+git add .
+cd static/js/topo/
+grep -nr "lastid"
+grep -nr "lastId" .
+dweb
+git add .
+gst
+git commit -m "topo 完善多布局支持"
+git pull; git push
+git add .
+git commit -m "topo tree interactive 优化"
+git pull ;git push
+git add .
+git commit -m "topo tree directory 优化"
+git status
+git add .
+git commit -m "topo 链接状态支持和一些优化"
+git pull;git push
+ls
+ls
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+cls
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+cls
+python server.py 
+cls
+python server.py 
+cls
+python se
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+cls
+cls
+python server.py 
+cls
+python server.py 
+python server.py 
+python server.py 
+ddw
+dpy
+cd ..
+ls
+em watch-stocks.py 
+ls
+python watch-stocks.py 
+python watch-stocks.py 
+cls
+python watch-stocks.py 
+python watch-stocks.py 
+python watch-stocks.py 
+python watch-stocks.py 
+ls
+python watch-stocks.py 
+python watch-stocks.py 
+cls
+python watch-stocks.py 
+python watch-stocks.py 
+python watch-stocks.py 
+python watch-stocks.py 
+python watch-stocks.py 
+python watch-stocks.py 
+python watch-stocks.py 
+python watch-stocks.py 
+python watch-stocks.py 
+python watch-stocks.py 
+python watch-stocks.py 
+python watch-stocks.py 
+python watch-stocks.py 
+python watch-stocks.py 
+python watch-stocks.py 
+python watch-stocks.py 
+python watch-stocks.py 
+python watch-stocks.py 
+python watch-stocks.py 
+python watch-stocks.py 
+python watch-stocks.py 
+python watch-stocks.py 
+ls
+dweb
+ls
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+ls
+dpy
+cd ../Stocks/
+ls
+cd stocks/
+l
+ls
+em logs/2012-11-26.log 
+ls
+cd utf8-version/logs/
+em 2012-11-26.log 
+ls
+dpy
+ls
+cd ../Stocks/
+ls
+cd stocks/
+ls
+cd utf8-version/
+ls
+ls -R -Shl
+ls
+ll
+em stocksutf8.py 
+em stocksutf8.py 
+ls
+cd ..
+ls
+ls
+dweb
+ls
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+cls
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+cd tango/ui/
+ls
+ls
+dweb
+python server.py 
+python server.py 
+ls
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+cls
+python server.py 
+cls
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+cl
+cls
+python server.py 
+python server.py 
+ls
+dweb
+ls
+clear
+cd ~/Don
+cd ~/Downloads/
+ls
+cp a.sql a.backup
+ls
+dnb
 ls
 cd users/
 ls
-em new.html 
-cd ..
-touch perf/test-fieldset.html
-gst
-cd ..
-git add .
-git commit -m "表单样式修改"
-git pull
-git push
-cd tn
-cd tango/
-em base.py
-cd ..
-git add .
-git commit -m "1. make_table 的移动, 2. 修改一些表单样式."
-git pull
-git push
-em ../../xiaoli.org 
-git add .
-git commit -m "some fix"
-git pull
-git push
-em local_settings.py
-ls
-cd tango/
-ls
-cd ~/GitHub/django-tables2/
-ls
-cd django_tables2/
+em models.py 
 ls
 cd ..
+ls
+em __init__.py 
+ls
+dwb
 ls
 dweb
 ls
-cd - 
-ls
-cd tests/
-ls
-cd ..
-ls
-dweb
-cls
-ls
-jobs
-ls
-ls /var/www
-cd /var/www/wordpress/
-ls
-vim license.txt 
-em license.txt 
-dweb
-ls
-mv docs/ ../..
-cd ../..
-ls
-mv docs/ backups/
-cd b
-cd backups/
-ls
-mv docs/ xiaoli-docs-backup 
-mv xiaoli-docs-backup/ ~/Dropbox/Documents/Opengoss/
-ls
-dweb
-ls
-cd ..
-ls
-pwd
 cd -
 ls
-cls
+dweb
+em scripts.py 
+mkdir scripts
+ls
+mv scripts.py cp_db.py
+mv cp_db.py scripts/
+mv decrypt_license.py* scripts/
+mv generate_license.py scripts/
+mv hunan.csv scripts/
+ls
+mv LICENSE.hunan scripts/
 ls
 gst
-cp ~/Dropbox/Documents/Opengoss/xiaoli-docs-backup/ docs
-cp -r ~/Dropbox/Documents/Opengoss/xiaoli-docs-backup/ docs
-ls
+mv scripts/* .
 gst
-mail
-mail
-mail
-ls
+mv cp_db.py scripts.py
 gst
-git add .
-git commit -m "删除所有项"
-git pull
-grep -nr ">>>>" .
-grep -nr "<<<<" .
-git push
-w3m 
-cd ~/GitHub/
-git clone https://github.com/emacsmirror/w3m.git emacs-w3m
-du --max-depth=1 -h
-df -h
+git mv scripts.py copydb.py
 ls
-jobs
+cd deploy/
 ls
-w3m --version
-w3m -v
+cd conf/
 ls
-q
+cd ../..
 ls
-cls
+git mv copydb.py scripts/
+ls
+dnb
+ls
+em __init__.py 
+ls
+mv server.py  ..
+ls
+cd ..
+ls
+cd nodebus/
+ls
+em __init__.py 
+ls
+em __init__.py 
+cd ..
+ls
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
 ls
 ls
-cd GitHub/emacs-w3m/
+rm server.py 
 ls
-./install-sh 
-dmw
+cd nodebus/
 ls
-cd blog/
+mv __init__.py server.py
+chmod u+x server.py 
+ls
+cd ..
+ls
+ls -al
+rm -r .git
+mv nodebus/ nodehub
+ls
+cd ..
+mv node-bus/ nodehub
+ls
+cd nodehub/
+ls
+cd nodehub/
+ls
+ls nodes/
+ls
+rm -r nodes/
 ls
 ls
-em models.py
-touch __init__.py views.py
+rm -r tango/
+ls
+ls
+rm __init__.pyc 
+ls
+cd users/
+ls
+cd ..
+ls
+mv users/ nodehub
+ls
+ls
+mv * ..
+ls
+mv -r nodehub/ ..
+ls
+ls
+cd ..
+ls
+cd nodehub/
+ls
+ls -R
+cd ..
+ls
+cd nodehub/
+ls
+mv nodehub/ ../nh 
+cd ..
+ls
+ls -R
+ls
+mv files/ others
+ls
+ls nodehub/
+ls -al nodehub/
+rm -r nodehub/
+ls
+mv nh/ nodehub
+ls
+mv local_settings.py locals.py
+em se
+ls
+mv locals.py  local_settings.py
+ls
+git init
+gst
+ls
+em server.py 
+ls
+cd nodehub/
+ls
 em views.py 
 ls
 cd ..
 ls
-mv doc/ ..
-cd ..
+em server.py 
 ls
-cd myway/
+python server.py 
 ls
-gst
-mv ../doc/ .
-git mv doc/ ..
-ls
-gst
-ls
-em utils.py
-mkdir common
-cd common/
-ls
-touch __init__.py
-touch views.py models.py
-em models.py 
-cd ../blog/
-touch constant.py
-em constant.py 
-ls
-cd ..
-ls
-cd project/
-ls
-touch __init__.py views.py models.py constants.py forms.py
-ls
-cd ..
-ls
-cd mldonkey/
-touch __init__.py views.py models.py constants.py forms.py
-cd ../vps/
-touch __init__.py views.py models.py constants.py forms.py
-ls
-cd ..
-ls
-cd chat/
-ls
-touch __init__.py views.py models.py constants.py forms.py
-cd ../common/
-ls
-touch __init__.py views.py models.py constants.py forms.py
-ls
-em models.py 
-ls
-em models.py 
-ls
-ls
-cd ..
-tree
-ls
-cd ..
-ls
-cd myway/
-ls
-ls
-cd blog/
-touch forms.py
-ls
-gst
-cd ..
-rm gallery/\#views.py\# 
-ls
-cd static/uploads/
-ls
-ls
-tree
-cd images/
-ls
-rm *
-mkdir thumbs
-ls
-ls
-cd ..
-ls
-cd images/
-ls
-cd thumbs/
-ls
-cd ..
-ls
-cd ..
-tree
-cd ..
-ls
-cd ../templates/
-grep -nr "style" .
-cd ..
-cd static/cs
-cd static/css/
-ls
-em extra.css 
-cd ../../templates/
-grep -nr "block row" .
-ls
-grep -nr "block main"
-grep -nr "block main" .
-grep -nr "block content" .
-ls
-cp layout.html old-layout-2.html 
-git mv layout-old.html old-layout-1.html 
-gst
-gst
-cd ..
-em ../.gitignore 
-ls
-ls
-cd static/
-grep -nr "bg-gray-noise.jpg". 
-grep -nr "bg-gray-". 
-grep -nr "bg-gray-" . 
-cp ~/Pictures/LOGO.png .
-ls
-cd images/
-ls
-cd kube/
-ls
-cd ..
-ls
-ls
-cd ..
-mv LOGO.png images/kube/
-ls
-cd images/kube/
-ls
-cp ~/Dropbox/emacs.png .
-dmw
-ls
-cd templates/
-egrep -nr "class.*content" .
-ls
-ll
-cd ../static/
-ls
-mkdir markdown
-cd markdown/
-ls
-cp ~/Dropbox/octopress/source/_posts/* .
-ls
-rm output.html 
-ls
-em ~/Dropbox/octopress/source/_posts/output.html 
-ls
-rm *
-ls
-em test-1.md
-cd ../..
-cd ..
-mkdir tests
-ls
-cd tests/
-cd ~/GitHub/li
-cd ~/GitHub/liquidluck/
-ls
-cd tests/
-ls
-em test_readers.py 
-ls
-dmw
-ls
-cd ..
-ls
-cd tests/
-ls
-ls
-touch __init__.py
-em __init__.py 
-touch utils.py
-em utils.py 
-ls
-python utils.py 
-ls
-em common.py
-ls
-mv utils.py myway.py
-mv myway.py utils.py
-em utils.py 
-ls
-rm *
-ls
-cd ..
-rm -r tests/
-em tests.py
-cd ~/GitHub/liquidluck/
-grep -nr "startwith.*----"
-grep -nr "startwith.*----" .
-egrep -nr "startwith.*---" .
-egrep -nr "startwith" .
-ls
-egrep -nr "----" .
-grep -nr "----" .
-grep -nr "----" .
-egrep -nr "[-]{4}" .
-egrep -nr "\"[-]{4}" .
-egrep -nr "[-]{4}" .
-egrep -nr "[+]=" .
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-ls
-python manager.py 
-ls
-python manager.py 
-ls
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-cls
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-ls
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-./manager.py  
-./manager.py  
-./manager.py  
-./manager.py  
-./manager.py  
-./manager.py  
-./manager.py  
-./manager.py  
-./manager.py 
-ls
-./manager.py 
-./manager.py 
-cd ..
-cd ..
-./server.py 
+python server.py 
 em server.py 
 python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python man
 ls
 python server.py 
 python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-ll
-clear
-clear
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-gst
-git add .
-git commit -m "fix import in perf/views.py"
-git pull
-git push
+dnb
+dnb
 ls
-ls
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-pytho
-cls
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-dmw
-gst
-git add .
-git commit -m "tiny fix"
-git pull origin master
-grep -nr ">>>>" .
-ls
-em static/css/extra.css 
-dmw
+dnb
 ls
 cd ..
 ls
-./manager.py 
 ls
-em manager.py 
+dnb
 ls
-mkdir log
+python server.py 
+em nodehub/
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
 ls
 ls
-ls
-python manager.py 
-python manager.py  &
-ls
-cd log/
-tail -f tornado.log 
-gst
-cd ../.
 dweb
+ls
+python server.py 
+python server.py 
+git status
+gst checkout static/js/base.js 
+git checkout -- static/js/base.js 
+git checkout -- templates/signup.html 
+git checkout -- topo/views.py
+git checkout -- users/models.py
 gst
 git add .
-git commit -m "perf 中的搜索"
-git pull
-grep -nr ">>>>" .
+git commit -m "mkdir scripts"
+git pull;git push
+gst
 gst
 git add .
 git commit -m "merge"
-gst
-git pull
-git push
-gst
-ls
-ls
-ls
-ls
-cd templates/perf/
-ls
-find . -name "*.index.html"
-find . -name "index.html"
-em node/index.html 
-ls
-em lan/index.html 
-em olt/index.html 
-em onu/index.html 
-em eoc/index.html 
-cd ..
-ls
-cd users/
-ls
-em index.html 
-cd ../system/
-ls
-em dict-codes/index.html 
-em index.html 
-gst
-dweb
-git add .
-git commit -m "重构页面(搜索表单)"
-gst
-git pull
-git push
-gst
+git pull;git push
+python server.py 
+clear
 ls
 cls
 ls
-dmw
+dpy
+ls
+cd ..
+ls
+em watch-files2.py 
+dnb
+ls
+em nodehub/captcha.py 
+ls
+em nodehub.md
+sudo apt-get install ejabberd
+cls
+erlang
+erl
+ls
+ls
+pwd
+cd
+ls
+cls
+cd ~/GitHub/
+ls
+cd SleekXMPP/
+ls
+cd examples/
+ls
+em echo_component.py 
+ls
+em muc.py 
+dnb
+ls
+cd utils/
+l
+ls
+em xmppclient.py 
+ls
+em ping_component.py
+dwe
+dweb
+ls
+python server.py 
+python server.py 
+python server.py 
+git clone git@github.com:erylee/python-errdb-client.git
+ls
+mv python-errdb-client/ ~/GitHub/
+cd ~/GitHub/python-errdb-client/
+ls
+python setup.py 
+python setup.py install
+cd -
+ls
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+ls
+cls
+dnb
 ls
 cd templates/
 ls
-cd gallery/
+em nodes.html 
+gst
+dnb
 ls
-em index.html 
-cd ~/GitHub/misaka/
-ls
-grep -nr "class HtmlRenderer" .
-grep -nr "block_code" .
-dmw
 gst
 git add .
-git commit -m "Image as <figure>"
+gst
+git add .
+git rm templates/form-error.html
+gst
+git commit -m "imporve"
+ls
+ls
+gst
+cd ~/GitHub/nodehub/
+ls
+cd web/
+ls
+ls -R
+ls
+ls -al
+ls
+ls -al
+ls -al
+st
 gst
 cd ..
-git add .
 gst
-git commit -m "custom LOG_PATH"
-git pull 
-git pull origin master
-git push
-ls
-em manager.py 
-python manager.py 
-jobs
-jobs
-fg
-ls
-cd ..
-python manager.py 
-ls
-em manager.py 
-em manager.py 
-python manager.py 
-ls
-./manager.py product
-./manager.py product
-ls
-em log/tornado.log 
-./manager.py product
-ls
-gst
-git add .
-git commit -m "Update manager.py"
-git push
-python manager.py debug
-git add .
-git commit -m "fix manager.py"
-python manager.py debug
-git add .
-git commit -m "fix manager.py"
-git push
-ls
-./manager.py product
-ls
-./manager.py product
 ls
 cd ..
 ls
-./manager.py 
-python manager.py &
-jobs
-fg
-gst
-cd .emacs.d/
+cd -
 ls
-em ini
-em init.el 
-cd ~/Dropbox/Books/pdf/
+cd web/
 ls
-ll
-cls
-ls
-ll
-ll
-sdcv hose
-cd ~/.emacs.d/
-ls
-find . -name "snapi*" 
-find . -name "*sna*" 
-find . -name "*yas*" 
-cd emacs-starter-kit/elpa-to-submit/
-ls
-cd yasnippet/
-ls
-cd snippets/
-ls
-ls html-mode/
-mkdir jinja2-mode
-rm -r jinja2-mode/
-cp -r html-mode/ jinja2-mode
-ls
-dmw
-ls
-grep -nr "db.Text" .
-gst
-ll
-em ../manager.py 
-dmw
-ls
-em uwsgi.js
-ls
-mv uwsgi.js ..
+ls -al
+ls -al
 cd ..
 ls
-em uwsgi.js 
-ls
-mv uwsgi.js uwsgi.yaml
-em us
-em uwsgi.yaml 
-fg
 gst
 git add .
-git commit -m "uwsgi + nginx deploy"
-git ll
-git pull
-git pull origin master
-git push
-ls
-cp uwsgi.yaml uwsgi-vps.yaml
-em uwsgi-vps.yaml 
-git add .
-git commit -m "add uwsgi-vps.yaml"
-git push
-ls
-grep -nr defer .
-git add .
-git commit -m "remove defer"
-git push
-fg
-em uwsgi.yaml 
-dmw
-ls
-cd vps/
-ls
-em views.py
-cd ../..
-ls
-em manager.py
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-fg
-python manager.py 
-python manager.py 
 gst
 git add .
-git commit -m "基本的Linux命令操作"
-git add .
-python manager.py 
 gst
-git add .
-git commit -m "little fix"
-git push
-dweb
-./server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-dmw
-ls
+git commit -m "Init web"
+git pull; git push
 gst
-git check -- .
-git checkout -- .
-gst
-cd ..
-git checkout -- .
-gst
-git commit -m "..."
-git pull
-git pull origin master
-ls
-cd deploy/
-ls
-git rm uwsgi-arch.yaml uwsgi-vps.yaml 
-gst
-grep -nr "<<<<" .
-cd ..
-ls
-git rm nginx.conf
 gst
 git add .
 git commit -m "merge"
-gst
-git pull origin master
-git push
-gst
-git push origin master
-ls
-git pull
-git pull origin master
+git pull;git push
 ls
 cd ..
+ls
+cd ejabberd/
+ls
+cd ..
+ls
+ls
+cd nodehub/
+cd ../web/
+ls
+cd utils/
+ls
+em ping_component.py 
+cd ..
+ls
+em nodehub
+em nodehub.md 
+python server.py 
+ls
+dewb
 ls
 dweb
-dmw
 ls
-cd ..
-python manager.py 
+em users/
+ls
+em templates/lay
+em templates/layout.html
+dwe
+dweb
+ls
+dnb
+cd -
+em webapp.py
+dweb
+em users/views.py
+dweb
+ls
 gst
 git add .
-git commit -m "vps change"
-git pull origin master
-git push origin master
-git push origin master
-python manager.py 
-python manager.py 
-python manager.py 
+git commit -m "fix area delete case load domains touch NoneType"
+git pull
+gst
+git add .
+git commit -m "merge"
+git pull;git push
+gst
+dpy
+ls
+cd ../..
+ls
+cd Wiki/
+ls
+em Mysql.sql 
+dweb
+ls
+cd alarms/
+em models.py

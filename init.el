@@ -108,6 +108,7 @@
 (require 'highlight-indentation)
 
 (setq eshell-directory-name (concat dotfiles-dir ".eshell"))
+(setq multi-eshell-shell-function '(eshell))
 (setq py-indent-offset 4)
 (setq org-log-done 'time)
 (setq-default indent-tabs-mode nil)     ; 用空格替换 tab
@@ -191,7 +192,7 @@
     (progn
       (require 'my-face-settings)
       (custom-gui-key-bindings)
-      (full-transparency)
+      (alpha-transparency)
       (my-fullscreen)
       )
   (custom-terminal-key-bindings)
