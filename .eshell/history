@@ -1,490 +1,5 @@
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-ls
-dweb
-ls
-gst
-ls
-cd admin/
-ls
-em views.py
-dweb
-ls
-cd ..
-ls
-cdd web/
-ls
-cd web/
-ls
-em test.py 
-python test.py 
-python test.py 
-python test.py 
-python test.py 
-python test.py 
-python test.py 
-ls
-ls
-v 5-
-v 5-ls
-ls
-v 5+
-em we
-em webapp.py
-v 5+
-v 5+
-df -h
-free m
-free -m
-ps aux 
-df -h
-ls
-df -h
-cd /media/Apps
-ls
-ls
-python server.py 
-ls
-ll
-ll
-ll
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-dweb
-ls
-ls
-python server.py 
-ls
-ls
-ls
-cd python/
-ls
-ls
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-l
-ll
-cd /media/
-ls
-cd weet/Depot/Media/Music/
-ls
-unrar Joe.Hisaishi
-unrar Joe.Hisaishi.-.\[Piano.Stories\].专辑.\(APE\).rar 
-man unrar
-unrar  dJoe.Hisaishi.-.\[Piano.Stories\].专辑.\(APE\).rar 
-unrar e Joe.Hisaishi.-.\[Piano.Stories\].专辑.\(APE\).rar 
-ls
-cd Joe.Hisaishi-Freedom-Piano.Stories.4-By.Leffe-HQshare.net/
-ls
-nautilus .
-vlc Hisaishi-PStories4.ape
-mplayer Hisaishi-PStories4.ape
-cls
-mplayer Hisaishi-PStories4.ape
-cd ..
-ls
-mplayer Joe.Hisaishi*.ape
-mplayer Joe.Hisaishi*.ape
-mplayer Joe.Hisaishi*.ape
-ls
-cd Mozart/
-ls
-cd Mozart.-.\[Die.Zauberflote.\(Karajan,BPO,Hornik,Perry\)\].\(Flac\)/
-ls
-cd CD1
-ls
-mplayer 01.\ O乿erture.flac 
-mplayer 09
-mplayer 07.\ Nr.\ 6.\ Tercett\ -\ \'Du\ feines\ T剈bchen,\ nur\ herein\!\'.flac 
-mplayer 07.\ Nr.\ 6.\ Tercett\ -\ \'Du\ feines\ T剈bchen,\ nur\ herein\!\'.flac 
-mplayer 06.\ Nr.\ 5.\ Quintett\ -\ \'Hm,\ hm,\ hm\'.flac 
-mplayer 05.\ Nr.\ 4.\ Recitativ\ und\ Arie\ -\ \'O\ zittre\ nicht,\ mein\ lieber\ Sohn\!\'.flac 
-ls
-cd /media/weet/Wait/
-ls
-cd Boston.Legal.S03/
-ls
-cd English/
-ls
-cd ../..
-ls
-cd ~/
-ls
-dnav
-ls
-cd /media/weet/
-cd Wait/
-pwd
-pwd
-(getenv "HOME")
-(eshell/pwd)
-cd /media/weet/
-ls
-cd Wait/
-ls
-ll
-cd /media/weet/Wait/
-ls
-cd /media/weet/Wait/
-ls
-ll
-cd 
-cd .emacs.d/
-ls
-cd ../Pictures/
-ls
-cd
-ls
-cd /media/weet/
-cd Wait/
-ls
-pwd
-ls
-cls
-pwd
-ls
-ls
-cd ~/GitHub/d3js/
-ls
-cd examples/tr
-cd examples/tree
-ls
-mkdir ~/GitHub/environments/FlaskLearn/xiaoli/web/static/js/topo
-cd ~/GitHub/environments/FlaskLearn/xiaoli/web/static/js/topo
-ls
-cp ~/GitHub/d3js/d3.v2.js .
-ls
-cp ~/GitHub/d3js/examples/tree/tree-radial.js .
-cp ~/GitHub/d3js/examples/tree/tree.css .
-ls
-em tree-radial.js 
-dweb
-ls
-python server.py 
-python server.py 
-python server.py 
-(* 14 (* 15 16))
-python server.py 
-ls
-ls
-ll
-em topo/views.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-ls
-dweb
-ls
-ll
-em local_settings.py
-em topo/test.
-em topo/views.py
-gst
-git add . 
-git commit -m "topo update"
-git pull
-grep -nr ">>>>" .
-grep -nr "<<<<" .
-gst
-git add .
-git commit -m "merge"
-git pull;git push
-ls
-gst
-git add .
-git commit -m "topo update"
-git pull;git push
-gst
-git add .
-git commit -m "topo update"
-git pull;git push
-dd3
-find . -name "*mooth*" 
-find . -name "*zoom*" 
-cd examples/zoom-pan/
-ls
-em zoom-smooth.html
-dweb
-gst
-git add .
-git commit -m "topo update"
-git pull;git push
-gst
-git checkout -- static/js/topo/test.js 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-cls
-python server.py 
-cls
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-cls
-python server.py 
-cls
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-cls
-python server.py 
-python server.py 
-ls
-ll
-dpy
-ls
-cd ..
-ls
-em codes_sh.txt 
-em watch-stocks.py 
-python watch-stocks.py 
-em watch-stocks.py 
-python watch-stocks.py 
-python watch-stocks.py 
-python watch-stocks.py 
-python watch-stocks.py 
-python watch-stocks.py 
-python watch-stocks.py 
-python watch-stocks.py 
-python watch-stocks.py 
-python watch-stocks.py 
-python watch-stocks.py 
-python watch-stocks.py 
-python watch-stocks.py 
-python watch-stocks.py 
-python watch-stocks.py 
-python watch-stocks.py 
-python watch-stocks.py 
-python watch-stocks.py 
-python watch-stocks.py 
-python watch-stocks.py 
-cls
-ls
-python watch-stocks.py 
-cls
-dpy
-cd ..
-python watch-stocks.py 
-ls
-dweb
-ls
-em topo/views.py
-em templates/topo/test.html 
-ls
-cd static/js/topo/
-em test.js 
-em test.css 
-em tree-circle.js 
-em tree-interactive.js 
-(1.0 - (/ 58 494))
-(- 1.0 (/ 58 494))
-(- 1.0 (/ 58.0 494))
-dweb
-dweb
-gst
-git add .
-git commit -m "topo 多layout 支持"
-git pull
-grep -nr "<<<<" .
-git add .
-git commit -m "merge"
-git pull;git push
-gst
-git add .
-cd static/js/topo/
-grep -nr "lastid"
-grep -nr "lastId" .
-dweb
-git add .
-gst
-git commit -m "topo 完善多布局支持"
-git pull; git push
-git add .
-git commit -m "topo tree interactive 优化"
-git pull ;git push
-git add .
-git commit -m "topo tree directory 优化"
-git status
-git add .
-git commit -m "topo 链接状态支持和一些优化"
-git pull;git push
-ls
-ls
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-cls
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-cls
-python server.py 
-cls
-python server.py 
-cls
-python se
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-cls
-cls
-python server.py 
-cls
-python server.py 
-python server.py 
-python server.py 
-ddw
-dpy
-cd ..
-ls
-em watch-stocks.py 
-ls
-python watch-stocks.py 
-python watch-stocks.py 
-cls
-python watch-stocks.py 
-python watch-stocks.py 
-python watch-stocks.py 
-python watch-stocks.py 
-ls
-python watch-stocks.py 
-python watch-stocks.py 
-cls
-python watch-stocks.py 
-python watch-stocks.py 
-python watch-stocks.py 
-python watch-stocks.py 
-python watch-stocks.py 
-python watch-stocks.py 
-python watch-stocks.py 
-python watch-stocks.py 
-python watch-stocks.py 
-python watch-stocks.py 
-python watch-stocks.py 
-python watch-stocks.py 
-python watch-stocks.py 
-python watch-stocks.py 
-python watch-stocks.py 
-python watch-stocks.py 
-python watch-stocks.py 
-python watch-stocks.py 
-python watch-stocks.py 
-python watch-stocks.py 
-python watch-stocks.py 
-python watch-stocks.py 
-ls
-dweb
-ls
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
+<<<<<<< HEAD
+=======
 python server.py 
 python server.py 
 python server.py 
@@ -529,6 +44,7 @@ python server.py
 python server.py 
 python server.py 
 python server.py 
+>>>>>>> a0057ae252f68fe9fdb9ae76bf0ae4add012bee1
 python server.py 
 python server.py 
 python server.py 
@@ -969,6 +485,523 @@ ls
 cd alarms/
 em models.py
 ls
+dweb
+ls
+cls
+me users/forms.py
+em users/forms.py
+em perf/forms.py
+dnb
+python server.py 
+ls
+ls
+ls
+ls
+cls
+dweb
+ls
+gst
+dweb
+ls
+em alarms/forms.py
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+ls
+cd .emacs.d/
+ls
+em session.1091ea99d892cc92d135278758890154500000102360062 
+cat session.1091ea99d892cc92d135278758890154500000102360062 
+rm session.1091ea99d892cc92d135278758890154500000102360062 
+ls
+ls -al
+ll
+ls
+cd games/
+ls
+em bubbles-default-2-10-10-scores 
+ls
+cd ..
+ls
+cd url/
+ls
+em cookies 
+cd th
+cd ..
+cd thumbs/
+ls
+ls -al
+em ..
+ls
+cl
+cls
+cls
+cd 
+l
+ls
+cd GitHub/
+git clone git@github.com:hivilinux/structParse.git
+cd structParse/
+ls
+nautilus .
+cls
+cd
+cls
+ls
+dweb
+ls
+dnb
+cl
+cls
+ls
+cd lo
+cd log/
+ls
+cd ..
+tree
+cd lo
+cd local/
+ls
+cd local/
+ls
+tree
+rm -r nodehub/
+cd ..
+rm -r local/
+ls
+em settings.py
+ls
+clear
+ls
+gst
+cd ..
+gst
+dmw
+ls
+rm local_settings.pyc
+ls
+gst
+gst
+git add .
+gst
+git commit -m "add topo"
+git pull
+cd ~/GitHub/
+ls
+cd ~/Dropbox/
+ls
+cd Applications/
+ls
+cd ..
+ls
+git clone git@github.com:TheWaWaR/myway.git
+cd myway/
+ls
+cd myway/
+ls
+du --max-depth=3 -h
+cd static/
+cd images/
+ls
+cd kube/
+ls
+cd ..
+du --max-depth=3 -h
+cd lightbox2/
+ls
+cd lightbox2/
+du --max-depth=3 -h
+cd examples/
+ls
+cd ..
+cd ..
+ls
+cd lightbox2/
+ls
+git rm -r examples/
+ls
+cd ..
+cd ..
+cd ..
+du --max-depth=3 -h
+cd ..
+du --max-depth=3 -h
+cd myway/
+du --max-depth=3 -h
+cd static/images/
+ls
+cd ../.
+ls
+cd js/
+ls
+du --max-depth=3 -h
+cd topo/
+ls
+du --max-depth=3 -h
+ls -Shl
+cd ../../..
+ls
+cd ..
+python manager.py 
+em local_settings.py
+python manager.py 
+ls
+mv local_settings.py * myway/
+ls
+mv myway/manager.py .
+mv myway/deploy/ .
+mv myway/doc/ .
+mv myway/README.md  .
+mv myway/tests.py   .
+ls
+cd myway/
+ls
+gst
+git add .
+gst
+git commit -m "remove some useless images"
+git pull origin master; git push origin master
+pwd
+cd ..
+pwd
+cd ..
+ls
+mv myway/ ~/GitHub/
+ls
+cd ~/GitHub/myway/
+ls
+python manager.py 
+ls
+cd myway/
+ls
+rm local_settings.py~
+ls
+em static/css/extra.css 
+cd ..
+python manager.py 
+gst
+git add .
+git commit -m "fix css in articles"
+git push origin master
+python manager.py 
+gst
+git add .
+git push origin master
+git commit -m "fix css"
+git push origin master
+git checkout master
+git push
+cd myway/
+ls
+cd blog/
+ls
+em models.py
+dweb
+cls
+pwd
+ls
+cd users/
+ls
+cd ~/GitHub/myway/
+ls
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+python manager.py 
+gst
+git add .
+git commit -m "fix permission stuff"
+git push
+python manager.py 
+python manager.py 
+python manager.py 
+ls
+clear
+gst
+gst
+git add .
+git commit -m "fix"
+git push
+ls
+dnb
+ls
+gst
+ls
+gst
+gst
+git add .
+git commit -m "tiny fix"
+git pull;git push
+gst
+ps auxf
+ps auxef
+ps -ef
+ps aux -ef
+ps  -ef aux
+ps  -ef 
+ps -f
+ps -e
+pstree
+ls
+cd ~/GitHub/environments/FlaskLearn/
+ls
+cd nodehub/others/
+ls
+cd nodebus/
+ls
+find . -name "mqtt" 
+find . -name "MQtt" 
+find . -name "MQTT" 
+find . -name "*mqtt*" 
+find . -name "*MQTT*" 
+cd transmitter/lib/
+em MQTTClient.js 
+w3m http://ahorn.me
+pydoc mosquitto
+pydoc mosquitto >> *mosquitto*
+ls
+rm *mosquitto\* 
+pydoc mosquitto >> #<buffer *mosquitto*>
+cd ~/Downloads/mosquitto-1.0.5/test/lib/python
+ls
+cd ../..
+ls
+cd -
+ls
+python 03-publish-b2c-qos1.test 
+em 03-publish-b2c-qos1.test 
+grep -nr "localhost" .
+python 03-publish-b2c-qos1.test 
+em 03-publish-b2c-qos1.test 
+em 03*
+ls
+rm *~
+ls
+dpy
+ls
+cd ..
+ls
+mkdir Tests
+mv bin/mqtt-* Tests/
+ls
+cd Tests/
+ls
+cd ..
+ls
+mv *test* Tests/
+ls
+ls Tests/
+cd Tests/
+ls
+em test_pyinotify.py 
+cd Android/workspace/
+cd HelloWorld/
+tree
+aeclipse
+cd 
+ls
+whereis aeclipse
+ps aux | grep android
+sudo kill 6024
+cls
+cd Android/
+ls
+cd android-sdk-linux/samples/
+ls
+cd android-10/
+ls
+find . type -d -name "*ife*"
+find . type d -name "*ife*"
+find . -type d -name "*ife*"
+mv ~/Downloads/ActivityLifecycle.zip .
+ls
+vim ActivityLifecycle.zip 
+em Ac
+em ActivityLifecycle.zip 
+unzip ActivityLifecycle.zip 
+ls
+em ActivityLifecycle.zip 
+cd activity-lifecycle/
+ls
+df -h
+dn
+dnb
+ls
+em templates/*.html
+em nodehub/*.py
+cd ..
+ls
+cd web/
+ls
+cd static/
+ls
+cd img/
+ls
+mv ~/Downloads/screenshot_3.png .
+ls
+dnb
+python server.py 
+python server.py 
+python server.py 
+ls
+gst
+git add .
+git commit -m "welcome + footer"
+git push
+git add .
+git commit -m "fix"
+git push
+git add .
+git commit -m "fix footer"
+git push
+cls
+python server.py 
+cls
+cd /etc
+ls
+sudo grep -nr "export" .
+grep -nr "export" .
+ls
+cleear
+clear
+cls
+cd ~/
+cd Android/android-sdk-linux/
+cd samples/
+ls
+cd android-10/
+ls
+cd activity-lifecycle/
+ls
+ls
+cd ~/Android/android-sdk-linux/platform-tools/
+ls
+./adb logcat 
+ls
+ls
+dpy
+cd ../Te
+cd ../Tests/
+ls
+python mqtt-publisher.py 
+ls
+cd
+cd Android/android-sdk-linux/
+ls
+cd platform-tools/
+ls
+./adb pull /data/data/com.nodebus.android/shared_prefs/API.xml
+ls
+em API.xml 
+dpy
+ls
+cd ../Tes
+cd ../Tests/
+ls
+python mqtt-publisher.py 
+em mqtt-publisher.py 
+em mqtt-publisher.py 
+python mqtt-publisher.py
+ls
+rm *~
+ls
+cd ..
+find . -name "*~"
+rm Stocks/stocks/stocks.pyw~
+ls
+find . -name "*~"
+pwd
+ls
+cd ..
+ls
+cd Shell/
+ls
+em conn-wlan 
+em arch-install.sh
+ls /bin/bash
+ls
+cd 
+dnb
+ls
+em server.py 
+python server.py 
+jobs
+clear
+ls
+ls
+dpy
+ls
+cd ../Tes
+cd ../Tests/
+ls
+python mqtt-publisher.py 
+ls
+ls
+dnb
+ls
+python server.py 
+python server.py 
+python server.py 
+cls
+python server.py 
+ls
+ls
+jobs
+ls
+ls
+python server.py 
+python server.py 
+cls
+python server.py 
+jobs
+ls
+jobs
+cd .emacs.d/
+grep -nr "edit-server" .
+dnb
+python server.py 
+dnb
+ls
+cd ~/GitHub/
+ls
+ls
+mv emqtt/ emqtt-old
+git clone git://github.com/emqtt/emqtt.git
+ls
+cd emqtt
+ls
+make
+make generate 
+cd /usr/lib/erlang/man/man1
+ls
+cd-
+cd -
+make generate 
+ls /usr/lib/erlang/man/man1 | grep haskell
+ls -l /usr/lib/erlang/man/man1 | grep haskell
+em /etc/alternatives/haskell-compiler.1.gz 
+em /etc/alternatives/haskell-compiler.1.gz 
+ls -l /etc/alternatives/ | grep haskell
+grep -nr "haskell" .
+grep -nr "haskell" .
+make generate 
+ls
+make generate 
+make generate 
+ls
+cd rel/
+ls
+cd emqtt/
+ls
+./bin/emqtt console
+ls
+<<<<<<< HEAD
+cd alarms/
+em models.py
+ls
 pwd
 ls
 grep -nr "prompt" .
@@ -998,3 +1031,8 @@ ls
 cd .emacs.d/
 find . -name "yank*"
 ls
+=======
+cd ..
+ls
+./emqtt/bin/emqtt stop
+>>>>>>> a0057ae252f68fe9fdb9ae76bf0ae4add012bee1

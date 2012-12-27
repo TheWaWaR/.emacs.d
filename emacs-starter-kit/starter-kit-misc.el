@@ -103,8 +103,8 @@
 (delete 'try-complete-file-name hippie-expand-try-functions-list)
 
 ;; Don't clutter up directories with files~
-(setq backup-directory-alist `(("." . ,(expand-file-name
-                                        (concat starter-kit-dir "backups")))))
+;; (setq backup-directory-alist `(("." . ,(expand-file-name
+;;                                         (concat starter-kit-dir "backups")))))
 
 ;; nxhtml stuff
 (setq mumamo-chunk-coloring 'submode-colored
