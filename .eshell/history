@@ -1,33 +1,3 @@
-cd templates/networkexplorer/
-ls
-em base.html 
-git pull --help
-ls
-ls
-dweb
-ls
-em nodes/views
-em nodes/views.py
-qgit
-em users/views.py
-cd 
-dweb
-ls
-./server.py 
-python server.py 
-ls
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-ls
-python server.py 
-ls
-em settings.py 
-em settings.py 
-python server.py 
-python server.py 
 python server.py 
 python server.py 
 python server.py 
@@ -998,3 +968,33 @@ dweb
 ls
 cd alarms/
 em models.py
+ls
+pwd
+ls
+grep -nr "prompt" .
+ls
+rm yankring_history_v2.txt 
+ls
+ls
+ls
+ls
+ls
+ls
+clear
+ls
+cls
+ls
+ls
+rm yankring_history_v2.txt 
+ls
+cd Git/
+ls
+ls
+cd 
+em yankring_history_v2.txt 
+rm yankring_history_v2.txt 
+ls
+ls
+cd .emacs.d/
+find . -name "yank*"
+ls

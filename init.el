@@ -128,7 +128,7 @@
 (use-the-sdcv)
 (use-the-eim)
 (use-the-git)
-(use-the-emms)
+;; (use-the-emms)
 (use-the-tabbar)
 (use-the-auto-complete)
 ;; (use-the-slime)
