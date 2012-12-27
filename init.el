@@ -124,7 +124,6 @@
 (setq column-number-mode t)
 (set-default 'truncate-lines t)
 
-
 (use-the-sdcv)
 (use-the-eim)
 (use-the-git)
@@ -179,14 +178,14 @@
 ;; (when (and (require 'edit-server nil t) (daemonp))
 ;;   (edit-server-start))
 
-
-(if (and (fboundp 'server-running-p)
-         (not (server-running-p)))
-    (prog
-     (server-start)
-     (message "Server Started"))
-  (message "Server already started")
-    )
+(server-start)
+;; (if (and (fboundp 'server-running-p)
+;;          (not (server-running-p)))
+;;     (prog
+;;      (server-start)
+;;      (message "Server Started"))
+;;   (message "Server already started")
+;;     )
 
 (if (eq (window-system) 'x) ;; 仅在X环境下启用
     (progn
