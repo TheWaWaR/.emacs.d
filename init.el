@@ -127,6 +127,7 @@
 (use-the-sdcv)
 (use-the-eim)
 (use-the-git)
+(use-the-erlang)
 ;; (use-the-emms)
 (use-the-tabbar)
 (use-the-auto-complete)
@@ -178,7 +179,7 @@
 ;; (when (and (require 'edit-server nil t) (daemonp))
 ;;   (edit-server-start))
 
-(server-start)
+
 ;; (if (and (fboundp 'server-running-p)
 ;;          (not (server-running-p)))
 ;;     (prog

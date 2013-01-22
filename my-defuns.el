@@ -270,6 +270,19 @@
   (eim-punc-translate-toggle nil)
   )
 
+(defun use-the-erlang ()
+  ;; Erlang mode
+  (add-to-list 'load-path "/usr/lib/erlang/lib/tools-2.6.8/emacs/")
+  (setq erlang-root-dir "/usr/lib/erlang")
+  (setq exec-path (cons "/usr/lib/erlang/bin" exec-path))
+  (require 'erlang-start)
+  
+  ;; Distel mode
+  (add-to-list 'load-path "~/.emacs.d/my-plugins/distel/elisp")
+  (require 'distel)
+  (distel-setup)
+  )
+
 (defun use-the-git ()
   (add-to-list 'load-path "~/.emacs.d/my-plugins/git/")  
   (require 'git)

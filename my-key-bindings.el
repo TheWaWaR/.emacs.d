@@ -41,7 +41,6 @@
   (global-set-key (kbd "C-c t") 'datetime)
   )
 
-
 (global-set-key (kbd "C-c d") 'dired)
 (global-set-key (kbd "C-c o") 'search-backward-regexp)
 (global-set-key [s-left] 'windmove-left)

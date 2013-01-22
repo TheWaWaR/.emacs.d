@@ -12,12 +12,17 @@
   (setq tab-width 4)
   (setq indent-tabs-mode t)             ; use spaces only if nil
   )
-(add-hook 'c++-mode-hook 'my-c-mode-common-hook)
+
+(defun my-erlang-mode-hook ()
+  (define-key erlang-mode-map (kbd "C-c j") 'erlang-man-function)
+  )
+
 (add-hook 'c-mode-common-hook 'my-c-mode-common-hook)
+(add-hook 'c++-mode-hook 'my-c-mode-common-hook)
+(add-hook 'erlang-mode-hook 'my-erlang-mode-hook)
+(add-hook 'python-mode-hook 'highlight-indentation-mode)
 
 ;; (add-hook 'eshell-mode-hook 'shell-switcher-manually-register-shell)
-(add-hook 'python-mode-hook 'highlight-indentation-mode)
-;;(add-hook 'emms-player-finished-hook 'emms-random)          ;当播放完当前的歌曲时随机选择下一首歌曲
+;; (add-hook 'emms-player-finished-hook 'emms-random)          ;当播放完当前的歌曲时随机选择下一首歌曲
 
 (provide 'my-hooks)
-

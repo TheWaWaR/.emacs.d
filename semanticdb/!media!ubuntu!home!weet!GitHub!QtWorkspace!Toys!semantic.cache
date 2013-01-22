@@ -1,0 +1,119 @@
+;; Object Toys/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "Toys/"
+  :tables (list 
+   (semanticdb-table "mainwindow.cpp"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("mainwindow.h" include nil nil [1 24])
+            ("ui_mainwindow.h" include nil nil [25 51])
+            ("qmessagebox.h" include (:system-flag t) nil [52 76])
+            ("MainWindow" function
+               (:constructor-flag t
+                :parent "MainWindow"
+                :arguments 
+                  ( ("parent" variable
+                       (:pointer 1
+                        :type ("QWidget" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [101 117]))                  
+                :type ("MainWindow" type (:type "class") nil nil))
+                nil [78 198])
+            ("MainWindow" function
+               (:destructor-flag t
+                :parent "MainWindow"
+                :type "void")
+                nil [200 244])
+            ("on_actionA_triggered" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [246 400]))          
+    :file "mainwindow.cpp"
+    :pointmax 401
+    :fsize 400
+    :lastmodtime '(20729 7038)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "mainwindow.h"
+    :major-mode 'c-mode
+    :tags 
+        '( ("MAINWINDOW_H" variable (:constant-flag t) nil [30 42])
+            ("QMainWindow" include (:system-flag t) nil [44 66])
+            ("Ui" type
+               (:members 
+                  ( ("MainWindow" type
+                       (:prototype t
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [83 100]))                  
+                :type "namespace")
+                nil [68 102])
+            ("MainWindow" type
+               (:superclasses 
+                  ( ("QMainWindow" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [162 169])
+                    ("MainWindow" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :arguments 
+                          ( ("parent" variable
+                               (:pointer 1
+                                :type ("QWidget" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [194 211]))                          
+                        :type ("explicit" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [174 215])
+                    ("MainWindow" function
+                       (:prototype-flag t
+                        :destructor-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [220 234])
+                    ("private" label nil (reparse-symbol classsubparts) [240 254])
+                    ("on_actionA_triggered" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [259 287])
+                    ("private" label nil (reparse-symbol classsubparts) [289 297])
+                    ("ui" variable
+                       (:pointer 1
+                        :type ("Ui::MainWindow" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [302 321]))                  
+                :type "class")
+                nil [104 324]))          
+    :file "mainwindow.h"
+    :pointmax 349
+    :fsize 348
+    :lastmodtime '(20728 62322)
+    :unmatched-syntax '((number 212 . 213) (punctuation 210 . 211) (symbol 148 . 156))
+    :lexical-table 
+        '(("MAINWINDOW_H")
+          )
+
+    )
+   (semanticdb-table "main.cpp"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("mainwindow.h" include nil nil [1 24])
+            ("QApplication" include (:system-flag t) nil [25 48])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [59 68])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [69 82]))                  
+                :type "int")
+                nil [50 176]))          
+    :file "main.cpp"
+    :pointmax 177
+    :fsize 176
+    :lastmodtime '(20728 61434)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!media!ubuntu!home!weet!GitHub!QtWorkspace!Toys!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

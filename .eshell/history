@@ -1,5 +1,24 @@
-<<<<<<< HEAD
-=======
+python watch-stocks.py 
+python watch-stocks.py 
+python watch-stocks.py 
+python watch-stocks.py 
+python watch-stocks.py 
+python watch-stocks.py 
+ls
+dweb
+ls
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
+python server.py 
 python server.py 
 python server.py 
 python server.py 
@@ -44,7 +63,6 @@ python server.py
 python server.py 
 python server.py 
 python server.py 
->>>>>>> a0057ae252f68fe9fdb9ae76bf0ae4add012bee1
 python server.py 
 python server.py 
 python server.py 
@@ -485,523 +503,6 @@ ls
 cd alarms/
 em models.py
 ls
-dweb
-ls
-cls
-me users/forms.py
-em users/forms.py
-em perf/forms.py
-dnb
-python server.py 
-ls
-ls
-ls
-ls
-cls
-dweb
-ls
-gst
-dweb
-ls
-em alarms/forms.py
-python server.py 
-python server.py 
-python server.py 
-python server.py 
-ls
-cd .emacs.d/
-ls
-em session.1091ea99d892cc92d135278758890154500000102360062 
-cat session.1091ea99d892cc92d135278758890154500000102360062 
-rm session.1091ea99d892cc92d135278758890154500000102360062 
-ls
-ls -al
-ll
-ls
-cd games/
-ls
-em bubbles-default-2-10-10-scores 
-ls
-cd ..
-ls
-cd url/
-ls
-em cookies 
-cd th
-cd ..
-cd thumbs/
-ls
-ls -al
-em ..
-ls
-cl
-cls
-cls
-cd 
-l
-ls
-cd GitHub/
-git clone git@github.com:hivilinux/structParse.git
-cd structParse/
-ls
-nautilus .
-cls
-cd
-cls
-ls
-dweb
-ls
-dnb
-cl
-cls
-ls
-cd lo
-cd log/
-ls
-cd ..
-tree
-cd lo
-cd local/
-ls
-cd local/
-ls
-tree
-rm -r nodehub/
-cd ..
-rm -r local/
-ls
-em settings.py
-ls
-clear
-ls
-gst
-cd ..
-gst
-dmw
-ls
-rm local_settings.pyc
-ls
-gst
-gst
-git add .
-gst
-git commit -m "add topo"
-git pull
-cd ~/GitHub/
-ls
-cd ~/Dropbox/
-ls
-cd Applications/
-ls
-cd ..
-ls
-git clone git@github.com:TheWaWaR/myway.git
-cd myway/
-ls
-cd myway/
-ls
-du --max-depth=3 -h
-cd static/
-cd images/
-ls
-cd kube/
-ls
-cd ..
-du --max-depth=3 -h
-cd lightbox2/
-ls
-cd lightbox2/
-du --max-depth=3 -h
-cd examples/
-ls
-cd ..
-cd ..
-ls
-cd lightbox2/
-ls
-git rm -r examples/
-ls
-cd ..
-cd ..
-cd ..
-du --max-depth=3 -h
-cd ..
-du --max-depth=3 -h
-cd myway/
-du --max-depth=3 -h
-cd static/images/
-ls
-cd ../.
-ls
-cd js/
-ls
-du --max-depth=3 -h
-cd topo/
-ls
-du --max-depth=3 -h
-ls -Shl
-cd ../../..
-ls
-cd ..
-python manager.py 
-em local_settings.py
-python manager.py 
-ls
-mv local_settings.py * myway/
-ls
-mv myway/manager.py .
-mv myway/deploy/ .
-mv myway/doc/ .
-mv myway/README.md  .
-mv myway/tests.py   .
-ls
-cd myway/
-ls
-gst
-git add .
-gst
-git commit -m "remove some useless images"
-git pull origin master; git push origin master
-pwd
-cd ..
-pwd
-cd ..
-ls
-mv myway/ ~/GitHub/
-ls
-cd ~/GitHub/myway/
-ls
-python manager.py 
-ls
-cd myway/
-ls
-rm local_settings.py~
-ls
-em static/css/extra.css 
-cd ..
-python manager.py 
-gst
-git add .
-git commit -m "fix css in articles"
-git push origin master
-python manager.py 
-gst
-git add .
-git push origin master
-git commit -m "fix css"
-git push origin master
-git checkout master
-git push
-cd myway/
-ls
-cd blog/
-ls
-em models.py
-dweb
-cls
-pwd
-ls
-cd users/
-ls
-cd ~/GitHub/myway/
-ls
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-python manager.py 
-gst
-git add .
-git commit -m "fix permission stuff"
-git push
-python manager.py 
-python manager.py 
-python manager.py 
-ls
-clear
-gst
-gst
-git add .
-git commit -m "fix"
-git push
-ls
-dnb
-ls
-gst
-ls
-gst
-gst
-git add .
-git commit -m "tiny fix"
-git pull;git push
-gst
-ps auxf
-ps auxef
-ps -ef
-ps aux -ef
-ps  -ef aux
-ps  -ef 
-ps -f
-ps -e
-pstree
-ls
-cd ~/GitHub/environments/FlaskLearn/
-ls
-cd nodehub/others/
-ls
-cd nodebus/
-ls
-find . -name "mqtt" 
-find . -name "MQtt" 
-find . -name "MQTT" 
-find . -name "*mqtt*" 
-find . -name "*MQTT*" 
-cd transmitter/lib/
-em MQTTClient.js 
-w3m http://ahorn.me
-pydoc mosquitto
-pydoc mosquitto >> *mosquitto*
-ls
-rm *mosquitto\* 
-pydoc mosquitto >> #<buffer *mosquitto*>
-cd ~/Downloads/mosquitto-1.0.5/test/lib/python
-ls
-cd ../..
-ls
-cd -
-ls
-python 03-publish-b2c-qos1.test 
-em 03-publish-b2c-qos1.test 
-grep -nr "localhost" .
-python 03-publish-b2c-qos1.test 
-em 03-publish-b2c-qos1.test 
-em 03*
-ls
-rm *~
-ls
-dpy
-ls
-cd ..
-ls
-mkdir Tests
-mv bin/mqtt-* Tests/
-ls
-cd Tests/
-ls
-cd ..
-ls
-mv *test* Tests/
-ls
-ls Tests/
-cd Tests/
-ls
-em test_pyinotify.py 
-cd Android/workspace/
-cd HelloWorld/
-tree
-aeclipse
-cd 
-ls
-whereis aeclipse
-ps aux | grep android
-sudo kill 6024
-cls
-cd Android/
-ls
-cd android-sdk-linux/samples/
-ls
-cd android-10/
-ls
-find . type -d -name "*ife*"
-find . type d -name "*ife*"
-find . -type d -name "*ife*"
-mv ~/Downloads/ActivityLifecycle.zip .
-ls
-vim ActivityLifecycle.zip 
-em Ac
-em ActivityLifecycle.zip 
-unzip ActivityLifecycle.zip 
-ls
-em ActivityLifecycle.zip 
-cd activity-lifecycle/
-ls
-df -h
-dn
-dnb
-ls
-em templates/*.html
-em nodehub/*.py
-cd ..
-ls
-cd web/
-ls
-cd static/
-ls
-cd img/
-ls
-mv ~/Downloads/screenshot_3.png .
-ls
-dnb
-python server.py 
-python server.py 
-python server.py 
-ls
-gst
-git add .
-git commit -m "welcome + footer"
-git push
-git add .
-git commit -m "fix"
-git push
-git add .
-git commit -m "fix footer"
-git push
-cls
-python server.py 
-cls
-cd /etc
-ls
-sudo grep -nr "export" .
-grep -nr "export" .
-ls
-cleear
-clear
-cls
-cd ~/
-cd Android/android-sdk-linux/
-cd samples/
-ls
-cd android-10/
-ls
-cd activity-lifecycle/
-ls
-ls
-cd ~/Android/android-sdk-linux/platform-tools/
-ls
-./adb logcat 
-ls
-ls
-dpy
-cd ../Te
-cd ../Tests/
-ls
-python mqtt-publisher.py 
-ls
-cd
-cd Android/android-sdk-linux/
-ls
-cd platform-tools/
-ls
-./adb pull /data/data/com.nodebus.android/shared_prefs/API.xml
-ls
-em API.xml 
-dpy
-ls
-cd ../Tes
-cd ../Tests/
-ls
-python mqtt-publisher.py 
-em mqtt-publisher.py 
-em mqtt-publisher.py 
-python mqtt-publisher.py
-ls
-rm *~
-ls
-cd ..
-find . -name "*~"
-rm Stocks/stocks/stocks.pyw~
-ls
-find . -name "*~"
-pwd
-ls
-cd ..
-ls
-cd Shell/
-ls
-em conn-wlan 
-em arch-install.sh
-ls /bin/bash
-ls
-cd 
-dnb
-ls
-em server.py 
-python server.py 
-jobs
-clear
-ls
-ls
-dpy
-ls
-cd ../Tes
-cd ../Tests/
-ls
-python mqtt-publisher.py 
-ls
-ls
-dnb
-ls
-python server.py 
-python server.py 
-python server.py 
-cls
-python server.py 
-ls
-ls
-jobs
-ls
-ls
-python server.py 
-python server.py 
-cls
-python server.py 
-jobs
-ls
-jobs
-cd .emacs.d/
-grep -nr "edit-server" .
-dnb
-python server.py 
-dnb
-ls
-cd ~/GitHub/
-ls
-ls
-mv emqtt/ emqtt-old
-git clone git://github.com/emqtt/emqtt.git
-ls
-cd emqtt
-ls
-make
-make generate 
-cd /usr/lib/erlang/man/man1
-ls
-cd-
-cd -
-make generate 
-ls /usr/lib/erlang/man/man1 | grep haskell
-ls -l /usr/lib/erlang/man/man1 | grep haskell
-em /etc/alternatives/haskell-compiler.1.gz 
-em /etc/alternatives/haskell-compiler.1.gz 
-ls -l /etc/alternatives/ | grep haskell
-grep -nr "haskell" .
-grep -nr "haskell" .
-make generate 
-ls
-make generate 
-make generate 
-ls
-cd rel/
-ls
-cd emqtt/
-ls
-./bin/emqtt console
-ls
-<<<<<<< HEAD
-cd alarms/
-em models.py
-ls
 pwd
 ls
 grep -nr "prompt" .
@@ -1031,8 +532,469 @@ ls
 cd .emacs.d/
 find . -name "yank*"
 ls
-=======
+dnb
+ls
+pwd
+ls
+ls
+cd ~/Android/workspace/
+ls
+ls LoginDialog/
+ls MQTT-Messenger/
+ls ~/GitHub/MQTT-Messenger/
+ls ~/GitHub/MQTT-Messenger/MQTT-Messenger/
+ls
+rm -rf MQTT-Messenger/
+jobs
+df -h
+ls
+clear
+ls
+dnb
+ls
+python server.py 
+python2 server.py 
+ls
+cls
+ls
+em deps.txt 
+python2 server.py 
+cls
+python2 server.py 
+python2 server.py 
+cls
+python2 server.py 
+python2 server.py 
+cd GitHub/MQTT-Messenger/MQTT-Messenger/
+ls
+cd res/
+ls
+cd layout/
+l
+ls
+em *.xml
+grep -nr "onClick" .
+ls
+cp stream_item.xml thread_item.html
+em thread_item.html 
+cd ..
+cd ~/Android/android-sdk-linux/samples/
+ls
+cd android-10/
+ls
+cd ApiDemos/res/
+ls
+cd drawable
+ls
+grep -nr "oval" .
+grep -nr "circle" .
+cd ..
+grep -nr "sample_3.xml" .
+grep -nr "shape_3.xml" .
+grep -nr "shape_3\.xml" .
 cd ..
 ls
-./emqtt/bin/emqtt stop
->>>>>>> a0057ae252f68fe9fdb9ae76bf0ae4add012bee1
+grep -nr "shape_" .
+cd ../..
+ls
+cd ../
+ls
+cd platform-tools/
+ls
+./adb logcat
+cls
+cd
+ls
+clear
+ls
+cls
+ls
+rm yankring_history_v2.txt 
+ls
+
+cd .vim/
+grep -nr "yankring_history" .
+v 100-
+dnb
+ls
+python2 server.py 
+cls
+em nodehub/[^_]*.py
+ls
+ls
+cd Android/
+ls
+cd ~/GitHub/MQTT-Messenger/MQTT-Messenger/
+ls
+em tasks.org 
+cd res/layout/
+em *.xml
+ping smtp.ym.163.com
+cd ..
+ls
+em drawable/node_status.xml 
+cd ~/Android/android-sdk-linux/
+ls
+cd platform-tools/
+ls
+cd ../samples/
+ls
+cd android-10/
+ls
+cd ApiDemos/
+ls
+cd res/
+ls
+cd drawable
+ls
+grep -nr "selector" .
+ls
+cd ~/Android/workspace/NodeHub/
+ls
+lc
+cd res/
+ls
+em layout/*.xml
+cd ../
+cd ..
+ls
+cd TestTab/res/
+ls
+em layout/*.xml
+cd ~/Android/android-sdk-linux/platform-tools/
+ls
+./adb logcat
+ls
+ls
+cd /mnt/
+ls
+cd 
+ls
+cd -
+ls
+cd 
+ls
+pstree
+cls
+ls
+ls
+dnb
+ls
+dweb
+ls
+cd tango/
+ls
+cd ..
+tree
+git pull
+gst
+git pull
+cd ..
+ls
+cd errdb/
+ls
+jobs
+cd we
+ls
+cd ../web/tango/
+ls
+cd ui/
+ls
+cd tables/
+ls
+em *.py
+s
+ls
+rm pgadmin.log 
+ls
+cd GitHub/MQTT-Messenger/MQTT-Messenger/
+ls
+cd res/
+ls
+em layout/*.xml
+ls
+dnb
+ls
+em nodehub/[^_]*.py
+python2 server.py 
+cls
+python2 sr
+python2 server.py 
+cls
+em local/settings.py
+python2 server.py 
+python2 server.py 
+python2 server.py 
+cls
+python2 server.py 
+python2 server.py 
+python2 server.py 
+python2 server.py 
+python2 server.py 
+python2 server.py 
+clear
+jobs
+jobs
+jbos
+jbos
+jobs
+jobs
+jobs
+cls
+jobs
+python2 server.py 
+em server.py 
+em server.py 
+python2 server.py 
+cls
+python2 server.py 
+python2 server.py 
+cls
+python2 server.py 
+python2 server.py 
+cls
+python2 server.py 
+python2 server.py 
+python2 server.py 
+cls
+ls
+python2 server.py 
+cd GitHub/MQTT-Messenger/MQTT-Messenger/
+ls
+cd res/
+ls
+em layout/*.xml
+ifconfig | grep inet
+em menu/*.xml
+cd ~/Android/
+ls
+cd workspace/NodeHub/
+ls
+cd res/values/
+ls
+em strings.xml 
+dnb
+ls
+python2 server.py 
+cls
+ls
+cd ~/Dropbox/Code/
+ls
+cd Erlang/
+ls
+em **/*.erl
+ls
+mkdir Nano-CS
+cd Nano-CS/
+ls
+em server.erl
+em client.erl
+ls
+ls
+cd Dropbox/Code/
+ls
+cd Erlang/
+ls
+cd Chat-room/
+ls
+em *[^~]
+em "*[^~]"
+em *[^~]*
+em *[^\~]
+ls
+cd ../Nano-CS/
+ls
+em *.erl
+ls
+erlc *
+erlc client.erl 
+erlc client.erl 
+erlc server.erl 
+cls
+erl -noshell -run client
+erl -noshell -run client
+erl -noshell -run client
+erl -noshell -run client
+erlc server.erl ; erlc client.erl 
+erl -run server
+erl -noshell -run server
+erlc server.erl ; erlc client.erl 
+erl -noshell -run server
+erl -noshell -run server
+erlc server.erl ; erlc client.erl 
+erl -noshell -run server
+erlc server.erl ; erlc client.erl 
+erl -noshell -run server
+erlc server.erl ; erlc client.erl 
+erlc server.erl ; erlc client.erl 
+erl -noshell -run server
+dnb
+cd ..
+ls
+cd ejabberd/
+ls
+grep -nr "import" .
+grep -nr "xref" .
+cd ..
+grep -nr "xref" .
+ls
+cd web/
+ls
+cd utils/
+ls
+em publisher.py
+ls
+pacman -Ss qt
+(font-family-list)
+(set-language-environment 'UTF-8) (set-locale-environment "UTF-8") 
+(fontset-list)
+(list-fontsets)
+(x-list-fonts)
+(x-list-fonts )
+(font-family-list)
+fc-list
+fc-list
+ls
+cd GitHub/QtWorkspace/Toys
+ls
+em *.*
+ls
+etags
+etags -R
+etags -R .
+ls
+em Ta
+em TAGS
+ls
+etags -R
+etags -R *
+em TAGS 
+cd 
+ls
+em pgadmin.log 
+ls
+em pgadmin.log 
+rm pgadmin.log 
+ls
+ls
+cd Android/
+ls
+cd workspace/NodeHub/src/
+ls
+cd com/opengoss/nodehub/utils/
+ls
+cd .
+cd ..
+ls
+em **/*.java
+ls
+ls
+dpy
+ls
+cd ..
+ls
+mkdir PyQt
+cd PyQt/
+ls
+em test.py
+python test.py 
+python2 test.py 
+python2 test.py 
+python2 test.py 
+python2 test.py 
+dpy
+ls
+cd ../PyQt/
+ls
+em et
+em test.py 
+python test.py 
+python2 test.py 
+cd GitHub/NodeHub-android/
+ls
+em .gitignore 
+cls
+tree
+find . -name "*~"
+gst
+git add .
+gst
+git add .
+gst
+git commit -m "init"
+gst
+git push 
+git push origin master
+git push origin master
+ls
+ls
+proxychains git pull origin master
+ls
+em ic_launcher-web.png 
+ls
+cd e
+cd res/
+ls
+cd ..
+ls
+cd src/com/opengoss/nodehub/
+ls
+em Main.java 
+rm *~
+ls
+ll
+lr
+lr
+lR
+LR
+ll
+lr
+lr
+lr
+ls
+lr
+lr
+ll
+clear
+ls
+cls
+ls
+ls
+ls
+ls -R
+lr
+cls
+ls
+ls
+dpy
+ls
+cd ..
+ls
+cd PyQt/
+ls
+cd chap04/
+ls
+em alert.pyw
+mv alert.pyw alert.py
+em alert.py 
+cls
+dpy
+cd ../PyQt/
+ls
+cd chap04/
+ls
+rm *~
+ls
+python alert.py 12:33 Good
+python2 alert.py 12:33 Good
+em alert.py 
+python2 alert.py 12:33 Good
+python2 alert.py 12:33 Good
+python2 alert.py 12:33 Good
+dpy
+cd ../PyQt/chap04/
+ls
+ls
+python2 alert.py 12:33 Good
+ls
+python2 alert.py 12:33 Good
