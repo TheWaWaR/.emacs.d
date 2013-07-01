@@ -10,4 +10,5 @@ session.*
 *.py[co]
 *~
 *.dat
+*.cache
 \#*
