@@ -3,8 +3,12 @@ thumbs
 games
 url
 tramp
-[.]eshell/history
-[.]eshell/lastdir
+
+# git rm -f .eshell/history && touch .eshell/history
+.eshell/history
+.eshell/lastdir
+emacs-starter-kit/places
+
 session.*
 *.elc
 *.py[co]

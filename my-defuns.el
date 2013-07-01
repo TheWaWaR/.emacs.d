@@ -300,6 +300,7 @@
                       ))
 
 (defun use-the-eim ()
+  (interactive)
   (add-to-list 'load-path "~/.emacs.d/my-plugins/viogus-eim/")
   ;;输入法
   (autoload 'eim-use-package "eim" "Another emacs input method")
@@ -328,6 +329,7 @@
   )
 
 (defun use-the-git ()
+  (interactive)
   (add-to-list 'load-path "~/.emacs.d/my-plugins/git/")  
   (require 'git)
   (require 'git-blame)
@@ -375,9 +377,9 @@
   )
 
 
-(mapcar '(lambda  (item) (message (concat "-" item "-")))  '("AA" "BB" "CC"))
-(setq alist '("A" "B"))
-(elt ["A" "B" "C"] 1)
+;; (mapcar '(lambda  (item) (message (concat "-" item "-")))  '("AA" "BB" "CC"))
+;; (setq alist '("A" "B"))
+;; (elt ["A" "B" "C"] 1)
 
 
 ;; 调节音量
