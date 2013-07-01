@@ -828,7 +828,7 @@ Return t if it has at least one flymake overlay, nil if no overlay."
 
 (defface flymake-infoline
   '((((class color) (background dark)) (:background "DarkGreen"))
-    (((class color) (background light)) (:background "LightGreen"))
+    (((class color) (background light)) (:background "green"))
     (t (:bold t)))
   "Face used for marking warning lines."
   :group 'flymake)

@@ -16,6 +16,9 @@
 (if (fboundp 'scroll-bar-mode) (scroll-bar-mode -1))
 
 ;; Load path etc.
+(setq python-version-checked t)
+(setq python-python-command "python2.7")
+
 
 (setq dotfiles-dir (file-name-directory
                     (or (buffer-file-name) load-file-name)))
@@ -100,6 +103,7 @@
 
 ;;;; My custon [BEGIN]
 (add-to-list 'load-path "~/.emacs.d/my-plugins/")
+(require 'youdao)
 (require 'my-defuns)
 (require 'sr-speedbar)
 (require 'my-key-bindings)
@@ -124,11 +128,12 @@
 (setq column-number-mode t)
 (set-default 'truncate-lines t)
 
-(use-the-sdcv)
+;; (use-the-sdcv)
 (use-the-eim)
 (use-the-git)
-(use-the-erlang)
+;; (use-the-erlang)
 ;; (use-the-emms)
+(use-the-jedi)
 (use-the-tabbar)
 (use-the-auto-complete)
 ;; (use-the-slime)
@@ -139,12 +144,7 @@
 
 ; example of setting env var named “path”
 ; by prepending new paths to existing paths
-(setenv "PATH"
-  (concat
-   "/home/weet/Dropbox/Code/Python/bin:"
-   (getenv "PATH") ; inherited from OS
-  )
-)
+
 
 ;;; FlySpell
 ;; (flyspell-mode nil)

@@ -1,10 +1,4 @@
 
-(global-set-key [s-left] 'windmove-left)
-(global-set-key [s-right] 'windmove-right)
-(global-set-key [s-up] 'windmove-up)
-(global-set-key [s-down] 'windmove-down) 
-(global-set-key [?\S- ] 'set-mark-command) 
-(global-set-key (kbd "C-c i") 'toggle-input-method)
 
 
 (defun custom-gui-key-bindings ()
@@ -31,8 +25,8 @@
   (global-set-key (kbd "C-c 7") 'sql-mysql)
   (global-set-key (kbd "C-c '") 'winner-undo)
   (global-set-key (kbd "C-c \"") 'winner-redo)
-  (global-set-key (kbd "C-c ,") 'next-buffer)
-  (global-set-key (kbd "C-c .") 'previous-buffer)
+  (global-set-key (kbd "C-c ,") 'jedi:goto-definition-pop-marker)
+  (global-set-key (kbd "C-c .") 'jedi:goto-definition)
   (global-set-key (kbd "C-c }") 'tabbar-forward-group)
   (global-set-key (kbd "C-c {") 'tabbar-backward-group)
   (global-set-key (kbd "C-c >") 'tabbar-forward)
@@ -41,13 +35,20 @@
   (global-set-key (kbd "C-c t") 'datetime)
   )
 
+(global-set-key [s-left] 'windmove-left)
+(global-set-key [s-right] 'windmove-right)
+(global-set-key [s-up] 'windmove-up)
+(global-set-key [s-down] 'windmove-down) 
+(global-set-key [?\S- ] 'set-mark-command) 
+(global-set-key (kbd "C-c i") 'toggle-input-method)
+
 (global-set-key (kbd "C-c d") 'dired)
 (global-set-key (kbd "C-c o") 'search-backward-regexp)
 (global-set-key [s-left] 'windmove-left)
 (global-set-key [s-right] 'windmove-right)
 (global-set-key [s-up] 'windmove-up)
 (global-set-key [s-down] 'windmove-down) 
-(global-set-key [?\S- ] 'set-mark-command)
+(global-set-key (kbd "C-x '") 'set-mark-command)
 (global-set-key (kbd "C-c i") 'toggle-input-method)
 (global-set-key (kbd "C-c f") 'flymake-mode)
 
@@ -67,6 +68,7 @@
 (global-set-key [(control tab)] 'my-indent-or-complete)
 
 (global-set-key (kbd "C-c s") 'sr-speedbar-toggle)
-(global-set-key (kbd "C-c l") 'sdcv-search-pointer)
+;; (global-set-key (kbd "C-c l") 'sdcv-search-pointer)
+(global-set-key (kbd "C-c l") 'youdao-translate-word)
 
 (provide 'my-key-bindings)

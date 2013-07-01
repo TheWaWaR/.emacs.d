@@ -58,7 +58,7 @@
   "
   (interactive)
   (lambda ()
-    (concat "(" (format-time-string "%H:%M") ") " "➜ "
+    (concat "(" (format-time-string "%H:%M") ") " "-> "
             (let ((eshell-pwd (eshell/pwd)) (home-dir (getenv "HOME")))
               (if (or (string= eshell-pwd home-dir) (string= eshell-pwd "~")) "~"
                 ;; Not in HOME
@@ -78,8 +78,7 @@
                                 (equal  (reverse  (cdr (reverse  cur-path-list))) home-path-list)) "~"
                          (nth (- cur-path-len 2) cur-path-list))
                        "/" (car (last cur-path-list))))))))
-            (if (= (user-uid) 0) " # " " $ ")))
-  )
+            (if (= (user-uid) 0) " # " " $ "))))
 
 
 (defun clear-not-staged-delete-files (&rest args)
@@ -89,6 +88,7 @@
   (get-buffer-create (concat "*" rs (car args) "*"))
   )
 ;; (clear-not-staged-delete-files "a")
+
 
 
 (defun my-mark-current-word (&optional arg allow-extend)
@@ -150,12 +150,12 @@
 
 
 (defun create-scratch-buffer nil
-       "create a scratch buffer"
-       (interactive)
-       (kill-buffer "*scratch*")
-       (switch-to-buffer (get-buffer-create "*scratch*"))
-       (insert ";; Good day sir!")
-       (lisp-interaction-mode))
+  "create a scratch buffer"
+  (interactive)
+  (kill-buffer "*scratch*")
+  (switch-to-buffer (get-buffer-create "*scratch*"))
+  (insert ";; Good day sir!")
+  (lisp-interaction-mode))
 
 
 (defun set-frame-size-according-to-resolution ()
@@ -175,6 +175,7 @@
         (add-to-list 'default-frame-alist 
                      (cons 'height (/ (- (x-display-pixel-height) 300)
                                       (frame-char-height)))))))
+
 
 (defun use-the-emms ()
   (require 'emms)
@@ -206,6 +207,14 @@
   (slime-setup '(slime-fancy))
   )
 
+(defun use-the-jedi ()
+  (add-hook 'python-mode-hook 'jedi:setup)
+  (setq jedi:setup-keys t)                      ; optional
+  (setq jedi:complete-on-dot t)                 ; optional
+  (setq jedi:server-command
+        (list "/usr/bin/python2" "/root/.emacs.d/emacs-starter-kit/elpa/jedi-0.1.2/jediepcserver.py"))
+  )
+
 
 (defun use-the-sdcv ()
   ;; 词典
@@ -231,7 +240,7 @@
           "FOLDOC"
           "WordNet"
           ))
-  (global-set-key (kbd "C-c l") 'sdcv-search-pointer)
+  ;; (global-set-key (kbd "C-c l") 'sdcv-search-pointer)
   )
 
 
@@ -253,7 +262,42 @@
   (setq tabbar-buffer-groups-function 'tabbar-buffer-groups)
   (tabbar-mode t)
   (tabbar-local-mode t)
-  )
+  
+  ;;; 设置tabbar外观
+  ;; 设置默认主题: 字体, 背景和前景颜色，大小
+  (set-face-attribute 'tabbar-default nil
+                      :family "DejaVu Sans Mono"
+                      :background "#282828"
+                      :foreground "#282828"
+                      :height 0.95
+                      )
+  ;; 设置左边按钮外观：外框框边大小和颜色
+  (set-face-attribute 'tabbar-button nil
+                      :inherit 'tabbar-default
+                      :box '(:line-width 1 :color "#303030")
+                      )
+  ;; 设置当前tab外观：颜色，字体，外框大小和颜色
+  (set-face-attribute 'tabbar-selected nil
+                      :inherit 'tabbar-default
+                      :foreground "wheat"
+                      :background "#3f3f3f"
+                      :box '(:line-width 1 :color "#4f4f4f")
+                      :overline "#282828"
+                      :underline nil
+                      :weight 'bold
+                      )
+  ;; 设置非当前tab外观：外框大小和颜色
+  (set-face-attribute 'tabbar-separator nil
+                      :background "#282828"
+                      :foreground "gray70"
+                      )
+  (set-face-attribute 'tabbar-unselected nil
+                      :inherit 'tabbar-default
+                      :box '(:line-width 1 :color "#4f4f4f")
+                      :overline "#282828"
+                      :background "#303030"
+                      :foreground "gray55"
+                      ))
 
 (defun use-the-eim ()
   (add-to-list 'load-path "~/.emacs.d/my-plugins/viogus-eim/")
