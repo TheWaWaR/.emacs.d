@@ -207,12 +207,14 @@
   (slime-setup '(slime-fancy))
   )
 
+
 (defun use-the-jedi ()
   (add-hook 'python-mode-hook 'jedi:setup)
   (setq jedi:setup-keys t)                      ; optional
   (setq jedi:complete-on-dot t)                 ; optional
-  (setq jedi:server-command
-        (list "/usr/bin/python2" "/root/.emacs.d/emacs-starter-kit/elpa/jedi-0.1.2/jediepcserver.py"))
+  
+  (setq jedi:server-command                     ; Just like *virtualenv*
+        (list "/root/envs/KAFKA/bin/python2.7" "/root/.emacs.d/emacs-starter-kit/elpa/jedi-0.1.2/jediepcserver.py"))
   )
 
 

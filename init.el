@@ -105,7 +105,7 @@
 (add-to-list 'load-path "~/.emacs.d/my-plugins/")
 (require 'youdao)
 (require 'my-defuns)
-(require 'sr-speedbar)
+;; (require 'sr-speedbar)
 (require 'my-key-bindings)
 (require 'undo-tree)
 (require 'jinja2-mode)
@@ -158,6 +158,13 @@
 (require 'color-theme)
 (require 'color-theme-zenburn-old)
 (color-theme-zenburn-old)
+(setq ansi-color-names-vector ; better contrast colors
+      ["black" "red4" "SeaGreen" "yellow4"
+       "SkyBlue" "magenta4" "cyan4" "white"])
+
+(set-face-background 'highlight-indentation-face "#2A2A2A")
+(set-face-background 'highlight-indentation-current-column-face "#383838")
+
 
 ;;; Python programming
 (add-to-list 'load-path "~/.emacs.d/emacs-for-python/") ;; tell where to load the various files

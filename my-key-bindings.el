@@ -39,7 +39,7 @@
 (global-set-key [s-right] 'windmove-right)
 (global-set-key [s-up] 'windmove-up)
 (global-set-key [s-down] 'windmove-down) 
-(global-set-key [?\S- ] 'set-mark-command) 
+(global-set-key (kbd "C-x j") 'set-mark-command) 
 (global-set-key (kbd "C-c i") 'toggle-input-method)
 
 (global-set-key (kbd "C-c d") 'dired)
