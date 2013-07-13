@@ -154,10 +154,9 @@
 ;; (ispell-change-dictionary "american" t)
 
 
-;; Theme
-(require 'color-theme)
-(require 'color-theme-zenburn-old)
-(color-theme-zenburn-old)
+;; Face stuff
+(load-theme 'zenburn t)
+
 (setq ansi-color-names-vector ; better contrast colors
       ["black" "red4" "SeaGreen" "yellow4"
        "SkyBlue" "magenta4" "cyan4" "white"])
