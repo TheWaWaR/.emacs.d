@@ -2,8 +2,7 @@ alias dcli cd /home/weet/Android/cli/
 alias sudo *sudo $*
 alias gst git status
 alias emacs find-file
-alias ls ls --color=auto
-alias ll ls -l
+alias ls ls --color=auto $*
 alias dweb cd ~/GitHub/environments/FlaskLearn/xiaoli/web/
 alias dmw cd ~/GitHub/environments/FlaskLearn/vps-BluePrint/myway/
 alias dnb cd ~/GitHub/nodehub/web/

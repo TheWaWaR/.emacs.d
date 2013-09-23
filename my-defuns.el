@@ -213,8 +213,8 @@
   (setq jedi:setup-keys t)                      ; optional
   (setq jedi:complete-on-dot t)                 ; optional
   
-  (setq jedi:server-command                     ; Just like *virtualenv*
-        (list "/root/envs/KAFKA/bin/python2.7" "/root/.emacs.d/emacs-starter-kit/elpa/jedi-0.1.2/jediepcserver.py"))
+  ;; (setq jedi:server-command                     ; Just like *virtualenv*
+  ;;       (list "/root/envs/KAFKA/bin/python2.7" "/root/.emacs.d/emacs-starter-kit/elpa/jedi-0.1.2/jediepcserver.py"))
   )
 
 

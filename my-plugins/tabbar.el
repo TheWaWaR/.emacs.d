@@ -1349,109 +1349,109 @@ mouse-2, or mouse-3 click.  The default is a mouse-1 click."
 
 ;;; Mouse-wheel support
 ;;
-(require 'mwheel)
+;; (require 'mwheel)
 
 ;;; Compatibility
 ;;
-(defconst tabbar--mwheel-up-event
-  (symbol-value (if (boundp 'mouse-wheel-up-event)
-                    'mouse-wheel-up-event
-                  'mouse-wheel-up-button)))
+;; (defconst tabbar--mwheel-up-event
+;;   (symbol-value (if (boundp 'mouse-wheel-up-event)
+;;                     'mouse-wheel-up-event
+;;                   'mouse-wheel-up-button)))
 
-(defconst tabbar--mwheel-down-event
-  (symbol-value (if (boundp 'mouse-wheel-down-event)
-                    'mouse-wheel-down-event
-                  'mouse-wheel-down-button)))
+;; (defconst tabbar--mwheel-down-event
+;;   (symbol-value (if (boundp 'mouse-wheel-down-event)
+;;                     'mouse-wheel-down-event
+;;                   'mouse-wheel-down-button)))
 
-(defsubst tabbar--mwheel-key (event-type)
-  "Return a mouse wheel key symbol from EVENT-TYPE.
-When EVENT-TYPE is a symbol return it.
-When it is a button number, return symbol `mouse-<EVENT-TYPE>'."
-  (if (symbolp event-type)
-      event-type
-    (intern (format "mouse-%s" event-type))))
+;; (defsubst tabbar--mwheel-key (event-type)
+;;   "Return a mouse wheel key symbol from EVENT-TYPE.
+;; When EVENT-TYPE is a symbol return it.
+;; When it is a button number, return symbol `mouse-<EVENT-TYPE>'."
+;;   (if (symbolp event-type)
+;;       event-type
+;;     (intern (format "mouse-%s" event-type))))
 
-(defsubst tabbar--mwheel-up-p (event)
-  "Return non-nil if EVENT is a mouse-wheel up event."
-  (let ((x (event-basic-type event)))
-    (if (eq 'mouse-wheel x)
-        (< (car (cdr (cdr event))) 0)   ;; Emacs 21.3
-      ;; Emacs > 21.3
-      (eq x tabbar--mwheel-up-event))))
+;; (defsubst tabbar--mwheel-up-p (event)
+;;   "Return non-nil if EVENT is a mouse-wheel up event."
+;;   (let ((x (event-basic-type event)))
+;;     (if (eq 'mouse-wheel x)
+;;         (< (car (cdr (cdr event))) 0)   ;; Emacs 21.3
+;;       ;; Emacs > 21.3
+;;       (eq x tabbar--mwheel-up-event))))
 
 ;;; Basic commands
 ;;
 ;;;###autoload
-(defun tabbar-mwheel-backward (event)
-  "Select the previous available tab.
-EVENT is the mouse event that triggered this command.
-Mouse-enabled equivalent of the command `tabbar-backward'."
-  (interactive "@e")
-  (tabbar-cycle t event))
+;; (defun tabbar-mwheel-backward (event)
+;;   "Select the previous available tab.
+;; EVENT is the mouse event that triggered this command.
+;; Mouse-enabled equivalent of the command `tabbar-backward'."
+;;   (interactive "@e")
+;;   (tabbar-cycle t event))
 
-;;;###autoload
-(defun tabbar-mwheel-forward (event)
-  "Select the next available tab.
-EVENT is the mouse event that triggered this command.
-Mouse-enabled equivalent of the command `tabbar-forward'."
-  (interactive "@e")
-  (tabbar-cycle nil event))
+;; ;;;###autoload
+;; (defun tabbar-mwheel-forward (event)
+;;   "Select the next available tab.
+;; EVENT is the mouse event that triggered this command.
+;; Mouse-enabled equivalent of the command `tabbar-forward'."
+;;   (interactive "@e")
+;;   (tabbar-cycle nil event))
 
-;;;###autoload
-(defun tabbar-mwheel-backward-group (event)
-  "Go to selected tab in the previous available group.
-If there is only one group, select the previous visible tab.
-EVENT is the mouse event that triggered this command.
-Mouse-enabled equivalent of the command `tabbar-backward-group'."
-  (interactive "@e")
-  (let ((tabbar-cycle-scope 'groups))
-    (tabbar-cycle t event)))
+;; ;;;###autoload
+;; (defun tabbar-mwheel-backward-group (event)
+;;   "Go to selected tab in the previous available group.
+;; If there is only one group, select the previous visible tab.
+;; EVENT is the mouse event that triggered this command.
+;; Mouse-enabled equivalent of the command `tabbar-backward-group'."
+;;   (interactive "@e")
+;;   (let ((tabbar-cycle-scope 'groups))
+;;     (tabbar-cycle t event)))
 
-;;;###autoload
-(defun tabbar-mwheel-forward-group (event)
-  "Go to selected tab in the next available group.
-If there is only one group, select the next visible tab.
-EVENT is the mouse event that triggered this command.
-Mouse-enabled equivalent of the command `tabbar-forward-group'."
-  (interactive "@e")
-  (let ((tabbar-cycle-scope 'groups))
-    (tabbar-cycle nil event)))
+;; ;;;###autoload
+;; (defun tabbar-mwheel-forward-group (event)
+;;   "Go to selected tab in the next available group.
+;; If there is only one group, select the next visible tab.
+;; EVENT is the mouse event that triggered this command.
+;; Mouse-enabled equivalent of the command `tabbar-forward-group'."
+;;   (interactive "@e")
+;;   (let ((tabbar-cycle-scope 'groups))
+;;     (tabbar-cycle nil event)))
 
-;;;###autoload
-(defun tabbar-mwheel-backward-tab (event)
-  "Select the previous visible tab.
-EVENT is the mouse event that triggered this command.
-Mouse-enabled equivalent of the command `tabbar-backward-tab'."
-  (interactive "@e")
-  (let ((tabbar-cycle-scope 'tabs))
-    (tabbar-cycle t event)))
+;; ;;;###autoload
+;; (defun tabbar-mwheel-backward-tab (event)
+;;   "Select the previous visible tab.
+;; EVENT is the mouse event that triggered this command.
+;; Mouse-enabled equivalent of the command `tabbar-backward-tab'."
+;;   (interactive "@e")
+;;   (let ((tabbar-cycle-scope 'tabs))
+;;     (tabbar-cycle t event)))
 
-;;;###autoload
-(defun tabbar-mwheel-forward-tab (event)
-  "Select the next visible tab.
-EVENT is the mouse event that triggered this command.
-Mouse-enabled equivalent of the command `tabbar-forward-tab'."
-  (interactive "@e")
-  (let ((tabbar-cycle-scope 'tabs))
-    (tabbar-cycle nil event)))
+;; ;;;###autoload
+;; (defun tabbar-mwheel-forward-tab (event)
+;;   "Select the next visible tab.
+;; EVENT is the mouse event that triggered this command.
+;; Mouse-enabled equivalent of the command `tabbar-forward-tab'."
+;;   (interactive "@e")
+;;   (let ((tabbar-cycle-scope 'tabs))
+;;     (tabbar-cycle nil event)))
 
-;;; Wrappers when there is only one generic mouse-wheel event
-;;
-;;;###autoload
-(defun tabbar-mwheel-switch-tab (event)
-  "Select the next or previous tab according to EVENT."
-  (interactive "@e")
-  (if (tabbar--mwheel-up-p event)
-      (tabbar-mwheel-forward-tab event)
-    (tabbar-mwheel-backward-tab event)))
+;; ;;; Wrappers when there is only one generic mouse-wheel event
+;; ;;
+;; ;;;###autoload
+;; (defun tabbar-mwheel-switch-tab (event)
+;;   "Select the next or previous tab according to EVENT."
+;;   (interactive "@e")
+;;   (if (tabbar--mwheel-up-p event)
+;;       (tabbar-mwheel-forward-tab event)
+;;     (tabbar-mwheel-backward-tab event)))
 
-;;;###autoload
-(defun tabbar-mwheel-switch-group (event)
-  "Select the next or previous group of tabs according to EVENT."
-  (interactive "@e")
-  (if (tabbar--mwheel-up-p event)
-      (tabbar-mwheel-forward-group event)
-    (tabbar-mwheel-backward-group event)))
+;; ;;;###autoload
+;; (defun tabbar-mwheel-switch-group (event)
+;;   "Select the next or previous group of tabs according to EVENT."
+;;   (interactive "@e")
+;;   (if (tabbar--mwheel-up-p event)
+;;       (tabbar-mwheel-forward-group event)
+;;       (tabbar-mwheel-backward-group event)))
 
 ;;; Minor modes
 ;;
@@ -1563,52 +1563,52 @@ Returns non-nil if the new state is enabled.
 
 ;;; Tabbar-Mwheel mode
 ;;
-(defvar tabbar-mwheel-mode-map
-  (let ((km (make-sparse-keymap)))
-    (if (get 'mouse-wheel 'event-symbol-elements)
-        ;; Use one generic mouse wheel event
-        (define-key km [A-mouse-wheel]
-          'tabbar-mwheel-switch-group)
-      ;; Use separate up/down mouse wheel events
-      (let ((up   (tabbar--mwheel-key tabbar--mwheel-up-event))
-            (down (tabbar--mwheel-key tabbar--mwheel-down-event)))
-        (define-key km `[header-line ,down]
-          'tabbar-mwheel-backward-group)
-        (define-key km `[header-line ,up]
-          'tabbar-mwheel-forward-group)
-        (define-key km `[header-line (control ,down)]
-          'tabbar-mwheel-backward-tab)
-        (define-key km `[header-line (control ,up)]
-          'tabbar-mwheel-forward-tab)
-        (define-key km `[header-line (shift ,down)]
-          'tabbar-mwheel-backward)
-        (define-key km `[header-line (shift ,up)]
-          'tabbar-mwheel-forward)
-        ))
-    km)
-  "Keymap to use in Tabbar-Mwheel mode.")
+;; (defvar tabbar-mwheel-mode-map
+;;   (let ((km (make-sparse-keymap)))
+;;     (if (get 'mouse-wheel 'event-symbol-elements)
+;;         ;; Use one generic mouse wheel event
+;;         (define-key km [A-mouse-wheel]
+;;           'tabbar-mwheel-switch-group)
+;;       ;; Use separate up/down mouse wheel events
+;;       (let ((up   (tabbar--mwheel-key tabbar--mwheel-up-event))
+;;             (down (tabbar--mwheel-key tabbar--mwheel-down-event)))
+;;         (define-key km `[header-line ,down]
+;;           'tabbar-mwheel-backward-group)
+;;         (define-key km `[header-line ,up]
+;;           'tabbar-mwheel-forward-group)
+;;         (define-key km `[header-line (control ,down)]
+;;           'tabbar-mwheel-backward-tab)
+;;         (define-key km `[header-line (control ,up)]
+;;           'tabbar-mwheel-forward-tab)
+;;         (define-key km `[header-line (shift ,down)]
+;;           'tabbar-mwheel-backward)
+;;         (define-key km `[header-line (shift ,up)]
+;;           'tabbar-mwheel-forward)
+;;         ))
+;;     km)
+;;   "Keymap to use in Tabbar-Mwheel mode.")
 
 ;;;###autoload
-(define-minor-mode tabbar-mwheel-mode
-  "Toggle use of the mouse wheel to navigate through tabs or groups.
-With prefix argument ARG, turn on if positive, otherwise off.
-Returns non-nil if the new state is enabled.
+;; (define-minor-mode tabbar-mwheel-mode
+;;   "Toggle use of the mouse wheel to navigate through tabs or groups.
+;; With prefix argument ARG, turn on if positive, otherwise off.
+;; Returns non-nil if the new state is enabled.
 
-\\{tabbar-mwheel-mode-map}"
-  :group 'tabbar
-  :require 'tabbar
-  :global t
-  :keymap tabbar-mwheel-mode-map
-  (when tabbar-mwheel-mode
-    (unless (and mouse-wheel-mode tabbar-mode)
-      (tabbar-mwheel-mode -1))))
+;; \\{tabbar-mwheel-mode-map}"
+;;   :group 'tabbar
+;;   :require 'tabbar
+;;   :global t
+;;   :keymap tabbar-mwheel-mode-map
+;;   (when tabbar-mwheel-mode
+;;     (unless (and mouse-wheel-mode tabbar-mode)
+;;       (tabbar-mwheel-mode -1))))
 
-(defun tabbar-mwheel-follow ()
-  "Toggle Tabbar-Mwheel following Tabbar and Mouse-Wheel modes."
-  (tabbar-mwheel-mode (if (and mouse-wheel-mode tabbar-mode) 1 -1)))
+;; (defun tabbar-mwheel-follow ()
+;;   "Toggle Tabbar-Mwheel following Tabbar and Mouse-Wheel modes."
+;;   (tabbar-mwheel-mode (if (and mouse-wheel-mode tabbar-mode) 1 -1)))
 
-(add-hook 'tabbar-mode-hook      'tabbar-mwheel-follow)
-(add-hook 'mouse-wheel-mode-hook 'tabbar-mwheel-follow)
+;; (add-hook 'tabbar-mode-hook      'tabbar-mwheel-follow)
+;; (add-hook 'mouse-wheel-mode-hook 'tabbar-mwheel-follow)
 
 ;;; Buffer tabs
 ;;

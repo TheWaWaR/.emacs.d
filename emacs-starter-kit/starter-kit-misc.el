@@ -5,7 +5,7 @@
 (when window-system
   (setq frame-title-format '(buffer-file-name "%f" ("%b")))
   (tooltip-mode -1)
-  (mouse-wheel-mode t)
+  ; (mouse-wheel-mode t)
   (blink-cursor-mode -1))
 
 (add-hook 'before-make-frame-hook 'turn-off-tool-bar)
