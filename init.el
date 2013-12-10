@@ -134,6 +134,7 @@
 ;; (use-the-erlang)
 ;; (use-the-emms)
 (use-the-jedi)
+(use-the-coffee)
 (use-the-tabbar)
 (use-the-auto-complete)
 ;; (use-the-slime)

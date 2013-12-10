@@ -218,6 +218,11 @@
   )
 
 
+(defun use-the-coffee ()
+  (setq coffee-tab-width 4)
+  )
+
+
 (defun use-the-sdcv ()
   ;; 词典
   (require 'sdcv)
