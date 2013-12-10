@@ -4,7 +4,11 @@
 
 
 ;;;### (autoloads (php-mode php-file-patterns) "php-mode" "php-mode.el"
+<<<<<<< HEAD
 ;;;;;;  (21110 16077 854114 410000))
+=======
+;;;;;;  (21125 33853 0 0))
+>>>>>>> 53cbc0bd241d4b1a15ffb54ee0734d76fcc5b681
 ;;; Generated autoloads from php-mode.el
 
 (defvar php-file-patterns '("\\.php[s34]?\\'" "\\.phtml\\'" "\\.inc\\'") "\
@@ -21,8 +25,13 @@ Major mode for editing PHP code.
 
 ;;;***
 
+<<<<<<< HEAD
 ;;;### (autoloads nil nil ("php-mode-pkg.el") (21110 16077 865525
 ;;;;;;  82000))
+=======
+;;;### (autoloads nil nil ("php-mode-pkg.el") (21125 33853 824894
+;;;;;;  291000))
+>>>>>>> 53cbc0bd241d4b1a15ffb54ee0734d76fcc5b681
 
 ;;;***
 
