@@ -21,6 +21,7 @@
 (add-hook 'c++-mode-hook 'my-c-mode-common-hook)
 (add-hook 'erlang-mode-hook 'my-erlang-mode-hook)
 (add-hook 'python-mode-hook 'highlight-indentation-mode)
+(add-hook 'sgml-mode-hook 'zencoding-mode)
 
 ;; (add-hook 'eshell-mode-hook 'shell-switcher-manually-register-shell)
 ;; (add-hook 'emms-player-finished-hook 'emms-random)          ;当播放完当前的歌曲时随机选择下一首歌曲

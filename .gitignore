@@ -3,6 +3,7 @@ thumbs
 games
 url
 tramp
+archive-contents
 
 # git rm -f .eshell/history && touch .eshell/history
 .eshell/history
