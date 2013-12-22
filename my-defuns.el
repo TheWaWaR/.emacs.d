@@ -221,7 +221,7 @@
   (require 'js2-mode)
   (autoload 'js2-mode "js2" "Start js2-mode" t)
   (add-to-list 'auto-mode-alist '("\\.js$" . js2-mode))
-  (add-to-list 'auto-mode-alist '("\\.json$" . jd2-mode))
+  (add-to-list 'auto-mode-alist '("\\.json$" . json-mode))
   )
 
 
