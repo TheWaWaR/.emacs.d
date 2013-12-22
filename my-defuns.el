@@ -217,11 +217,11 @@
   ;;       (list "/root/envs/KAFKA/bin/python2.7" "/root/.emacs.d/emacs-starter-kit/elpa/jedi-0.1.2/jediepcserver.py"))
   )
 
-(defun use-the-js2 ()
+(defun use-the-javascript ()
   (require 'js2-mode)
   (autoload 'js2-mode "js2" "Start js2-mode" t)
   (add-to-list 'auto-mode-alist '("\\.js$" . js2-mode))
-  (add-to-list 'auto-mode-alist '("\\.json$" . json-mode))
+  (add-to-list 'auto-mode-alist '("\\.json$" . js-mode))
   )
 
 

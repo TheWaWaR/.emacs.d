@@ -134,7 +134,7 @@
 ;; (use-the-erlang)
 ;; (use-the-emms)
 (use-the-jedi)
-(use-the-js2)
+(use-the-javascript)
 (use-the-coffee)
 (use-the-tabbar)
 (use-the-auto-complete)
