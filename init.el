@@ -134,6 +134,7 @@
 ;; (use-the-erlang)
 ;; (use-the-emms)
 (use-the-jedi)
+(use-the-golang)
 (use-the-javascript)
 (use-the-coffee)
 (use-the-tabbar)

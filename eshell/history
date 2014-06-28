@@ -1,0 +1,6 @@
+ls
+ls
+cd ~/.ssh/
+ls
+touch authorized_keys
+ls

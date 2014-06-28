@@ -22,6 +22,24 @@
   )
 
 
+;;; Select text in quote
+(defun select-text-in-quoto ()
+  (interactive)
+  (let (p1)
+      (skip-chars-backward "(")
+      (setq p1 (point))
+      (skip-chars-forward ")")
+      (set-mark p1)
+      )
+  )
+
+(defun select-current-line ()
+  "Select the current line"
+  (interactive)
+  (end-of-line) ; move to end of line
+  (set-mark (line-beginning-position)))
+
+
 ;;; Copy from grep.el.gz -> grep-find function
 (defun my-find-grep (command-args)
   (interactive
@@ -215,6 +233,11 @@
   
   ;; (setq jedi:server-command                     ; Just like *virtualenv*
   ;;       (list "/root/envs/KAFKA/bin/python2.7" "/root/.emacs.d/emacs-starter-kit/elpa/jedi-0.1.2/jediepcserver.py"))
+  )
+
+(defun use-the-golang ()
+  (require 'go-mode)
+  (require 'go-mode-load)
   )
 
 (defun use-the-javascript ()
