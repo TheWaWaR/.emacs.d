@@ -44,6 +44,22 @@
       (grep command-args))))
 
 
+;; sudo apt-get install xsel
+;; use xsel to copy/paste in emacs-nox
+(unless window-system
+  (when (getenv "DISPLAY")
+    (defun xsel-cut-function (text &optional push)
+      (with-temp-buffer
+        (insert text)
+        (call-process-region (point-min) (point-max) "xsel" nil 0 nil "--clipboard" "--input")))
+    (defun xsel-paste-function ()
+      (let ((xsel-output (shell-command-to-string "xsel --clipboard --output")))
+        (unless (string= (car kill-ring) xsel-output)
+          xsel-output)))
+    (setq interprogram-cut-function 'xsel-cut-function)
+    (setq interprogram-paste-function 'xsel-paste-function)))
+
+
 (defun make-eshell-prompt-function ()
   " 设置 esehll 提示符样式的函数.
     Create at: <2012-10-18 18:10:00>
@@ -119,14 +135,12 @@
 
 (defun datetime ()
   (interactive)
-  (insert (format-time-string "[%Y-%m-%d %H:%M]"))
-  )
+  (insert (format-time-string "[%Y-%m-%d %H:%M]")))
 
 (defun open-org-file (loc)
   (setq daily-dir (concat "/home/weet/Dropbox/Emacs/" loc "/"))
   (setq daily-file-name (concat (format-time-string "%Y-%m-%d") ".org"))
-  (concat daily-dir daily-file-name)
-  )
+  (concat daily-dir daily-file-name))
 
 (defun do-daily-task ()
   (interactive)
@@ -140,13 +154,11 @@
 
 (defun alpha-transparency ()
   (interactive)
-  (set-frame-parameter (selected-frame) 'alpha '(85 80))
-  )
+  (set-frame-parameter (selected-frame) 'alpha '(85 80)))
 
 (defun full-transparency ()
   (interactive)
-  (set-frame-parameter (selected-frame) 'alpha '(96 80))
-  )
+  (set-frame-parameter (selected-frame) 'alpha '(96 80)))
 
 
 (defun create-scratch-buffer nil
@@ -204,8 +216,7 @@
   (add-to-list 'load-path "/home/weet/.emacs.d/my-plugins/slime/")
   (add-to-list 'load-path "/home/weet/.emacs.d/my-plugins/slime/contrib/")
   (require 'slime)
-  (slime-setup '(slime-fancy))
-  )
+  (slime-setup '(slime-fancy)))
 
 
 (defun use-the-jedi ()
@@ -217,17 +228,20 @@
   ;;       (list "/root/envs/KAFKA/bin/python2.7" "/root/.emacs.d/emacs-starter-kit/elpa/jedi-0.1.2/jediepcserver.py"))
   )
 
+(defun use-the-golang ()
+  (add-to-list 'load-path "~/.gocode/src/github.com/dougm/goflymake")
+  (require 'go-flymake)
+  (require 'go-flycheck))
+
 (defun use-the-javascript ()
   (require 'js2-mode)
   (autoload 'js2-mode "js2" "Start js2-mode" t)
   (add-to-list 'auto-mode-alist '("\\.js$" . js2-mode))
-  (add-to-list 'auto-mode-alist '("\\.json$" . js-mode))
-  )
+  (add-to-list 'auto-mode-alist '("\\.json$" . js-mode)))
 
 
 (defun use-the-coffee ()
-  (setq coffee-tab-width 4)
-  )
+  (setq coffee-tab-width 4))
 
 
 
@@ -399,8 +413,7 @@
 
 ;; 调节音量
 (defun eshell/v (opt)
-  (shell-command (concat "amixer --quiet set Master " opt))
-  )
+  (shell-command (concat "amixer --quiet set Master " opt)))
 
 
 (defun eshell/emo (file)

@@ -12,7 +12,8 @@
 ;; . 当最后一个 Emacs 退出时, 杀死 dict_server.py
 
 
-(defvar current-path (file-name-directory (or load-file-name buffer-file-name)))  ; Current file's path
+(defvar current-path (file-name-directory
+                      (or load-file-name buffer-file-name))) ; Current file's path
 (defvar dict-server-script (concat current-path "dict_server.py"))
 (defvar dict-client-script (concat current-path "dict_client.py"))
 

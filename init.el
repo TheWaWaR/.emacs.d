@@ -129,11 +129,12 @@
 (set-default 'truncate-lines t)
 
 ;; (use-the-sdcv)
-;; (use-the-eim)
+(use-the-eim)
 ;; (use-the-git)
 ;; (use-the-erlang)
 ;; (use-the-emms)
 (use-the-jedi)
+;; (use-the-golang)
 (use-the-javascript)
 (use-the-coffee)
 (use-the-tabbar)

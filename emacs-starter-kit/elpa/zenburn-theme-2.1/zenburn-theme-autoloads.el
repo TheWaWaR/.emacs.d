@@ -3,16 +3,18 @@
 ;;; Code:
 
 
-;;;### (autoloads nil "zenburn-theme" "zenburn-theme.el" (20960 52773
-;;;;;;  511619 712000))
+;;;### (autoloads nil "zenburn-theme" "zenburn-theme.el" (21310 10292
+;;;;;;  820275 241000))
 ;;; Generated autoloads from zenburn-theme.el
 
 (and load-file-name (boundp 'custom-theme-load-path) (add-to-list 'custom-theme-load-path (file-name-as-directory (file-name-directory load-file-name))))
 
+(add-to-list 'safe-local-eval-forms '(when (require 'rainbow-mode nil t) (rainbow-mode 1)))
+
 ;;;***
 
-;;;### (autoloads nil nil ("zenburn-theme-pkg.el") (20960 52773 595642
-;;;;;;  430000))
+;;;### (autoloads nil nil ("zenburn-theme-pkg.el") (21310 10292 909545
+;;;;;;  124000))
 
 ;;;***
 

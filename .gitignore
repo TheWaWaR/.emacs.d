@@ -4,6 +4,7 @@ games
 url
 tramp
 archive-contents
+RFC/*
 
 # git rm -f .eshell/history && touch .eshell/history
 .eshell/history

@@ -3,6 +3,7 @@
 
 (defun custom-gui-key-bindings ()
   (global-set-key (kbd "C-;") 'delete-other-windows)
+  (global-set-key (kbd "C-c ;") 'delete-other-windows)
   (global-set-key (kbd "C-*") 'eshell)
   (global-set-key (kbd "C-&") 'sql-mysql)
   (global-set-key (kbd "C-'") 'winner-undo)
