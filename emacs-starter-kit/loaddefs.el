@@ -619,11 +619,11 @@ Color theme by Marcus Crafter, based off the TextMate Twilight theme, created 20
 
 ;;;***
 
-;;;### (autoloads (color-theme-zenburn) "elpa-to-submit/zenburn-old"
-;;;;;;  "elpa-to-submit/zenburn-old.el" (21360 20258 176614 70000))
-;;; Generated autoloads from elpa-to-submit/zenburn-old.el
+;;;### (autoloads (color-theme-zenburn) "elpa-to-submit/zenburn"
+;;;;;;  "elpa-to-submit/zenburn.el" (21424 48790 581626 581000))
+;;; Generated autoloads from elpa-to-submit/zenburn.el
 
-(autoload 'color-theme-zenburn "elpa-to-submit/zenburn-old" "\
+(autoload 'color-theme-zenburn "elpa-to-submit/zenburn" "\
 Just some alien fruit salad to keep you in the zone.
 
 \(fn)" t nil)
@@ -635,7 +635,7 @@ Just some alien fruit salad to keep you in the zone.
 ;;;### (autoloads nil nil ("elpa-to-submit/autopair.el" "elpa-to-submit/color-theme.el"
 ;;;;;;  "elpa-to-submit/cython-mode.el" "elpa-to-submit/eshell-vc.el"
 ;;;;;;  "elpa-to-submit/notify.el" "elpa-to-submit/open-next-line.el"
-;;;;;;  "elpa-to-submit/virtualenv.el") (21360 21006 631176 648000))
+;;;;;;  "elpa-to-submit/virtualenv.el") (21424 49304 948780 103000))
 
 ;;;***
 

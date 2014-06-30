@@ -22,6 +22,24 @@
   )
 
 
+;;; Select text in quote
+(defun select-text-in-quoto ()
+  (interactive)
+  (let (p1)
+      (skip-chars-backward "(")
+      (setq p1 (point))
+      (skip-chars-forward ")")
+      (set-mark p1)
+      )
+  )
+
+(defun select-current-line ()
+  "Select the current line"
+  (interactive)
+  (end-of-line) ; move to end of line
+  (set-mark (line-beginning-position)))
+
+
 ;;; Copy from grep.el.gz -> grep-find function
 (defun my-find-grep (command-args)
   (interactive
@@ -231,7 +249,12 @@
 (defun use-the-golang ()
   (add-to-list 'load-path "~/.gocode/src/github.com/dougm/goflymake")
   (require 'go-flymake)
-  (require 'go-flycheck))
+  (require 'go-flycheck)
+  (require 'go-mode)
+  (require 'go-mode-load)
+  (require 'go-autocomplete)
+  )
+ 
 
 (defun use-the-javascript ()
   (require 'js2-mode)
