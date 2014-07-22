@@ -404,7 +404,8 @@
     (erase-buffer)))
 
 ;; 打开文件
-(defun eshell/em (files)
+(defun eshell/em (&rest files)
+  (eshell-printn files)
   (if (listp files)
       (progn
         (eshell-printn "Many Files:")
@@ -422,11 +423,10 @@
           ;;            ))
           ;;         files)
           ))
-    (eshell-printn "One file:")
-    (eshell-printn files)
-    (find-file files)
-    )
-  )
+    (progn
+      (eshell-printn "One file:")
+      (eshell-printn files)
+      (find-file files))))
 
 
 ;; (mapcar '(lambda  (item) (message (concat "-" item "-")))  '("AA" "BB" "CC"))
