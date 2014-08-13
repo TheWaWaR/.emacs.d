@@ -1,3 +1,4 @@
+alias (nil)  $*
 alias l s $*
 alias lr ls -R $*
 alias dpy cd ~/Dropbox/Code/Python/bin
@@ -11,3 +12,4 @@ alias emacs find-file
 alias gst git status
 alias sudo *sudo $*
 alias dcli cd /home/weet/Android/cli/
+alias s $*

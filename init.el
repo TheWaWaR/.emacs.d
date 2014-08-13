@@ -15,6 +15,7 @@
 (if (fboundp 'tool-bar-mode) (tool-bar-mode -1))
 (if (fboundp 'scroll-bar-mode) (scroll-bar-mode -1))
 
+
 ;; Load path etc.
 (setq python-version-checked t)
 (setq python-python-command "python2.7")
@@ -46,6 +47,7 @@
   (add-to-list 'package-archives source t))
 (package-initialize)
 (require 'starter-kit-elpa)
+
 
 ;; These should be loaded on startup rather than autoloaded on demand
 ;; since they are likely to be used in every session
@@ -139,6 +141,7 @@
 (use-the-coffee)
 (use-the-tabbar)
 (use-the-auto-complete)
+;; (use-the-neotree)
 ;; (use-the-slime)
 (set-frame-size-according-to-resolution)
 
@@ -166,7 +169,6 @@
 
 (set-face-background 'highlight-indentation-face "#2A2A2A")
 (set-face-background 'highlight-indentation-current-column-face "#383838")
-
 
 ;;; Python programming
 (add-to-list 'load-path "~/.emacs.d/emacs-for-python/") ;; tell where to load the various files
@@ -202,10 +204,8 @@
       (require 'my-face-settings)
       (custom-gui-key-bindings)
       (alpha-transparency)
-      (my-fullscreen)
-      )
-  (custom-terminal-key-bindings)
-  )
+      (my-fullscreen))
+  (custom-terminal-key-bindings))
 
 (require 'my-hooks)                     ; 加载各种自定义的 hook
 ;;;; My custom config [END]

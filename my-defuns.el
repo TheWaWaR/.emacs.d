@@ -64,18 +64,18 @@
 
 ;; sudo apt-get install xsel
 ;; use xsel to copy/paste in emacs-nox
-(unless window-system
-  (when (getenv "DISPLAY")
-    (defun xsel-cut-function (text &optional push)
-      (with-temp-buffer
-        (insert text)
-        (call-process-region (point-min) (point-max) "xsel" nil 0 nil "--clipboard" "--input")))
-    (defun xsel-paste-function ()
-      (let ((xsel-output (shell-command-to-string "xsel --clipboard --output")))
-        (unless (string= (car kill-ring) xsel-output)
-          xsel-output)))
-    (setq interprogram-cut-function 'xsel-cut-function)
-    (setq interprogram-paste-function 'xsel-paste-function)))
+;; (unless window-system
+;;   (when (getenv "DISPLAY")
+;;     (defun xsel-cut-function (text &optional push)
+;;       (with-temp-buffer
+;;         (insert text)
+;;         (call-process-region (point-min) (point-max) "xsel" nil 0 nil "--clipboard" "--input")))
+;;     (defun xsel-paste-function ()
+;;       (let ((xsel-output (shell-command-to-string "xsel --clipboard --output")))
+;;         (unless (string= (car kill-ring) xsel-output)
+;;           xsel-output)))
+;;     (setq interprogram-cut-function 'xsel-cut-function)
+;;     (setq interprogram-paste-function 'xsel-paste-function)))
 
 
 (defun make-eshell-prompt-function ()
@@ -394,6 +394,11 @@
   (define-key ac-mode-map (kbd "M-n") 'auto-complete)
   )
 
+(defun use-the-neotree ()
+  (add-to-list 'load-path "~/.emacs.d/my-plugins/neotree/")
+  (require 'neotree)
+  (global-set-key [f8] 'neotree-toggle)
+  )
 
 ;;;; Eshell 命令绑定
 ;; cls 清屏   
@@ -405,28 +410,12 @@
 
 ;; 打开文件
 (defun eshell/em (&rest files)
-  (eshell-printn files)
-  (if (listp files)
-      (progn
-        (eshell-printn "Many Files:")
-        (mapcar 'eshell-printn files)
-        (let ((pwd (eshell/pwd)))
-          (while files (find-file (concat pwd "/" (pop files))))
-          ;; (mapcar '(lambda (file)
-          ;;          (progn ;; Here is the problem caused !!!
-          ;;            (eshell-printn file)
-          ;;            (let ((abs-path (concat pwd "/" file)))
-          ;;              (eshell-printn abs-path)
-          ;;              (find-file abs-path)
-          ;;              )
-          ;;            (eshell-printn "DONE")
-          ;;            ))
-          ;;         files)
-          ))
-    (progn
-      (eshell-printn "One file:")
-      (eshell-printn files)
-      (find-file files))))
+  (let ((the-files (if (listp (car files))
+                       (car files)
+                     files)))
+    (eshell-printn (format "Edit: %S" the-files))
+    (while the-files (find-file (pop the-files)))))
+
 
 
 ;; (mapcar '(lambda  (item) (message (concat "-" item "-")))  '("AA" "BB" "CC"))
