@@ -7,12 +7,22 @@ class mylogger(object):
         self.level = ""
         self.log_file = ""
         self.logger = None
+        
+        self.log_level = {
+            'LOG_NOTSET': logging.NOTSET,
+            'LOG_DEBUG': logging.DEBUG,
+            'LOG_INFO': logging.INFO,
+            'LOG_WARN': logging.WARN,
+            'LOG_WARNING': logging.WARNING,
+            'LOG_ERROR': logging.ERROR,
+            'LOG_CRITICAL': logging.CRITICAL,
+            'LOG_FATAL': logging.FATAL}
 
     def init_logger(self, name, log_level, log_file, log_facility):
         try:
             self.name = name
             self.log_file = log_file
-            self.level = getattr(logging, log_level)
+            self.level = self.log_level[log_level]
             self.create_logger(self.name, self.level, self.log_file, log_facility)
             self.debug = self.logger.debug
             self.info = self.logger.info
@@ -40,4 +50,6 @@ class mylogger(object):
             self.logger.addHandler(hdlr)
         except Exception, msg:
             raise Exception("create logger error [%s]" %(msg))
+
+
 
