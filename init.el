@@ -161,7 +161,6 @@
 
 
 ;; Face stuff
-(load-theme 'zenburn t)
 
 (setq ansi-color-names-vector ; better contrast colors
       ["black" "red4" "SeaGreen" "yellow4"
@@ -206,6 +205,7 @@
       (alpha-transparency)
       (my-fullscreen))
   (custom-terminal-key-bindings))
+
 
 (require 'my-hooks)                     ; 加载各种自定义的 hook
 ;;;; My custom config [END]
