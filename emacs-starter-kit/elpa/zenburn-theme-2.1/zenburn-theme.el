@@ -36,7 +36,7 @@
 ;;; Color Palette
 
 (defvar zenburn-colors-alist
-  '(("zenburn-fg"       . "#DCDCCC")
+  '(("zenburn-fg"       . "#EFEFEF")    ;#DCDCCC
     ("zenburn-fg-1"     . "#656555")
     ("zenburn-bg-1"     . "#2B2B2B")
     ("zenburn-bg-05"    . "#383838")
