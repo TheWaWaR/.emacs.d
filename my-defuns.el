@@ -364,12 +364,11 @@
   (require 'eim-extra)
   (global-set-key ";" 'eim-insert-ascii)
   (set-input-method "eim-py")             ; use Pinyin input method
-  (eim-punc-translate-toggle nil)
-  )
+  (eim-punc-translate-toggle nil))
 
 (defun use-the-erlang ()
   ;; Erlang mode
-  (add-to-list 'load-path "/usr/lib/erlang/lib/tools-2.6.8/emacs/")
+  (add-to-list 'load-path "/usr/lib/erlang/lib/tools-2.6.7/emacs/")
   (setq erlang-root-dir "/usr/lib/erlang")
   (setq exec-path (cons "/usr/lib/erlang/bin" exec-path))
   (require 'erlang-start)
@@ -377,15 +376,13 @@
   ;; Distel mode
   (add-to-list 'load-path "~/.emacs.d/my-plugins/distel/elisp")
   (require 'distel)
-  (distel-setup)
-  )
+  (distel-setup))
 
 (defun use-the-git ()
   (interactive)
   (add-to-list 'load-path "~/.emacs.d/my-plugins/git/")  
   (require 'git)
-  (require 'git-blame)
-  )
+  (require 'git-blame))
 
 (defun use-the-auto-complete ()
   (global-auto-complete-mode)
