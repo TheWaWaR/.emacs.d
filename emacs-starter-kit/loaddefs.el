@@ -4,7 +4,7 @@
 
 
 ;;;### (autoloads (color-theme-blackboard) "elpa-to-submit/blackboard"
-;;;;;;  "elpa-to-submit/blackboard.el" (21360 20258 176614 70000))
+;;;;;;  "elpa-to-submit/blackboard.el" (21840 14487 121952 28000))
 ;;; Generated autoloads from elpa-to-submit/blackboard.el
 
 (autoload 'color-theme-blackboard "elpa-to-submit/blackboard" "\
@@ -15,7 +15,7 @@ Color theme by JD Huntington, based off the TextMate Blackboard theme, created 2
 ;;;***
 
 ;;;### (autoloads (cheat) "elpa-to-submit/cheat" "elpa-to-submit/cheat.el"
-;;;;;;  (21360 20258 176614 70000))
+;;;;;;  (21840 14486 797790 37000))
 ;;; Generated autoloads from elpa-to-submit/cheat.el
 
 (autoload 'cheat "elpa-to-submit/cheat" "\
@@ -30,7 +30,7 @@ as a string instead.
 
 ;;;### (autoloads (cperl-perldoc-at-point cperl-perldoc cperl-mode)
 ;;;;;;  "elpa-to-submit/cperl-mode" "elpa-to-submit/cperl-mode.el"
-;;;;;;  (21360 20258 200614 69000))
+;;;;;;  (21840 14487 129956 28000))
 ;;; Generated autoloads from elpa-to-submit/cperl-mode.el
 
 (fset 'perl-mode 'cperl-mode)
@@ -227,8 +227,8 @@ Run a `perldoc' on the word around point.
 ;;;***
 
 ;;;### (autoloads (erc-highlight-nicknames) "elpa-to-submit/erc-highlight-nicknames"
-;;;;;;  "elpa-to-submit/erc-highlight-nicknames.el" (21360 20258
-;;;;;;  156614 69000))
+;;;;;;  "elpa-to-submit/erc-highlight-nicknames.el" (21840 14486
+;;;;;;  789786 36000))
 ;;; Generated autoloads from elpa-to-submit/erc-highlight-nicknames.el
 
 (autoload 'erc-highlight-nicknames "elpa-to-submit/erc-highlight-nicknames" "\
@@ -241,7 +241,7 @@ color (#rrrrggggbbbb).
 ;;;***
 
 ;;;### (autoloads (espresso-mode) "elpa-to-submit/espresso" "elpa-to-submit/espresso.el"
-;;;;;;  (21360 20258 156614 69000))
+;;;;;;  (21840 14486 865824 34000))
 ;;; Generated autoloads from elpa-to-submit/espresso.el
 
 (autoload 'espresso-mode "elpa-to-submit/espresso" "\
@@ -257,7 +257,7 @@ Key bindings:
 
 ;;;### (autoloads (flymake-mode-off flymake-mode-on flymake-mode)
 ;;;;;;  "elpa-to-submit/flymake-patch" "elpa-to-submit/flymake-patch.el"
-;;;;;;  (21360 20258 180614 70000))
+;;;;;;  (21840 14487 133958 29000))
 ;;; Generated autoloads from elpa-to-submit/flymake-patch.el
 
 (autoload 'flymake-mode "elpa-to-submit/flymake-patch" "\
@@ -281,7 +281,7 @@ Turn flymake mode off.
 
 ;;;### (autoloads (htmlize-many-files-dired htmlize-many-files htmlize-file
 ;;;;;;  htmlize-region htmlize-buffer) "elpa-to-submit/htmlize" "elpa-to-submit/htmlize.el"
-;;;;;;  (21360 20258 176614 70000))
+;;;;;;  (21840 14486 865824 34000))
 ;;; Generated autoloads from elpa-to-submit/htmlize.el
 
 (autoload 'htmlize-buffer "elpa-to-submit/htmlize" "\
@@ -347,7 +347,7 @@ HTMLize dired-marked files.
 ;;;***
 
 ;;;### (autoloads (javadoc-lookup) "elpa-to-submit/javadoc-help"
-;;;;;;  "elpa-to-submit/javadoc-help.el" (21360 20258 188614 70000))
+;;;;;;  "elpa-to-submit/javadoc-help.el" (21840 14486 789786 36000))
 ;;; Generated autoloads from elpa-to-submit/javadoc-help.el
 
 (autoload 'javadoc-lookup "elpa-to-submit/javadoc-help" "\
@@ -358,7 +358,7 @@ Look up Java class in Javadoc.
 ;;;***
 
 ;;;### (autoloads (markdown-mode) "elpa-to-submit/markdown-mode"
-;;;;;;  "elpa-to-submit/markdown-mode.el" (21360 20258 156614 69000))
+;;;;;;  "elpa-to-submit/markdown-mode.el" (21840 14486 865824 34000))
 ;;; Generated autoloads from elpa-to-submit/markdown-mode.el
 
 (autoload 'markdown-mode "elpa-to-submit/markdown-mode" "\
@@ -373,7 +373,7 @@ Major mode for editing Markdown files.
 ;;;***
 
 ;;;### (autoloads (moz-minor-mode) "elpa-to-submit/moz" "elpa-to-submit/moz.el"
-;;;;;;  (21360 20258 204614 70000))
+;;;;;;  (21840 14487 121952 28000))
 ;;; Generated autoloads from elpa-to-submit/moz.el
 
 (autoload 'moz-minor-mode "elpa-to-submit/moz" "\
@@ -396,7 +396,7 @@ started as needed).
 ;;;### (autoloads (oddmuse-kill-url oddmuse-browse-this-page oddmuse-browse-page
 ;;;;;;  emacswiki-post oddmuse-insert-pagename oddmuse-revert oddmuse-post
 ;;;;;;  oddmuse-follow oddmuse-edit oddmuse-toggle-minor) "elpa-to-submit/oddmuse"
-;;;;;;  "elpa-to-submit/oddmuse.el" (21360 20258 180614 70000))
+;;;;;;  "elpa-to-submit/oddmuse.el" (21840 14487 129956 28000))
 ;;; Generated autoloads from elpa-to-submit/oddmuse.el
 
 (autoload 'oddmuse-toggle-minor "elpa-to-submit/oddmuse" "\
@@ -463,7 +463,7 @@ Make the URL of current oddmuse page the latest kill in the kill ring.
 ;;;***
 
 ;;;### (autoloads (paredit-mode) "elpa-to-submit/paredit" "elpa-to-submit/paredit.el"
-;;;;;;  (21360 20258 200614 69000))
+;;;;;;  (21840 14487 129956 28000))
 ;;; Generated autoloads from elpa-to-submit/paredit.el
 
 (autoload 'paredit-mode "elpa-to-submit/paredit" "\
@@ -480,7 +480,7 @@ Paredit behaves badly if parentheses are imbalanced, so exercise
 ;;;***
 
 ;;;### (autoloads (pcomplete/rake) "elpa-to-submit/pcmpl-rake" "elpa-to-submit/pcmpl-rake.el"
-;;;;;;  (21360 20258 176614 70000))
+;;;;;;  (21840 14487 121952 28000))
 ;;; Generated autoloads from elpa-to-submit/pcmpl-rake.el
 
 (autoload 'pcomplete/rake "elpa-to-submit/pcmpl-rake" "\
@@ -491,8 +491,8 @@ Completion rules for the `ssh' command.
 ;;;***
 
 ;;;### (autoloads (perl-find-file perldoc) "elpa-to-submit/perl-find-library"
-;;;;;;  "elpa-to-submit/perl-find-library.el" (21360 20258 188614
-;;;;;;  70000))
+;;;;;;  "elpa-to-submit/perl-find-library.el" (21840 14487 121952
+;;;;;;  28000))
 ;;; Generated autoloads from elpa-to-submit/perl-find-library.el
 
 (autoload 'perldoc "elpa-to-submit/perl-find-library" "\
@@ -509,7 +509,7 @@ Find a perl library by module name
 ;;;***
 
 ;;;### (autoloads (pod-mode) "elpa-to-submit/pod-mode" "elpa-to-submit/pod-mode.el"
-;;;;;;  (21360 20258 188614 70000))
+;;;;;;  (21840 14487 129956 28000))
 ;;; Generated autoloads from elpa-to-submit/pod-mode.el
 
 (autoload 'pod-mode "elpa-to-submit/pod-mode" "\
@@ -520,7 +520,7 @@ Major mode for editing POD files (Plain Old Documentation for Perl).
 ;;;***
 
 ;;;### (autoloads (ri) "elpa-to-submit/ri" "elpa-to-submit/ri.el"
-;;;;;;  (21360 20258 200614 69000))
+;;;;;;  (21840 14486 869826 34000))
 ;;; Generated autoloads from elpa-to-submit/ri.el
 
 (autoload 'ri "elpa-to-submit/ri" "\
@@ -531,7 +531,7 @@ Look up Ruby documentation.
 ;;;***
 
 ;;;### (autoloads (ruby-electric-mode) "elpa-to-submit/ruby-electric"
-;;;;;;  "elpa-to-submit/ruby-electric.el" (21360 20258 188614 70000))
+;;;;;;  "elpa-to-submit/ruby-electric.el" (21840 14487 129956 28000))
 ;;; Generated autoloads from elpa-to-submit/ruby-electric.el
 
 (autoload 'ruby-electric-mode "elpa-to-submit/ruby-electric" "\
@@ -552,7 +552,7 @@ strings. Note that you must have Font Lock enabled.
 ;;;***
 
 ;;;### (autoloads (scpaste-region scpaste) "elpa-to-submit/scpaste"
-;;;;;;  "elpa-to-submit/scpaste.el" (21360 20258 176614 70000))
+;;;;;;  "elpa-to-submit/scpaste.el" (21840 14486 869826 34000))
 ;;; Generated autoloads from elpa-to-submit/scpaste.el
 
 (autoload 'scpaste "elpa-to-submit/scpaste" "\
@@ -569,7 +569,7 @@ Paste the current region via `scpaste'.
 
 ;;;### (autoloads (smart-operator-self-insert-command smart-operator-mode)
 ;;;;;;  "elpa-to-submit/smart-operator" "elpa-to-submit/smart-operator.el"
-;;;;;;  (21360 20257 896614 66000))
+;;;;;;  (21840 14486 869826 34000))
 ;;; Generated autoloads from elpa-to-submit/smart-operator.el
 
 (autoload 'smart-operator-mode "elpa-to-submit/smart-operator" "\
@@ -585,7 +585,7 @@ Insert the entered operator plus surrounding spaces.
 ;;;***
 
 ;;;### (autoloads (textile-mode) "elpa-to-submit/textile-mode" "elpa-to-submit/textile-mode.el"
-;;;;;;  (21360 20258 188614 70000))
+;;;;;;  (21840 14487 125954 28000))
 ;;; Generated autoloads from elpa-to-submit/textile-mode.el
 
 (autoload 'textile-mode "elpa-to-submit/textile-mode" "\
@@ -598,7 +598,7 @@ A major mode for editing textile files.
 ;;;***
 
 ;;;### (autoloads (tt-mode) "elpa-to-submit/tt-mode" "elpa-to-submit/tt-mode.el"
-;;;;;;  (21360 20258 188614 70000))
+;;;;;;  (21840 14487 133958 29000))
 ;;; Generated autoloads from elpa-to-submit/tt-mode.el
 
 (autoload 'tt-mode "elpa-to-submit/tt-mode" "\
@@ -609,7 +609,7 @@ Major mode for editing Template Toolkit files
 ;;;***
 
 ;;;### (autoloads (color-theme-twilight) "elpa-to-submit/twilight"
-;;;;;;  "elpa-to-submit/twilight.el" (21360 20258 176614 70000))
+;;;;;;  "elpa-to-submit/twilight.el" (21840 14487 133958 29000))
 ;;; Generated autoloads from elpa-to-submit/twilight.el
 
 (autoload 'color-theme-twilight "elpa-to-submit/twilight" "\
@@ -619,23 +619,10 @@ Color theme by Marcus Crafter, based off the TextMate Twilight theme, created 20
 
 ;;;***
 
-;;;### (autoloads (color-theme-zenburn) "elpa-to-submit/zenburn"
-;;;;;;  "elpa-to-submit/zenburn.el" (21424 48790 581626 581000))
-;;; Generated autoloads from elpa-to-submit/zenburn.el
-
-(autoload 'color-theme-zenburn "elpa-to-submit/zenburn" "\
-Just some alien fruit salad to keep you in the zone.
-
-\(fn)" t nil)
-
-(defalias 'zenburn #'color-theme-zenburn)
-
-;;;***
-
 ;;;### (autoloads nil nil ("elpa-to-submit/autopair.el" "elpa-to-submit/color-theme.el"
 ;;;;;;  "elpa-to-submit/cython-mode.el" "elpa-to-submit/eshell-vc.el"
 ;;;;;;  "elpa-to-submit/notify.el" "elpa-to-submit/open-next-line.el"
-;;;;;;  "elpa-to-submit/virtualenv.el") (21424 49304 948780 103000))
+;;;;;;  "elpa-to-submit/virtualenv.el") (21840 15318 746312 606000))
 
 ;;;***
 

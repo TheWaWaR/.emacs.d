@@ -85,14 +85,16 @@
     Examples:
     ============================================================
     1. /                      --> (23:17) ➜ / $
-    2. /etc                   --> (23:17) ➜ /etc $ 
-    3. /home/weet             --> (23:17) ➜ ~ $ 
-    4. /home/weet/Games       --> (23:17) ➜ ~/Games $ 
+    2. /etc                   --> (23:17) ➜ /etc $
+    3. /home/weet             --> (23:17) ➜ ~ $
+    4. /home/weet/Games       --> (23:17) ➜ ~/Games $
     5. /home/weet/Games/braid --> (23:17) ➜ Games/braid $
-  "
+
+    >>> 我们浪费大量时间用来纠结, 却不去老老实实整理需求!!! "
+
   (interactive)
   (lambda ()
-    (concat "(" (format-time-string "%H:%M") ") " "-> "
+    (concat "(" (format-time-string "%H:%M") " ~ ) " "-> "
             (let ((eshell-pwd (eshell/pwd)) (home-dir (getenv "HOME")))
               (if (or (string= eshell-pwd home-dir) (string= eshell-pwd "~")) "~"
                 ;; Not in HOME
@@ -123,7 +125,12 @@
   )
 ;; (clear-not-staged-delete-files "a")
 
-
+(defun ask-before-closing ()
+  "Ask whether or not to close, and then close if y was pressed"
+  (interactive)
+  (if (y-or-n-p (format "Are you sure you want to exit Emacs? "))
+      (save-buffers-kill-emacs))
+  (message "Canceled exit"))
 
 (defun my-mark-current-word (&optional arg allow-extend)
   "Put point at beginning of current word, set mark at end."
@@ -202,7 +209,7 @@
         ;; from the screen height (for panels, menubars and
         ;; whatnot), then divide by the height of a char to
         ;; get the height we want
-        (add-to-list 'default-frame-alist 
+        (add-to-list 'default-frame-alist
                      (cons 'height (/ (- (x-display-pixel-height) 300)
                                       (frame-char-height)))))))
 
@@ -241,10 +248,31 @@
   (add-hook 'python-mode-hook 'jedi:setup)
   (setq jedi:setup-keys t)                      ; optional
   (setq jedi:complete-on-dot t)                 ; optional
-  
+
   ;; (setq jedi:server-command                     ; Just like *virtualenv*
   ;;       (list "/root/envs/KAFKA/bin/python2.7" "/root/.emacs.d/emacs-starter-kit/elpa/jedi-0.1.2/jediepcserver.py"))
   )
+
+(defun use-the-rust ()
+  (add-to-list 'load-path "~/.emacs.d/my-plugins/rust-mode/")
+  (autoload 'rust-mode "rust-mode" nil t)
+  (add-to-list 'auto-mode-alist '("\\.rs\\'" . rust-mode))
+  (setq racer-rust-src-path "~/local/src/rustc-1.1.0/src/")
+  (setq racer-cmd "~/Github/racer/target/release/racer")
+  (add-to-list 'load-path "~/Github/racer/editors/emacs")
+  (eval-after-load "rust-mode" '(require 'racer))
+  )
+
+;; (defun use-the-scala ()
+
+;;   (require 'ensime)
+;;   (add-hook 'scala-mode-hook 'ensime-scala-mode-hook)
+
+;;   ;; OPTIONAL
+;;   ;; there are some great Scala yasnippets, browse through:
+;;   ;; https://github.com/AndreaCrotti/yasnippet-snippets/tree/master/scala-mode
+;;   (add-hook 'scala-mode-hook #'yas-minor-mode)
+;;   )
 
 (defun use-the-golang ()
   (add-to-list 'load-path "~/.gocode/src/github.com/dougm/goflymake")
@@ -254,7 +282,7 @@
   (require 'go-mode-load)
   (require 'go-autocomplete)
   )
- 
+
 
 (defun use-the-javascript ()
   (require 'js2-mode)
@@ -314,7 +342,7 @@
   (setq tabbar-buffer-groups-function 'tabbar-buffer-groups)
   (tabbar-mode t)
   (tabbar-local-mode t)
-  
+
   ;;; 设置tabbar外观
   ;; 设置默认主题: 字体, 背景和前景颜色，大小
   (set-face-attribute 'tabbar-default nil
@@ -372,7 +400,7 @@
   (setq erlang-root-dir "/usr/lib/erlang")
   (setq exec-path (cons "/usr/lib/erlang/bin" exec-path))
   (require 'erlang-start)
-  
+
   ;; Distel mode
   (add-to-list 'load-path "~/.emacs.d/my-plugins/distel/elisp")
   (require 'distel)
@@ -380,7 +408,7 @@
 
 (defun use-the-git ()
   (interactive)
-  (add-to-list 'load-path "~/.emacs.d/my-plugins/git/")  
+  (add-to-list 'load-path "~/.emacs.d/my-plugins/git/")
   (require 'git)
   (require 'git-blame))
 
@@ -397,12 +425,20 @@
   (global-set-key [f8] 'neotree-toggle)
   )
 
+
+;; [Problem]
+;;   Can not quit eshell: text is read-only
+;;   In that case, we can't exit eshell nor emacs. The way to quit both
+;;   is to evaluate that bit of elisp with:
+;; [Solution]
+;;   M-: (let ((inhibit-read-only t)) (kill-this-buffer))
+
 ;;;; Eshell 命令绑定
-;; cls 清屏   
-(defun eshell/cls()   
-  "to clear the eshell buffer."   
-  (interactive)   
-  (let ((inhibit-read-only t))   
+;; cls 清屏
+(defun eshell/cls()
+  "to clear the eshell buffer."
+  (interactive)
+  (let ((inhibit-read-only t))
     (erase-buffer)))
 
 ;; 打开文件

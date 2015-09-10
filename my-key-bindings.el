@@ -36,6 +36,8 @@
   (global-set-key (kbd "C-c t") 'datetime)
   )
 
+(global-set-key (kbd "C-x C-c") 'ask-before-closing)
+(global-set-key (kbd "C-x j") 'set-mark-command)
 (global-set-key (kbd "C-c j") 'set-mark-command)
 (global-set-key (kbd "C-c i") 'toggle-input-method)
 

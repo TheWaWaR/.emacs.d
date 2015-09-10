@@ -4,3 +4,42 @@ cd ~/.ssh/
 ls
 touch authorized_keys
 ls
+ls
+cd ~/.emacs.d/
+ls
+find . -name "*package*"
+find . -name "*content*"
+cd emacs-starter-kit/elpa/archives/
+ls
+cd elpa/
+ls
+em archive-contents 
+open archive-contents 
+(eshell/open archive-contents )
+(find-file "archive-contents")
+cls
+cls
+ls
+cd ~/.emacs.d/
+ls
+grep -nr "auto-complete-autoloads" .
+ls
+jobs
+jobs
+jobs
+jobs
+jobs
+cls
+clear
+cd ~/.emacs.d/emacs-starter-kit/
+ls
+cd elpa-to-submit/
+cd ../elpa
+ls
+find . -name "*-autoloads"
+rm -rfemacs-starter-kit/elpa/auto-complete-20150618.1949
+rm -rf emacs-starter-kit/elpa/auto-complete-20150618.1949
+cls
+cls
+ls
+cls

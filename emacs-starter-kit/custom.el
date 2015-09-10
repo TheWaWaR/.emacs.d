@@ -4,7 +4,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(ansi-color-names-vector ["#3F3F3F" "#CC9393" "#7F9F7F" "#F0DFAF" "#8CD0D3" "#DC8CC3" "#93E0E3" "#DCDCCC"])
- '(custom-safe-themes (quote ("3c9d994e18db86ae397d077b6324bfdc445ecc7dc81bb9d528cd9bba08c1dac1" default)))
+ '(custom-safe-themes (quote ("87be9a8c50e71b8f2f6b2f24985b255a09ac892c10e0401670685bd58bdf8106" "3c9d994e18db86ae397d077b6324bfdc445ecc7dc81bb9d528cd9bba08c1dac1" default)))
  '(fci-rule-color "#383838")
  '(safe-local-variable-values (quote ((test-case-name . rtmpy) (eval when (fboundp (quote rainbow-mode)) (rainbow-mode 1)) (whitespace-line-column . 80) (lexical-binding . t))))
  '(vc-annotate-background "#2B2B2B")
@@ -15,4 +15,4 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- )
+ '(magit-item-highlight ((t (:background "white" :weight normal)))))
