@@ -263,6 +263,11 @@
   (eval-after-load "rust-mode" '(require 'racer))
   )
 
+(defun use-the-jsx ()
+  (setq web-mode-code-indent-offset 2)
+  (setq web-mode-markup-indent-offset 2)
+  (add-to-list 'auto-mode-alist '("\\.jsx$" . web-mode)))
+
 ;; (defun use-the-scala ()
 
 ;;   (require 'ensime)

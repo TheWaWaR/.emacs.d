@@ -1,4 +1,5 @@
-alias ll  $*
+alias nil  $*
+alias ll $*
 alias (nil) $*
 alias l s $*
 alias lr ls -R $*
@@ -14,4 +15,3 @@ alias gst git status
 alias sudo *sudo $*
 alias dcli cd /home/weet/Android/cli/
 alias s $*
-alias nil $*
