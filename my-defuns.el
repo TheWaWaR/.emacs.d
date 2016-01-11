@@ -253,6 +253,22 @@
   ;;       (list "/root/envs/KAFKA/bin/python2.7" "/root/.emacs.d/emacs-starter-kit/elpa/jedi-0.1.2/jediepcserver.py"))
   )
 
+(defun use-the-sql ()
+  (add-hook 'comint-output-filter-functions 'comint-watch-for-password-prompt)
+  (setq sql-connection-alist
+        '((vm-jcyx2 (sql-product 'postgres)
+                   (sql-port 5432)
+                   (sql-server "127.0.0.1")
+                   (sql-user "huhu")
+                   (sql-password "public")
+                   (sql-database "jcyx2"))
+          (vm-jsbd-appstore (sql-product 'mysql)
+                   (sql-port 5432)
+                   (sql-server "127.0.0.1")
+                   (sql-user "root")
+                   (sql-password "hello123123")
+                   (sql-database "jsbd_appstore")))))
+
 (defun use-the-rust ()
   (add-to-list 'load-path "~/.emacs.d/my-plugins/rust-mode/")
   (autoload 'rust-mode "rust-mode" nil t)
@@ -290,10 +306,10 @@
 
 
 (defun use-the-javascript ()
-  (require 'js2-mode)
-  (autoload 'js2-mode "js2" "Start js2-mode" t)
-  (add-to-list 'auto-mode-alist '("\\.js$" . js2-mode))
-  (add-to-list 'auto-mode-alist '("\\.json$" . js-mode)))
+  ;; (require 'js2-mode)
+  ;; (autoload 'js2-mode "js2" "Start js2-mode" t)
+  (add-to-list 'auto-mode-alist '("\\.js$" . web-mode))
+  (add-to-list 'auto-mode-alist '("\\.json$" . web-mode)))
 
 
 (defun use-the-coffee ()

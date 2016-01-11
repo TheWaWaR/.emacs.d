@@ -1,17 +1,17 @@
 alias nil  $*
-alias ll $*
-alias (nil) $*
-alias l s $*
-alias lr ls -R $*
-alias dpy cd ~/Dropbox/Code/Python/bin
-alias dd3 cd ~/GitHub/d3js/
-alias dnav cd ~/GitHub/nav-default/
-alias dnb cd ~/GitHub/nodehub/web/
-alias dmw cd ~/GitHub/environments/FlaskLearn/vps-BluePrint/myway/
-alias dweb cd ~/GitHub/environments/FlaskLearn/xiaoli/web/
-alias ls ls --color=auto $*
-alias emacs find-file
-alias gst git status
-alias sudo *sudo $*
-alias dcli cd /home/weet/Android/cli/
 alias s $*
+alias dcli cd /home/weet/Android/cli/
+alias sudo *sudo $*
+alias gst git status
+alias emacs find-file
+alias ls ls --color=auto $*
+alias dweb cd ~/GitHub/environments/FlaskLearn/xiaoli/web/
+alias dmw cd ~/GitHub/environments/FlaskLearn/vps-BluePrint/myway/
+alias dnb cd ~/GitHub/nodehub/web/
+alias dnav cd ~/GitHub/nav-default/
+alias dd3 cd ~/GitHub/d3js/
+alias dpy cd ~/Dropbox/Code/Python/bin
+alias lr ls -R $*
+alias l s $*
+alias (nil) $*
+alias ll $*

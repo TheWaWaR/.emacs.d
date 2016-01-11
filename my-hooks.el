@@ -14,8 +14,7 @@
   )
 
 (defun my-erlang-mode-hook ()
-  (define-key erlang-mode-map (kbd "C-c j") 'erlang-man-function)
-  )
+  (define-key erlang-mode-map (kbd "C-c j") 'erlang-man-function))
 
 (add-hook 'c-mode-common-hook 'my-c-mode-common-hook)
 (add-hook 'c++-mode-hook 'my-c-mode-common-hook)
@@ -27,9 +26,10 @@
 (defun on-after-init ()
   (interactive)
   (progn
-    (load-theme 'zenburn t)
-    (unless (display-graphic-p (selected-frame))
-    (set-face-background 'default "unspecified-bg" (selected-frame)))))
+    (load-theme 'wombat t)
+     ;; (unless (display-graphic-p (selected-frame))
+     ;; (set-face-background 'default "unspecified-bg" (selected-frame)))
+    ))
 
 (add-hook 'window-setup-hook 'on-after-init)
 

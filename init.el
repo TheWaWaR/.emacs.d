@@ -142,7 +142,7 @@
 (use-the-golang)
 (use-the-javascript)
 ;; (use-the-coffee)
-(use-the-tabbar)
+;; (use-the-tabbar)
 (use-the-auto-complete)
 ;; (use-the-neotree)
 ;; (use-the-slime)
