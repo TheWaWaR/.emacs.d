@@ -1,0 +1,350 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/weet/.emacs.d/my-plugins/distel/" . "elisp/")
+ ("/home/weet/.emacs.d/my-plugins/" . "distel/")
+ ("/home/weet/.emacs.d/" . "my-plugins/")
+ ("/home/weet/Github/thewawar/mqtt-rs/client/" . "src/")
+ ("/home/weet/Github/thewawar/mqtt-rs/" . "client/")
+ ("/home/weet/Github/huhulab/antd-kit/src/" . "form/")
+ ("/home/weet/Github/huhulab/old-jcyx-extension/" . "etc/")
+ ("/home/weet/Github/huhulab/apk-channel-replacer/server/" . "utils/")
+ ("/home/weet/Github/huhulab/apk-channel-replacer/" . "deploy/")
+ ("/home/weet/Github/thewawar/video-aggregation-server/deploy/" . "supervisor/")
+ ("/tmp/" . "av-player/")
+ ("/" . "tmp/")
+ ("/home/weet/Github/thewawar/video-aggregation-server/frontend/node_modules/antd/lib/" . "rate/")
+ ("/home/weet/Github/huhulab/wechatpay-sdk/" . "wechatpay_sdk/")
+ ("/home/weet/Github/thewawar/video-aggregation-server/server/views/" . "web/")
+ ("/home/weet/local/" . "etc/")
+ ("/home/weet/Github/huhulab/launcher-server/deploy/supervisor/" . "programs/")
+ ("/home/weet/Github/huhulab/launcher-server/deploy/" . "supervisor/")
+ ("/home/weet/Github/huhulab/launcher-server/" . "deploy/")
+ ("/home/weet/Github/huhulab/jcyx2/deploy/supervisor/" . "programs/")
+ ("/home/weet/Github/thewawar/video-aggregation-server/frontend/src/component/" . "content/")
+ ("/home/weet/Github/thewawar/video-aggregation-server/frontend/src/page/" . "admin/")
+ ("/home/weet/Github/thewawar/video-aggregation-server/frontend/src/" . "common/")
+ ("/home/weet/Github/thewawar/video-aggregation-server/frontend/" . "src/")
+ ("/home/weet/Github/thewawar/video-aggregation-server/tmp/" . "data/")
+ ("/home/weet/Github/thewawar/video-aggregation-server/" . "frontend/")
+ ("/home/weet/Github/thewawar/video-aggregation-server/server/" . "utils/")
+ ("/home/weet/Github/huhulab/video-aggregation-server/deploy/" . "nginx/")
+ ("/home/weet/Github/huhulab/video-aggregation-server/frontend/src/component/" . "content/")
+ ("/home/weet/Github/huhulab/video-aggregation-server/frontend/src/page/" . "video/")
+ ("/home/weet/Github/huhulab/video-aggregation-server/frontend/src/" . "data/")
+ ("/home/weet/Github/huhulab/video-aggregation-server/frontend/" . "src/")
+ ("/home/weet/Github/huhulab/jcyx2/deploy/" . "supervisor/")
+ ("/home/weet/Github/huhulab/video-aggregation-server/" . "frontend/")
+ ("/home/weet/Github/thewawar/" . "mqtt-rs/")
+ ("/home/weet/Github/huhulab/video-aggregation-server/server/" . "etc/")
+ ("/var/www/html/1Yuan/" . "fanwe/")
+ ("/home/weet/Github/thewawar/launcher-server/server/" . "models/")
+ ("/home/weet/Github/thewawar/launcher-server/" . "server/")
+ ("/home/weet/Github/huhulab/launcher-server/server/" . "models/")
+ ("/home/weet/tmp/" . "jcyx2-backups/")
+ ("/home/weet/Github/huhulab/react-frontend-boilerplate/src/page/" . "common/")
+ ("/home/weet/Github/huhulab/react-frontend-boilerplate/node_modules/antd/" . "lib/")
+ ("/home/weet/Github/huhulab/react-frontend-boilerplate/src/component/" . "nav/")
+ ("/home/weet/Github/huhulab/jcyx2/frontend/node_modules/" . "antd/")
+ ("/home/weet/Github/huhulab/react-frontend-boilerplate/node_modules/" . "antd/")
+ ("/home/weet/Github/huhulab/react-frontend-boilerplate/" . "src/")
+ ("/home/weet/Github/huhulab/react-frontend-boilerplate/src/" . "page/")
+ ("/home/weet/Github/huhulab/" . "video-aggregation-server/")
+ ("/home/weet/Github/huhulab/jcyx2/frontend/src/page/" . "channelDev/")
+ ("/home/weet/Github/huhulab/jcyx2/frontend/src/component/" . "content/")
+ ("/home/weet/Github/huhulab/jcyx2/frontend/" . "src/")
+ ("/home/weet/Github/huhulab/jcyx2/frontend/src/" . "page/")
+ ("/home/weet/" . ".emacs.d/")
+ ("/home/weet/Github/huhulab/jcyx2/server/views/" . "web/")
+ ("/home/weet/Github/huhulab/jcyx2/server/" . "utils/")
+ ("/home/weet/Github/huhulab/jcyx2/" . "deploy/")
+ ("/home/weet/Github/jcyx2/deploy/supervisor/" . "programs/")
+ ("/home/weet/Github/jcyx2/deploy/" . "supervisor/")
+ ("/home/weet/Github/jcyx2/.venv/lib/python2.7/site-packages/" . "flask_sqlalchemy/")
+ ("/home/weet/Github/jcyx2/.venv/lib/python2.7/" . "site-packages/")
+ ("/home/weet/Github/jcyx2/.venv/lib/" . "python2.7/")
+ ("/home/weet/Github/jcyx2/.venv/" . "lib/")
+ ("/home/weet/Github/" . "thewawar/")
+ ("/home/weet/Github/jcyx2/server/tests/" . "data/")
+ ("/home/weet/Github/jcyx2/frontend/src/page/" . "customer/")
+ ("/home/weet/Github/jcyx2/frontend/src/" . "page/")
+ ("/home/weet/Github/jcyx2/frontend/" . "src/")
+ ("/home/weet/Github/jcyx2/server/views/" . "web/")
+ ("/home/weet/Github/jcyx2/" . "deploy/")
+ ("/home/weet/Github/jcyx2/server/" . "etc/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/weet/.emacs.d/"
+ "/home/weet/.emacs.d/my-plugins/distel/elisp/"
+ "/home/weet/Github/rabbitmq-server/src/"
+ "/home/weet/Downloads/AlipayOpenapi-SDK/tradedemo/"
+ "/home/weet/Github/thewawar/mqtt-rs/client/src/"
+ "/home/weet/Github/huhulab/antd-kit/src/form/"
+ "/home/weet/Github/huhulab/antd-kit/src/api/"
+ "/home/weet/Github/huhulab/antd-kit/src/table/"
+ "/home/weet/Github/huhulab/antd-kit/src/"
+ "/home/weet/Github/thewawar/video-aggregation-server/frontend/src/common/"
+ "/home/weet/Github/thewawar/video-aggregation-server/frontend/src/data/"
+ "/home/weet/Github/huhulab/apk-channel-replacer/deploy/"
+ "/home/weet/Github/huhulab/video-aggregation-server/deploy/"
+ "/home/weet/Github/huhulab/video-aggregation-server/server/etc/"
+ "/home/weet/Github/huhulab/apk-channel-replacer/server/"
+ "/home/weet/Github/huhulab/jcyx2/server/utils/"
+ "/home/weet/Github/huhulab/launcher-server/deploy/"
+ "/home/weet/Github/huhulab/jcyx2/deploy/"
+ "/home/weet/Github/huhulab/old-jcyx-extension/etc/"
+ "/home/weet/Github/huhulab/jcyx2/server/models/"
+ "/home/weet/Github/thewawar/launcher-server/server/models/"
+ "/home/weet/Github/thewawar/video-aggregation-server/server/"
+ "/home/weet/Github/thewawar/video-aggregation-server/server/utils/"
+ "/home/weet/Github/huhulab/apk-channel-replacer/server/utils/"
+ "/home/weet/Github/thewawar/video-aggregation-server/deploy/"
+ "/home/weet/Github/thewawar/video-aggregation-server/server/etc/"
+ "/home/weet/Github/huhulab/video-aggregation-server/frontend/src/data/"
+ "/home/weet/Github/thewawar/video-aggregation-server/deploy/supervisor/"
+ "/home/weet/Github/thewawar/video-aggregation-server/frontend/static/"
+ "/home/weet/Github/thewawar/video-aggregation-server/frontend/src/component/"
+ "/home/weet/Github/thewawar/video-aggregation-server/frontend/src/page/admin/"
+ "/home/weet/Github/thewawar/video-aggregation-server/server/views/web/"
+ "/home/weet/Github/thewawar/video-aggregation-server/frontend/src/utils/"
+ "/home/weet/Github/thewawar/video-aggregation-server/server/workers/"
+ "/home/weet/Github/thewawar/video-aggregation-server/frontend/src/page/channel/"
+ "/home/weet/Github/thewawar/video-aggregation-server/frontend/src/page/operator/"
+ "/home/weet/Github/thewawar/video-aggregation-server/server/services/"
+ "/tmp/av-player/"
+ "/home/weet/tmp/"
+ "/home/weet/Github/thewawar/video-aggregation-server/server/views/api/"
+ "/home/weet/Github/thewawar/video-aggregation-server/frontend/node_modules/antd/lib/rate/"
+ "/home/weet/Github/huhulab/wechatpay-sdk/wechatpay_sdk/"
+ "/home/weet/Github/huhulab/old-jcyx-extension/"
+ "/home/weet/Github/huhulab/wechatpay-sdk/"
+ "/home/weet/Github/huhulab/jcyx2/server/views/web/"
+ "/home/weet/Github/thewawar/video-aggregation-server/frontend/src/page/common/"
+ "/home/weet/Github/thewawar/video-aggregation-server/frontend/src/component/content/"
+ "/home/weet/Github/thewawar/video-aggregation-server/frontend/src/component/nav/"
+ "/home/weet/Github/huhulab/jcyx2/frontend/src/page/channelDev/"
+ "/home/weet/Github/thewawar/launcher-server-frontend/frontend/src/component/content/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "my-defuns.el"
+ "init.el"
+ "distel.el"
+ "erl-service.el"
+ "rabbit_plugins.erl"
+ "rabbit.erl"
+ "f2fpay.h"
+ "f2fpay.c"
+ "main.rs"
+ "Form.jsx"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/weet/.emacs.d/" (22508 35362 19161 435000) "edts/" "recentf" "ido.last" "init.el" "%backup%~" "url/" "newsticker/" "ido.last~" "auto-save-list/" "recentf~" "ac-comphist.dat" "my-plugins/" "my-key-bindings.el" "my-hooks.el" "my-face-settings.el" "my-defuns.el" "loaddefs.el" "eshell/" "emacs-starter-kit/" "emacs-for-python/" "custom.el" "abbrev_defs" "RFC/" ".session" ".gitignore" ".eshell/" ".emms-history" ".emacs.desktop" ".git/" "../" "./")
+
+ ("/home/weet/" (22508 34101 800671 6000) ".bashrc" ".local/" ".gitconfig~" ".httpie/" "tmp/" ".cache/" ".tmux.conf" ".emacs.d/" ".rediscli_history" ".config/" ".node_repl_history" ".pki/" ".gocode/" ".viminfo" ".anyproxy_certs/" ".myclirc" ".julia_history" ".tox/" ".zcompdump-centos7-5.2" ".gem/" ".subversion/" ".jupyter/" ".node-gyp/" ".gitbook/" ".w3m/" ".mysql_history" ".ipython/" ".psql_history" "Github/" ".erlang.cookie" ".sqlite_history" ".hab/" ".profile" ".cargo/" ".npmrc.bak" ".irb-history" ".zsh_history" ".zshrc" ".v8flags.4.5.103.35.weet.json" ".rpmmacros" ".coffee_history" "learning-git/" ".zlogin" ".python_history" ".pylint.d/" ".babel.json" ".pgpass" ".gitconfig" ".elinks/" ".zshrc~" ".zcompdump-192-5.2" ".rnd" "venv/" ".mycli-history" ".gnupg/" ".npm/" ".pip/" ".zcompdump-localhost-5.2" ".zsh-update" ".lesshst" ".oh-my-zsh/" "local/" "SimpleHTTPServerWithUpload.py" ".mycli.log" ".multirust/" ".zcompdump-centos7-vm-5.2" ".mkshrc" ".rvm/" ".vim/" "Downloads/" ".anyproxy/" ".ssh/" ".bash_history" ".bash_profile" ".bash_logout" "../" "./")
+
+ ("/home/weet/Github/rabbitmq-server/src/" (22508 33339 446576 971000) "rabbit_plugins_usage.erl" "rabbit_ctl_usage.erl" "worker_pool_worker.erl" "worker_pool_sup.erl" "worker_pool.erl" "vm_memory_monitor.erl" "truncate.erl" "tcp_listener_sup.erl" "rabbit_vhost_limit.erl" "rabbit_policy_merge_strategy.erl" "rabbit_connection_tracking_handler.erl" "rabbit_connection_tracking.erl" "tcp_listener.erl" "supervised_lifecycle.erl" "rabbit_vhost.erl" "rabbit_version.erl" "rabbit_variable_queue.erl" "rabbit_upgrade_functions.erl" "rabbit_upgrade.erl" "rabbit_trace.erl" "rabbit_table.erl" "rabbit_sup.erl" "rabbit_ssl.erl" "rabbit_runtime_parameters.erl" "rabbit_router.erl" "rabbit_restartable_sup.erl" "rabbit_resource_monitor_misc.erl" "rabbit_recovery_terms.erl" "rabbit_queue_master_location_misc.erl" "rabbit_queue_location_validator.erl" "rabbit_queue_location_random.erl" "rabbit_queue_location_min_masters.erl" "rabbit_queue_location_client_local.erl" "rabbit_queue_index.erl" "rabbit_queue_consumers.erl" "rabbit_priority_queue.erl" "rabbit_prequeue.erl" "rabbit_prelaunch.erl" "rabbit_policy.erl" "rabbit_policies.erl" "rabbit_plugins_main.erl" "rabbit_plugins.erl" "rabbit_password_hashing_sha512.erl" "rabbit_password_hashing_sha256.erl" "rabbit_password_hashing_md5.erl" "rabbit_password.erl" "rabbit_parameter_validation.erl" "rabbit_node_monitor.erl" "rabbit_msg_store_gc.erl" "rabbit_msg_store_ets_index.erl" "rabbit_msg_store.erl" "rabbit_msg_file.erl" "rabbit_mnesia_rename.erl" "rabbit_mnesia.erl" "rabbit_mirror_queue_sync.erl" "rabbit_mirror_queue_slave.erl" "rabbit_mirror_queue_mode_nodes.erl" "rabbit_mirror_queue_mode_exactly.erl" "rabbit_mirror_queue_mode_all.erl" "rabbit_mirror_queue_mode.erl" "rabbit_mirror_queue_misc.erl" "rabbit_mirror_queue_master.erl" "rabbit_mirror_queue_coordinator.erl" "rabbit_memory_monitor.erl" "rabbit_log.erl" "rabbit_limiter.erl" "rabbit_lager.erl" "rabbit_hipe.erl" "rabbit_guid.erl" "rabbit_framing.erl" "rabbit_file.erl" "rabbit_exchange_type_topic.erl" "rabbit_exchange_type_invalid.erl" "rabbit_exchange_type_headers.erl" "rabbit_exchange_type_fanout.erl" "rabbit_exchange_type_direct.erl" "rabbit_exchange_parameters.erl" "rabbit_exchange.erl" "rabbit_error_logger.erl" "rabbit_epmd_monitor.erl" "rabbit_disk_monitor.erl" "rabbit_direct.erl" "rabbit_diagnostics.erl" "rabbit_dead_letter.erl" "rabbit_control_main.erl" "rabbit_connection_sup.erl" "rabbit_connection_helper_sup.erl" "rabbit_config.erl" "rabbit_client_sup.erl" "rabbit_cli.erl" "rabbit_channel_sup_sup.erl" "rabbit_channel_sup.erl" "rabbit_boot_steps.erl" "rabbit_binding.erl" "rabbit_autoheal.erl" "rabbit_auth_mechanism_plain.erl" "rabbit_auth_mechanism_cr_demo.erl" "rabbit_auth_mechanism_amqplain.erl" "rabbit_vm.erl" "rabbit_amqqueue_sup_sup.erl" "rabbit_amqqueue_sup.erl" "rabbit_amqqueue_process.erl" "rabbit_alarm.erl" "rabbit_access_control.erl" "rabbit.erl" "rabbit.app.src" "pg_local.erl" "delegate.erl" "mnesia_sync.erl" "mirrored_supervisor_sups.erl" "pg2_fixed.erl" "lqueue.erl" "gm.erl" "gatherer.erl" "file_handle_cache_stats.erl" "file_handle_cache.erl" "dtree.erl" "delegate_sup.erl" "background_gc.erl" "../" "./")
+
+ ("/home/weet/.emacs.d/my-plugins/distel/" (22508 33660 47576 971000) "elisp/" "elisp.bak/" "../" "./")
+
+ ("/home/weet/.emacs.d/my-plugins/distel/elisp/" (22508 33660 49576 971000) "net-fsm.el" "mcase.el" "erlext.el" "erl.el" "erl-test.el" "erl-service.el" "erl-example.el" "epmd.el" "edb.el" "distel.el" "distel-ie.el" "derl.el" "../" "./")
+
+ ("/home/weet/.emacs.d/my-plugins/" (22193 44917 712156 508000) "undo-tree.el.bak" "youdao.el" "xwl-emms.el" "xwl-emms-old.el" "wpdl-mode.el" "viogus-eim/" "trac-wiki.el" "tabbar.el" "sr-speedbar.el" "slime/" "simple-dict/" "showtip.el" "sdcv.el" "rust-mode/" "nim-mode.el" "neotree/" "multi-web-mode.el" "multi-term.el" "multi-eshell.el" "markdown-mode.el" "jinja2-mode.el" "init-emms.el" "highlight-indentation.el" "graphviz-dot-mode.el" "go-mode.el" "go-mode-load.el" "go-autocomplete.el" "git/" "edit-server.el" "distel/" "color-theme-zenburn-old.el.bak" ".gitignore" "../" "./")
+
+ ("/home/weet/Github/thewawar/video-aggregation-server/frontend/src/page/video/" (22483 54236 200425 480000) "VideoCommentNew.jsx" "VideoCategoryNew.jsx" "VideoCategory.jsx" "NormalVideo.jsx" "MovieVideo.jsx" "Control.jsx" "VideoComment.jsx" "Video.jsx" "MobileUser.jsx" "../" "./")
+
+ ("/home/weet/Github/huhulab/jcyx2/server/views/web/" (22470 40336 825054 144000) "common.pyc" "operator.pyc" "customer.pyc" "sdk_dev.pyc" "admin.pyc" "channel_dev.pyc" "__init__.pyc" "sdk_dev.py" "operator.py" "customer.py" "common.py" "channel_dev.py" "admin.py" "__init__.py" "../" "./")
+
+ ("/home/weet/Github/huhulab/wechatpay-sdk/wechatpay_sdk/" (22495 58135 586092 780000) "utils.pyc" "wechatpay.pyc" "__init__.pyc" "wechatpay.py" "utils.py" "__init__.py" "../" "./")
+
+ ("/home/weet/Github/thewawar/video-aggregation-server/server/views/api/" (22495 59245 301945 151000) "common.pyc" "__init__.pyc" "common.py" "__init__.py" "../" "./")
+
+ ("/home/weet/tmp/" (22504 45419 99508 937000) "android_only_url/" "umeng-do-login.py" "umeng-statistics-spider.ipynb" "av_player_8_12.sql" "test-node/" "test_sqlalchemy/" "test_sqlalchemy.py" "orders-spider.py.ipynb" "douban-avatar-spider.py.ipynb" "minitermcolor.pyc" "minitermcolor.py" "test-docker/" "test-draft-js/" "binary.bin" "hello.ts" "test-apscheduler/" "2016/" "test-vagga/" "test-flask/" "launcher-server-backups/" "launcher-server-frontend/" "untitled.py" "launcher-server.ipynb" "test-import/" "venv/" "node_modules/" "tsconfig.json" "jcyx2-backups/" "tests.ipynb" "test-statsd.ipynb" ".ipynb_checkpoints/" "upwork-jobs/" "poker-solution.py" "MyToyScheme/" "calc_images.py" "old-jcyx-extension_tasks.org" "test-gitbook/" "jcyx2-tasks.org" "flask_dump_request_response.py" "kamon-grafana-service/" "../" "./")
+
+ ("/home/weet/Github/thewawar/video-aggregation-server/server/services/" (22495 55432 950609 357000) "payment.pyc" "cache_func.pyc" "common.py" "cache_func.py" "common.pyc" "report.pyc" "report.py" "payment.py" "__init__.pyc" "__init__.py" "../" "./")
+
+ ("/home/weet/Github/thewawar/video-aggregation-server/server/workers/" (22495 59342 888945 151000) "celery_tasks_api.py" "__init__.py" "../" "./")
+
+ ("/home/weet/Github/thewawar/video-aggregation-server/server/views/web/" (22495 48689 642568 901000) "admin.py" "operator.py" "__init__.pyc" "channel.py" "__init__.py" "admin.pyc" "operator.pyc" "common.pyc" "common.py" "channel.pyc" "channel.py~" "admin.py~" "../" "./")
+
+ ("/home/weet/Github/thewawar/video-aggregation-server/frontend/static/" (22483 49222 432247 922000) "config.js" "config.js~" "logo48x48.png" "config.js.jinja2" "../" "./")
+
+ ("/home/weet/Github/thewawar/video-aggregation-server/server/etc/" (22495 55381 642609 357000) "apiapp.py.jinja2" "common.py.jinja2" "apiapp.pyc" "common.pyc" "__init__.pyc" "webapp.py" "webapp.py~" "common.py" "common.py~" "apiapp.py" "webapp.py.jinja2" "gunicorn/" "__init__.py" "../" "./")
+
+ ("/home/weet/Github/thewawar/video-aggregation-server/deploy/" (22495 55475 767609 357000) "config.toml" "config.toml~" "config.toml.sample" "deps.txt" ".gitignore" "supervisor/" "nginx/" "manager.py" "../" "./")
+
+ ("/home/weet/Github/thewawar/video-aggregation-server/server/utils/" (22495 50729 210904 947000) "model.pyc" "handlers.pyc" "iapppay_client.py" "app.pyc" "common.pyc" "exceptions.pyc" "wechatpay_client.pyc" "clients.pyc" "wechatpay_client.py" "model.py" "handlers.py" "exceptions.py" "enums.py" "common.py" "clients.py" "app.py" "wechatpay_client.py~" "crypto.pyc" "__init__.pyc" "enums.pyc" "iapppay_client.pyc" "crypto.py" "__init__.py" "../" "./")
+
+ ("/home/weet/Github/thewawar/video-aggregation-server/server/" (22495 59237 746945 151000) "models.pyc" "models.py" "apiapp.py" "webapp.pyc" "gvars.py" "workers/" "gvars.pyc" "manage.py" "webapp.py" "views/" "utils/" "tests/" "services/" "etc/" ".gitignore" "../" "./")
+
+ ("/home/weet/Github/huhulab/jcyx2/server/utils/" (22470 40143 725054 144000) "app.pyc" "handlers.pyc" "exceptions.pyc" "model.pyc" "enums.pyc" "statsd_client.pyc" "clients.pyc" "crypto.pyc" "common.pyc" "__init__.pyc" "statsd_client.py" "model.py" "handlers.py" "enums.py" "common.py" "clients.py" "app.py" "exceptions.py" "crypto.py" "__init__.py" "../" "./")
+
+ ("/home/weet/Github/huhulab/apk-channel-replacer/server/" (22467 61309 302809 221000) "settings.pyc" "models.pyc" "gvars.pyc" "utils/" "gvars.py" "models.py" ".gitignore" ".gitignore~" "settings.py" "gunicorn/" "settings.py.jinja2" "webapp.py" "../" "./")
+
+ ("/home/weet/Github/huhulab/video-aggregation-server/server/etc/" (22382 20557 247328 774000) "webapp.py.jinja2" "apiapp.py.jinja2" "gunicorn/" "#common.py.jinja2#" "apiapp.py" "apiapp.py~" "__init__.pyc" "apiapp.pyc" "common.pyc" "webapp.pyc" "common.py.jinja2" "webapp.py" "common.py" "__init__.py" "../" "./")
+
+ ("/home/weet/Github/huhulab/apk-channel-replacer/deploy/" (22467 61307 366809 221000) "config.toml" "config.toml~" ".gitignore" ".gitignore~" "manager.py" "supervisor/" "config.toml.sample" "pip-deps.txt" "../" "./")
+
+ ("/home/weet/Github/thewawar/video-aggregation-server/frontend/src/common/" (22468 62581 313845 500000) "utils.js" "../" "./")
+
+ ("/home/weet/Github/huhulab/antd-kit/src/table/" (22469 43465 127392 822000) "Table.jsx" "Table.jsx~" "Table.js~" "index.jsx" "../" "./")
+
+ ("/home/weet/Github/huhulab/antd-kit/src/api/" (22469 43855 865392 822000) "index.js" "index.js~" "../" "./")
+
+ ("/home/weet/Github/thewawar/mqtt-rs/client/src/" (22497 3837 625744 844000) "main.rs" "../" "./")
+
+ ("/home/weet/Github/rabbitmq-server/" (22507 10511 416369 329000) "plugins/" "ebin/" "rabbit.d" ".erlang.mk/" "rabbitmq-components.mk" "erlang.mk" "Makefile" "CONTRIBUTING.md" "CODE_OF_CONDUCT.md" ".travis.yml" ".gitignore" "deps/" "test/" "src/" "scripts/" "rabbitmq.conf.d/" "quickcheck" "priv/" "include/" "docs/" "check_xref" "README.md" "README" "LICENSE-MPL-RabbitMQ" "LICENSE-MIT-Mochi" "LICENSE" "INSTALL" ".git/" "../" "./")
+
+ ("/home/weet/Downloads/AlipayOpenapi-SDK/tradedemo/" (22432 6646 0 0) "f2fpay.h" "f2fpay.c" "demo.c" "../" "./")
+
+ ("/home/weet/Github/thewawar/mqtt-rs/client/" (22415 2701 629714 0) "target/" "Cargo.lock" "Cargo.toml" "src/" "../" "./")
+
+ ("/home/weet/Github/thewawar/mqtt-rs/" (22418 23197 692832 0) "README.md" "Cargo.toml" "client/" "target/" "Cargo.lock" "src/" "examples/" "LICENSE" ".travis.yml" ".gitignore" ".git/" "../" "./")
+
+ ("/home/weet/Github/thewawar/" (22485 15320 434363 848000) "interest-server/" "GO-ZhihuDaily/" "emqttd/" "iot-center/" "video-aggregation-server/" "mqtt-rs/" "learning-draftjs/" "launcher-server-frontend/" "launcher-server-master/" "python-escpos/" "launcher-server/" "job-hunter/" "learning-git/" "blog.ahorn.me/" "thewawar.github.io/" "my-lua5.0/" "learning-rust/" "racer/" "learning-golang/" "../" "./")
+
+ ("/home/weet/Github/huhulab/" (22489 14456 511515 905000) "android-only-url/" "haitunpay-sdk/" "money-express-server/" "apk-channel-replacer/" "service-clients/" "17monip/" "antd-kit/" "wechatpay-sdk/" "www.huhulab.com/" "video-aggregation-server/" "launcher-server/" "billvsme/" "git-hooks/" "flask-react-boilerplate/" "launcher-server-master/" "statsd-conf/" "react-frontend-boilerplate/" "old-jcyx-extension/" "jcyx2/" "../" "./")
+
+ ("/home/weet/Github/huhulab/antd-kit/src/form/" (22468 62267 254845 500000) "buildForm.jsx" "Form.jsx" "../" "./")
+
+ ("/home/weet/Github/huhulab/antd-kit/src/" (22469 959 179688 586000) "api/" "index.js" "form/" "other/" "table/" "utils.js" "style/" "../" "./")
+
+ ("/home/weet/Github/thewawar/video-aggregation-server/" (22468 1684 768623 961000) "tmp/" "venv/" "server/" "frontend/" "deploy/" "README.md" ".gitignore" ".git/" "../" "./")
+
+ ("/home/weet/Github/huhulab/video-aggregation-server/frontend/src/" (22379 24085 417181 944000) "style/" "page/" "entry/" "data/" "component/" "common/" "../" "./")
+
+ ("/home/weet/Github/huhulab/video-aggregation-server/frontend/" (22379 32202 10855 968000) "node_modules/" "webpack.config.prod.js" "webpack.config.dev.js" "static/" "src/" "package.json" "index.html" "devServer.js" ".gitignore" ".babelrc" "../" "./")
+
+ ("/home/weet/Github/huhulab/antd-kit/" (22449 11795 912723 0) "README.md" ".gitignore" "package.json" ".babelrc" ".babelrc~" "node_modules/" "src/" "LICENSE" ".git/" "../" "./")
+
+ ("/home/weet/Github/huhulab/video-aggregation-server/deploy/" (22460 7450 654589 155000) "deps.txt" ".gitignore" ".gitignore~" "nginx/" "supervisor/" "config.toml.sample" "manager.py" "config.toml" "../" "./")
+
+ ("/home/weet/Github/thewawar/video-aggregation-server/tmp/data/" (22412 54933 491273 0) "categories.json" "9.json" "13.json" "8.json" "7.json" "25.json" "23.json" "21.json" "20.json" "17.json" "10.json" "../" "./")
+
+ ("/home/weet/Github/huhulab/jcyx2/frontend/src/page/common/" (22444 18481 917031 624000) "Signup.jsx" "Signin.jsx" "EmailVerify.jsx" "ChangePassword.jsx" "Blank.jsx" "Err404.jsx" "../" "./")
+
+ ("/home/weet/Github/huhulab/jcyx2/frontend/src/page/channelDev/" (22466 44720 840079 0) "SdkDownloadRequest.jsx" "Report.jsx" "Profile.jsx" "FinancialInfo.jsx" "DevProducts.jsx" "AccountRecords.jsx" "InvoiceInfo.jsx" "../" "./")
+
+ ("/home/weet/Github/thewawar/video-aggregation-server/frontend/src/component/nav/" (22450 32242 986701 751000) "NavGlobal.jsx" "NavMenu.jsx" "../" "./")
+
+ ("/home/weet/Github/thewawar/video-aggregation-server/frontend/src/component/content/" (22466 20115 28052 0) "Form.jsx" "index.jsx" "Topbar.jsx" "Table.jsx" "PageIntro.jsx" "../" "./")
+
+ ("/home/weet/Github/thewawar/video-aggregation-server/frontend/src/page/common/" (22460 4474 259712 618000) "Home.jsx" "Signin.jsx" "PaymentsNew.jsx" "Payments.jsx" "PaymentPage.jsx" "ChangePassword.jsx" "Signup.jsx" "Err404.jsx" "EmailVerify.jsx" "Blank.jsx" "../" "./")
+
+ ("/home/weet/Github/huhulab/wechatpay-sdk/" (22436 20531 497438 273000) "wechatpay_sdk.egg-info/" ".gitignore" "MANIFEST.in" "README.md" "wechatpay_sdk/" "setup.py" "requirements.txt" "__init__.py" "LICENSE" ".git/" "../" "./")
+
+ ("/home/weet/Github/thewawar/video-aggregation-server/frontend/src/data/" (22460 4452 186712 618000) "api.js" "config.js" "../" "./")
+
+ ("/home/weet/Github/thewawar/video-aggregation-server/frontend/src/page/operator/" (22453 22593 393426 508000) "WechatPayment.jsx" "Report.jsx" "Payment.jsx" "MessagePayment.jsx" "IAppPayPayment.jsx" "DayReport.jsx" "ChannelUser.jsx" "../" "./")
+
+ ("/home/weet/Github/thewawar/video-aggregation-server/frontend/src/page/channel/" (22453 22593 393426 508000) "Report.jsx" "Payment.jsx" "DayReport.jsx" "AllPayment.jsx" "Profile.jsx" "../" "./")
+
+ ("/home/weet/Github/thewawar/video-aggregation-server/frontend/src/utils/" (22466 7387 575532 40000) "createTable.jsx" "createSearchForm.jsx" "createForm.jsx" "createPage.jsx" "../" "./")
+
+ ("/home/weet/Github/thewawar/video-aggregation-server/frontend/src/page/admin/" (22463 4172 316921 473000) "Report.jsx" "Payment.jsx" "OperatorUser.jsx" "DayReport.jsx" "ChannelUser.jsx" "WechatPayment.jsx" "PaymentPage.jsx" "MessagePayment.jsx" "IAppPayPayment.jsx" "../" "./")
+
+ ("/home/weet/Github/huhulab/video-aggregation-server/frontend/src/data/" (22460 4372 936712 521000) "config.js" "api.js" "../" "./")
+
+ ("/home/weet/Github/huhulab/video-aggregation-server/server/" (22460 8862 4843 365000) "models.py" "manage.py" "apiapp.py" ".gitignore" ".gitignore~" "services/" "webapp.py" "gvars.py" "utils/" "tests/" "views/" "etc/" "../" "./")
+
+ ("/home/weet/Github/huhulab/video-aggregation-server/" (22386 10935 736510 406000) ".gitignore" "env/" "tmp/" "frontend/" "server/" "deploy/" "README.md" ".git/" "../" "./")
+
+ ("/home/weet/Github/huhulab/apk-channel-replacer/server/utils/" (22467 4283 161912 990000) "common.pyc" "exceptions.pyc" "__init__.pyc" "__init__.py" "common.py" "exceptions.py" "../" "./")
+
+ ("/home/weet/Github/huhulab/jcyx2/server/models/" (22466 35538 828052 0) "operator.pyc" "channel_dev.pyc" "mixins.pyc" "report.pyc" "customer.pyc" "common.pyc" "sdk_dev.pyc" "admin.pyc" "__init__.pyc" "report.py" "mixins.py" "customer.py" "common.py" "channel_dev.py" "sdk_dev.py" "operator.py" "admin.py" "__init__.py" "../" "./")
+
+ ("/home/weet/Github/huhulab/old-jcyx-extension/etc/" (22444 22829 906247 866000) "pip-deps.txt" "uwsgi.yaml" "__init__.pyc" "api_nginx.conf" "api_gunicorn.pyc" "api_gunicorn.py" "celeryconfig.pyc" "celeryconfig.py" "uwsgi.yaml.jinja2" "supervisor/" "celeryconfig.py.jinja2" "api_nginx.conf.jinja2" "api_gunicorn.py.jinja2" "__init__.py" "../" "./")
+
+ ("/home/weet/Github/huhulab/old-jcyx-extension/models/" (22415 12773 341821 859000) "common.pyc" "channel.pyc" "report.pyc" "oh_calendar.pyc" "customer.pyc" "__init__.pyc" "report.py" "oh_calendar.py" "customer.py" "common.py" "channel.py" "__init__.py" "../" "./")
+
+ ("/home/weet/Github/huhulab/old-jcyx-extension/" (22454 48525 52226 417000) "webapp.pyc" "gvars.pyc" "config.toml" ".github/" "settings.pyc" "settings.py" "webapp.py" ".venv/" "api_settings.pyc" "api_settings.py" "tmp/" "workers/" "views/" "utils/" "tests/" "templates/" "statistics/" "static/" "settings.py.jinja2" "scripts/" "models/" "manager.py" "gvars.py" "etc/" "docs/" "config.toml.sample" "api_settings.py.jinja2" "api.py" "README.md" ".gitignore" ".git/" "../" "./")
+
+ ("/home/weet/Github/huhulab/jcyx2/deploy/" (22442 53953 96975 0) "config.toml" "config.toml~" "sample.config.toml" "deps.txt" "supervisor/" "nginx/" "manager.py" "apps/" "../" "./")
+
+ ("/home/weet/Github/huhulab/jcyx2/server/" (22442 53980 209975 0) "webapp.pyc" "apiapp.pyc" "gvars.pyc" ".cache/" "tests/" "manager.py" "apiapp.py" "workers/" "webapp.py" "views/" "utils/" "services/" "models/" "gvars.py" "etc/" "cache/" ".gitignore" "../" "./")
+
+ ("/home/weet/Github/huhulab/jcyx2/" (22463 61110 457192 0) ".gitmodules" ".venv/" ".cache/" "tmp/" ".gitignore" "server/" "frontend/" "doc/" "deploy/" "README.md" ".git/" "../" "./")
+
+ ("/home/weet/Github/thewawar/launcher-server/server/models/" (22453 32184 31274 231000) "war_game.pyc" "war_game.py" "wallpaper.pyc" "report.pyc" "wallpaper.py" "report.py" "snatch.pyc" "common.pyc" "snatch.py" "common.py" "__init__.pyc" "__init__.py" "../" "./")
+
+ ("/home/weet/Github/thewawar/launcher-server/server/" (22453 32184 655274 231000) "manage.pyc" "apiapp.pyc" ".cache/" "manage.py" "gvars.pyc" "gvars.py" "celerybeat-schedule" "webapp.pyc" "webapp.py" "apiapp.py" "services/" "templates/" "config.py" "workers/" "views/" "utils/" "tests/" "models/" "etc/" ".gitignore" "../" "./")
+
+ ("/home/weet/Github/thewawar/launcher-server/" (22453 32190 57274 231000) ".cache/" "README.md" ".gitignore" "tmp/" ".venv/" "server/" "scripts/" "processing/" "frontend/" "doc/" "deploy/" ".git/" "../" "./")
+
+ ("/home/weet/Github/huhulab/apk-channel-replacer/" (22463 7858 890926 93000) "scripts/" "electron/" "deploy/" "server/" "README.md" ".gitignore" ".git/" "../" "./")
+
+ ("/home/weet/Github/thewawar/video-aggregation-server/frontend/src/component/" (22453 23104 691018 17000) "App.jsx" "nav/" "content/" "../" "./")
+
+ ("/home/weet/Github/thewawar/video-aggregation-server/server/views/" (22450 32242 980701 751000) "__init__.pyc" "api/" "web/" "__init__.py" "../" "./")
+
+ ("/home/weet/Github/thewawar/video-aggregation-server/frontend/src/page/" (22450 32243 5701 751000) "operator/" "channel/" "admin/" "video/" "common/" "../" "./")
+
+ ("/home/weet/Github/thewawar/video-aggregation-server/frontend/src/" (22450 32243 14701 751000) "utils/" "style/" "page/" "entry/" "data/" "component/" "common/" "../" "./")
+
+ ("/home/weet/Github/thewawar/video-aggregation-server/frontend/" (22450 32242 983701 751000) "package.json" ".gitignore" "node_modules/" "webpack.config.prod.js" "webpack.config.dev.js" "static/" "src/" "index.html" "devServer.js" ".babelrc" "../" "./")
+
+ ("/tmp/" (22450 44604 331989 896000) "yum_save_tx.2016-08-15.13-02.YA4P1F.yumtx" "npm-32195-f1aaef2a/" "npm-23798-090c2da1/" "npm-18413-b6af5376/" ".s.PGSQL.5432" "npm-13408-068929b6/" "npm-30692-80a7da02/" "yum_save_tx.2016-08-10.16-19.ZF7bC6.yumtx" "tmpgHxIxv/" "av-player/" "systemd-private-0cc91b1082164d57a67af3e5dcecdc9a-httpd.service-4xk09p/" "systemd-private-0cc91b1082164d57a67af3e5dcecdc9a-mariadb.service-51olLm/" "yum_save_tx.2016-08-14.12-15.82gOry.yumtx" "npm-31744-dd33b427/" "tmphLmGdd/" "yum_save_tx.2016-08-06.17-41.HHdNbB.yumtx" "yum_save_tx.2016-08-14.07-41.VSp3qS.yumtx" "npm-31292-3e799499/" "phantomjs/" "npm-18578-e2b791a6/" "yum_save_tx.2016-08-08.18-17.ZJ0df8.yumtx" "systemd-private-0cc91b1082164d57a67af3e5dcecdc9a-php-fpm.service-gHV756/" "yum_save_tx.2016-08-12.04-51.Px53N4.yumtx" "npm-30757-fd2c1f23/" "npm-23407-94dc35a6/" "shadowsocks.stdout.log" "tmprOUeIu/" "npm-6270-6c823c3d/" "npm-30570-ba02ec06/" "npm-23352-d8aa2293/" "yum_save_tx.2016-08-09.15-24.BZJ1Dy.yumtx" "tmpQrCopv/" "yum_save_tx.2016-08-07.05-30.ZKwRMO.yumtx" "tmpBp7CGf/" "yum_save_tx.2016-08-16.12-21.jVBy35.yumtx" "emacs1000/" ".s.PGSQL.5432.lock" "npm-32394-a07b80e8/" "npm-25446-3abbcd8a/" "tmux-1000/" "yum_save_tx.2016-08-11.16-13.t3QLBf.yumtx" "npm-30509-7527e564/" ".font-unix/" ".ICE-unix/" ".XIM-unix/" ".Test-unix/" ".X11-unix/" "../" "./")
+
+ ("/tmp/av-player/" (22450 46255 550263 566000) "common.py.jinja2" "cache_func.py" "config.toml.sample" "../" "./")
+
+ ("/home/" (22162 3673 734000 0) "weet/" "../" "./")
+
+ ("/home/weet/.multirust/" (22412 29317 449791 461000) "settings.toml" "toolchains/" "tmp/" "update-hashes/" "../" "./")
+
+ ("/home/weet/Github/" (22444 22718 613247 866000) "others/" "emqtt/" "erlang/" "kilo/" "draft/" "vscode/" "airbnb/" "flask-apscheduler/" "apscheduler/" ".cache/" "sentry/" "rabbitmq-server/" "escposify/" "lxml/" "coding.net/" "local-group/" "node_modules/" "mqttc/" "ant-design/" "sequelize/" "koa/" "koa2-api-boilerplate/" "api-boilerplate/" "koa2-boilerplate/" "weekly-meetings/" "gitbook/" "caravel/" "statsd/" "tmp/" "citus/" "kore/" "browserhtml/" "bitbucket/" "flask/" "frontend-boilerplate/" "react-redux-antd/" "gitit/" "rust-repos/" "thewawar/" "docker-grafana-graphite/" "grafana/" "huhulab/" "../" "./")
+
+ ("/home/weet/Github/thewawar/video-aggregation-server/frontend/node_modules/antd/lib/rate/" (22284 47088 0 0) "index.js" "../" "./")
+
+ ("/home/weet/Github/thewawar/video-aggregation-server/frontend/node_modules/antd/lib/" (22379 32272 216855 968000) "validation/" "upload/" "tree-select/" "tree/" "transfer/" "tooltip/" "timeline/" "time-picker/" "tag/" "tabs/" "table/" "switch/" "steps/" "spin/" "slider/" "select/" "row/" "rate/" "radio/" "queue-anim/" "progress/" "popover/" "popconfirm/" "pagination/" "notification/" "alert/" "message/" "menu/" "locale-provider/" "layout/" "input-number/" "input/" "affix/" "index.css" "icon/" "form/" "dropdown/" "date-picker/" "common/" "collapse/" "col/" "checkbox/" "cascader/" "carousel/" "card/" "calendar/" "button/" "breadcrumb/" "badge/" "modal/" "index.js" "../" "./")
+
+ ("/home/weet/Github/huhulab/jcyx2/server/views/" (22164 25315 580000 0) "__init__.pyc" "web/" "api/" "__init__.py" "../" "./")
+
+ ("/home/weet/Github/thewawar/launcher-server-frontend/" (22345 27281 606403 772000) "README.md" ".gitignore" "tmp/" ".venv/" "server/" "scripts/" "processing/" "frontend/" "doc/" "deploy/" ".git/" "../" "./")
+
+ ("/home/weet/Github/thewawar/launcher-server-frontend/frontend/" (22347 42159 249553 881000) "node_modules/" "package.json" "webpack.config.prod.js" "webpack.config.dev.js" "src/" "index.html" "devServer.js" ".babelrc" "static/" "../" "./")
+
+ ("/home/weet/Github/thewawar/launcher-server-frontend/frontend/src/" (22344 4029 923112 961000) "style/" "page/" "entry/" "data/" "component/" "common/" "../" "./")
+
+ ("/home/weet/Github/thewawar/launcher-server-frontend/frontend/src/component/" (22375 36593 247916 0) "App.jsx" "nav/" "content/" "../" "./")
+
+ ("/home/weet/Github/thewawar/launcher-server-frontend/frontend/src/component/content/" (22424 19290 415107 732000) "Form.jsx" "index.jsx" "Topbar.jsx" "Table.jsx" "Pane.jsx" "PageIntro.jsx" "../" "./")
+
+ ("/home/weet/Github/huhulab/jcyx2/frontend/src/page/" (22303 2660 106535 55000) "sdkDev/" "operator/" "customer/" "common/" "channelDev/" "admin/" "../" "./")
+
+ ("/home/weet/Github/huhulab/jcyx2/frontend/src/" (22162 17665 683000 0) "style/" "page/" "entry/" "data/" "component/" "common/" "../" "./")
+
+ ("/home/weet/Github/thewawar/video-aggregation-server/frontend/src/entry/" (22407 11183 357964 873000) "index.jsx" "../" "./")
+
+ ("/home/weet/local/etc/" (22403 6323 442038 351000) "ssledge-tls-socks.conf" "shadowsocks.json" "banwa_shadowsocks.json" "../" "./")
+
+ ("/home/weet/local/" (22162 7226 746000 0) "lib/" "etc/" "bin/" "opt/" "../" "./")
+
+ ("/home/weet/Github/huhulab/launcher-server/deploy/supervisor/programs/" (22348 7366 716149 995000) "webapp.conf.jinja2" "saver.conf.jinja2" "processing.conf.sample" "feedback.conf.jinja2" "celery_web.conf.jinja2" "celery_api.conf.jinja2" "apiapp.conf.jinja2" "../" "./")
+
+ ("/home/weet/Github/huhulab/launcher-server/deploy/supervisor/" (22348 7366 716149 995000) "supervisord.conf.jinja2" "programs/" "../" "./")
+
+ ("/home/weet/Github/huhulab/launcher-server/deploy/" (22376 52877 808686 0) "deps.txt" "config.toml.sample" "supervisor/" "nginx/" "apps/" ".gitignore" "../" "./")
+
+ ("/home/weet/Github/huhulab/launcher-server/" (22376 52877 808686 0) "README.md" ".gitignore" "server/" "scripts/" "processing/" "frontend/" "doc/" "deploy/" ".git/" "../" "./")
+
+ ("/home/weet/Github/huhulab/jcyx2/deploy/supervisor/programs/" (22164 23466 614000 0) "saver.conf" "apiapp.conf" "webapp.conf" "webapp.conf.jinja2" "saver.conf.jinja2" "apiapp.conf.jinja2" "../" "./")
+
+ ("/home/weet/Github/thewawar/video-aggregation-server/deploy/supervisor/programs/" (22416 57008 114090 0) "lsyncd.conf.jinja2" "apiapp.conf" "webapp.conf" "celery_api.conf.jinja2" "webapp.conf.jinja2" "apiapp.conf.jinja2" "../" "./")
+
+ ("/home/weet/Github/thewawar/video-aggregation-server/tmp/" (22412 41439 339278 929000) "data/" "files/" "logs/" "../" "./")
+
+ ("/home/weet/Github/thewawar/video-aggregation-server/deploy/supervisor/" (22408 22992 243919 953000) "supervisord.conf" "supervisord.conf.jinja2" "programs/" "../" "./")
+
+ ("/home/weet/Github/thewawar/launcher-server/server/workers/" (22395 9664 631332 928000) "celery_tasks_web.pyc" "celery_tasks_api.pyc" "__init__.pyc" "celery_tasks_api.py" "__init__.py" "celery_tasks_web.py" "saver.py" "feedback.py" "../" "./")
+
+ ("/home/weet/Github/thewawar/launcher-server/server/utils/" (22399 18400 862407 587000) "phone_belong.pyc" "config_service.pyc" "sms_client.pyc" "sms_client.py" "enums.pyc" "mq.pyc" "model.pyc" "redis_client.pyc" "url_parse.py" "slack.py" "redis_client.py" "mq.py" "model.py" "handlers.py" "data/" "crypto.py" "config_service.py" "client.py" "exceptions.pyc" "exceptions.py" "enums.py" "app.pyc" "app.py" "model.py~" "getui.pyc" "common.pyc" "cache_func.pyc" "getui.py" "app.py~" "common.py" "handlers.pyc" "client.pyc" "cache_func.py" "phone_belong.py" "url_parse.pyc" "huafeiduo.pyc" "__init__.pyc" "huafeiduo.py" "slack.pyc" "crypto.pyc" "__init__.py" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

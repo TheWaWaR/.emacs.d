@@ -43,3 +43,5 @@ cls
 cls
 ls
 cls
+ls
+grep -nr ".. code::" .

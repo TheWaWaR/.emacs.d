@@ -244,6 +244,10 @@
   (slime-setup '(slime-fancy)))
 
 
+(defun use-the-mustache ()
+  (add-to-list 'auto-mode-alist '("\\.mustache" . mustache-mode)))
+
+
 (defun use-the-jedi ()
   (add-hook 'python-mode-hook 'jedi:setup)
   (setq jedi:setup-keys t)                      ; optional
@@ -269,20 +273,60 @@
                    (sql-password "hello123123")
                    (sql-database "jsbd_appstore")))))
 
+
+(defun use-the-ycmd ()
+  (require 'ycmd)
+  (require 'company-ycmd)
+  (require 'flycheck-ycmd)
+  (set-variable 'ycmd-server-command '("python" "/home/weet/Github/ycmd/ycmd"))
+  (company-ycmd-setup)
+  (flycheck-ycmd-setup)
+  (add-hook 'ycmd-mode-hook #'company-mode))
+
 (defun use-the-rust ()
-  (add-to-list 'load-path "~/.emacs.d/my-plugins/rust-mode/")
-  (autoload 'rust-mode "rust-mode" nil t)
-  (add-to-list 'auto-mode-alist '("\\.rs\\'" . rust-mode))
-  (setq racer-rust-src-path "~/local/src/rustc-1.1.0/src/")
-  (setq racer-cmd "~/Github/racer/target/release/racer")
-  (add-to-list 'load-path "~/Github/racer/editors/emacs")
-  (eval-after-load "rust-mode" '(require 'racer))
-  )
+  (add-hook 'rust-mode-hook #'racer-mode)
+  ;; (add-hook 'rust-mode-hook #'ycmd-mode)
+  (add-hook 'rust-mode-hook #'flycheck-mode)
+  (add-hook 'racer-mode-hook #'eldoc-mode)
+  (add-hook 'racer-mode-hook #'company-mode)
+  (add-hook 'flycheck-mode-hook #'flycheck-rust-setup)
+
+  ;; (define-key racer-mode-map (kdb "TAB") #'company-indent-or-complete-common)
+  ;; (global-set-key (kbd "TAB") #'company-indent-or-complete-common)
+  (setq company-tooltip-align-annotations t))
 
 (defun use-the-jsx ()
+  (require 'web-mode)
   (setq web-mode-code-indent-offset 2)
   (setq web-mode-markup-indent-offset 2)
-  (add-to-list 'auto-mode-alist '("\\.jsx$" . web-mode)))
+  (add-to-list 'auto-mode-alist '("\\.jsx$" . web-mode))
+
+  ;; Tide (typescript) config
+  (add-hook 'typescript-mode-hook
+            (lambda ()
+              (tide-setup)
+              (flycheck-mode +1)
+              (setq flycheck-check-syntax-automatically '(save mode-enabled))
+              (eldoc-mode +1)
+                          ;; company is an optional dependency. You
+              ;; have to
+              ;; install it separately via package-install
+              (company-mode-on)))
+  ;; aligns annotation to the right hand side
+  (setq company-tooltip-align-annotations t)
+
+  ;; Tide can be used along with web-mode to edit tsx files
+  (add-to-list 'auto-mode-alist '("\\.tsx\\'" . web-mode))
+  (add-hook 'web-mode-hook
+            (lambda ()
+              (when (string-equal "tsx" (file-name-extension buffer-file-name))
+                (tide-setup)
+                (flycheck-mode +1)
+                (setq flycheck-check-syntax-automatically '(save mode-enabled))
+                (eldoc-mode +1)
+                              (company-mode-on))))
+  )
+
 
 ;; (defun use-the-scala ()
 
@@ -417,15 +461,37 @@
 
 (defun use-the-erlang ()
   ;; Erlang mode
-  (add-to-list 'load-path "/usr/lib/erlang/lib/tools-2.6.7/emacs/")
+  (add-to-list
+   'load-path
+          (car (file-expand-wildcards "/usr/lib/erlang/lib/tools-*/emacs")))
+
   (setq erlang-root-dir "/usr/lib/erlang")
   (setq exec-path (cons "/usr/lib/erlang/bin" exec-path))
   (require 'erlang-start)
 
   ;; Distel mode
-  (add-to-list 'load-path "~/.emacs.d/my-plugins/distel/elisp")
-  (require 'distel)
-  (distel-setup))
+  ;; (add-to-list 'load-path "~/.emacs.d/my-plugins/distel/elisp")
+  ;; (require 'distel)
+  ;; ;; prevent annoying hang-on-compile
+  ;; (defvar inferior-erlang-prompt-timeout t)
+  ;; ;; default node name to emacs@localhost
+  ;; (setq inferior-erlang-machine-options '("-sname" "emacs"))
+  ;; ;; tell distel to default to that node
+  ;; (setq erl-nodename-cache
+  ;;       (make-symbol
+  ;;        (concat
+  ;;         "emacs@"
+  ;;         ;; Mac OS X uses "name.local" instead of "name",
+  ;;         ;; this should work
+  ;;         ;; pretty much anywhere without having to muck with
+  ;;         ;; NetInfo
+  ;;         ;; ... but I only tested it on Mac OS X.
+  ;;         (car (split-string (shell-command-to-string "hostname"))))))
+  ;; (distel-setup)
+
+  (require 'edts-start)
+
+  )
 
 (defun use-the-git ()
   (interactive)
