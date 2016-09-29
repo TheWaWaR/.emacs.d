@@ -11,6 +11,8 @@ RFC/*
 .eshell/lastdir
 emacs-starter-kit/places
 
+*.log
+*.xref
 session.*
 *.elc
 *.py[co]
